@@ -1,0 +1,6 @@
+<h2>Quick Info</h2>
+<div *ngFor="let team of subteams">
+    <h3>{{team.team_name}}</h3>
+    <span>Lead: {{team.lead }}({{team.lead_email}})</span>
+    <span>meetings: {{team.meeting_logistics}}</span>
+</div>
