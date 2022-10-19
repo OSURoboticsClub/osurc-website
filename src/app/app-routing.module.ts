@@ -6,6 +6,8 @@ import { UnderwaterComponent } from './underwater/underwater.component';
 import { RoverComponent } from './rover/rover.component';
 import { DroneRacingComponent } from './drone-racing/drone-racing.component';
 import { VexuComponent } from './vexu/vexu.component';
+import { AboutComponent } from './about/about.component';
+import { LeadershipComponent } from './leadership/leadership.component';
 
 const routes: Routes = [];
 
@@ -17,7 +19,9 @@ const routes: Routes = [];
       {path: 'underwater', component: UnderwaterComponent},
       {path: 'rover', component: RoverComponent},
       {path: 'drone_racing', component: DroneRacingComponent},
-      {path: 'vexu', component: VexuComponent}
+      {path: 'vexu', component: VexuComponent},
+      {path: 'about', component: AboutComponent},
+      {path: 'leadership', component: LeadershipComponent}
     ]),
   ],
   exports: [RouterModule]

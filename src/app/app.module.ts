@@ -13,6 +13,7 @@ import { VexuComponent } from './vexu/vexu.component';
 import { AboutComponent } from './about/about.component';
 import { LeadershipComponent } from './leadership/leadership.component';
 import { JoinComponent } from './join/join.component';
+import { BoardOfBusinessComponent } from './board-of-business/board-of-business.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { JoinComponent } from './join/join.component';
     VexuComponent,
     AboutComponent,
     LeadershipComponent,
-    JoinComponent
+    JoinComponent,
+    BoardOfBusinessComponent
   ],
   imports: [
     BrowserModule,
