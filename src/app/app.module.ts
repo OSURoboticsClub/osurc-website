@@ -13,6 +13,10 @@ import { VexuComponent } from './vexu/vexu.component';
 import { AboutComponent } from './about/about.component';
 import { LeadershipComponent } from './leadership/leadership.component';
 import { JoinComponent } from './join/join.component';
+import { BoardOfBusinessComponent } from './board-of-business/board-of-business.component';
+import { ResourcesComponent } from './resources/resources.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -25,12 +29,16 @@ import { JoinComponent } from './join/join.component';
     VexuComponent,
     AboutComponent,
     LeadershipComponent,
-    JoinComponent
+    JoinComponent,
+    BoardOfBusinessComponent,
+    ResourcesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
