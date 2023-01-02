@@ -22,20 +22,44 @@ img {
     width: 60%;
     height: 90px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p {
     padding-left: 230px;
     padding-right: 230px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+a {
+    color: rgb(0, 133, 155);
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #d73f09;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 span {
     display: inline-block;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .meetings {
@@ -51,17 +75,19 @@ span {
     justify-content: center;
     align-items: center;
     gap: 50px;
-}
 
-#jobs p {
-    width: 510px;
-    height: 90px;
-    color: white;
-    font-size: 16px;
-}
+    p {
+        padding-right: 0px;
+        width: 510px;
+        height: 90px;
+        color: white;
+        font-size: 18px;
+    }
 
-#jobs img {
-    width: 35%;
+    img {
+        width: 35%;
+        padding-right: 230px;
+    }
 }
 
 #sponsor-images img {
