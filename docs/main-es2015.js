@@ -607,7 +607,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 33, vars: 0, consts: [["href", "/"], ["src", "../assets/OSURC-350x.png"], ["href", "index.html", 1, "active"], [1, "dropdown"], ["href", "/about"], [1, "dropdown-content"], ["href", "/leadership"], ["href", "/leadership", 1, "dropbtn"], ["href", "/underwater"], ["href", "/rover"], ["href", "/drone_racing"], ["href", "/vexu"], ["href", "/board-of-business"], ["href", "/resources"], ["href", "/join"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 33, vars: 0, consts: [["href", "/"], ["src", "/src/assets/OSURC-350x.png"], ["href", "index.html", 1, "active"], [1, "dropdown"], ["href", "/about"], [1, "dropdown-content"], ["href", "/leadership"], ["href", "/leadership", 1, "dropbtn"], ["href", "/underwater"], ["href", "/rover"], ["href", "/drone_racing"], ["href", "/vexu"], ["href", "/board-of-business"], ["href", "/resources"], ["href", "/join"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 0);
