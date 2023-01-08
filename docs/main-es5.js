@@ -1302,7 +1302,7 @@
         selectors: [["app-header"]],
         decls: 33,
         vars: 0,
-        consts: [["href", "/"], ["src", "./assets/OSURC-350x.png"], ["href", "index.html", 1, "active"], [1, "dropdown"], ["href", "/about"], [1, "dropdown-content"], ["href", "/leadership"], ["href", "/leadership", 1, "dropbtn"], ["href", "/underwater"], ["href", "/rover"], ["href", "/drone_racing"], ["href", "/vexu"], ["href", "/board-of-business"], ["href", "/resources"], ["href", "/join"]],
+        consts: [["href", "/"], ["src", "./assets/OSURC-350x.png"], ["href", "index.html", 1, "active"], [1, "dropdown"], ["href", "./about"], [1, "dropdown-content"], ["href", "./leadership"], ["href", "./leadership", 1, "dropbtn"], ["href", "./underwater"], ["href", "./rover"], ["href", "./drone_racing"], ["href", "./vexu"], ["href", "./board-of-business"], ["href", "./resources"], ["href", "./join"]],
         template: function HeaderComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
@@ -1797,7 +1797,7 @@
         selectors: [["app-subteam-info"]],
         decls: 34,
         vars: 1,
-        consts: [["id", "intro"], ["width", "690", "height", "415", "src", "https://www.youtube.com/embed/Rjs8uyijDf8", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [4, "ngFor", "ngForOf"], ["id", "description"], ["href", "https://goo.gl/maps/3uHuUj4Bk2MoBArx9"], ["href", "/join"], ["href", "https://it.engineering.oregonstate.edu/mailman/listinfo/osurcmembers"], ["id", "jobs"], ["src", "./assets/Future-Companies-1-768x200.png"], [1, "sponsors"], ["id", "sponsor-images"], ["src", "./assets/Sponsors/Altium-1024x231px.png"], ["src", "./assets/Sponsors/Micron-Technology-1024x283px.png"], ["src", "./assets/Sponsors/Reliable-Robotics-e1638404478745.png"], ["src", "./assets/Sponsors/Second-Order-Effects.png"], [3, "href"], [1, "meetings"]],
+        consts: [["id", "intro"], ["width", "690", "height", "415", "src", "https://www.youtube.com/embed/Rjs8uyijDf8", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [4, "ngFor", "ngForOf"], ["id", "description"], ["href", "https://goo.gl/maps/3uHuUj4Bk2MoBArx9"], ["href", "./join"], ["href", "https://it.engineering.oregonstate.edu/mailman/listinfo/osurcmembers"], ["id", "jobs"], ["src", "./assets/Future-Companies-1-768x200.png"], [1, "sponsors"], ["id", "sponsor-images"], ["src", "./assets/Sponsors/Altium-1024x231px.png"], ["src", "./assets/Sponsors/Micron-Technology-1024x283px.png"], ["src", "./assets/Sponsors/Reliable-Robotics-e1638404478745.png"], ["src", "./assets/Sponsors/Second-Order-Effects.png"], [3, "href"], [1, "meetings"]],
         template: function SubteamInfoComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
