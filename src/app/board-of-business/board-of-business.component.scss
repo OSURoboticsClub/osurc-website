@@ -2,11 +2,22 @@ p {
     padding-left: 230px;
     padding-right: 230px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #d73f09;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(0, 133, 155);
 }

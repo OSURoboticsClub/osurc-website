@@ -4,9 +4,56 @@ iframe {
     margin-right: auto;
 }
 
+#intro {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+
+    p {
+        padding-left: 0px;
+        padding-right: 230px;
+        color: white;
+        font-size: 18px;
+    }
+
+    img {
+        object-fit: cover;
+        height: 49vh;
+        padding-left: 230px;
+    }
+    
+    figcaption {
+        padding-left: 230px;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        opacity: 0.75;
+    }
+}
+
+h2 {
+    text-align: center;
+    padding: 0%;
+}
+
 p {
+    padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 230px;
     padding-right: 230px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #d73f09;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(0, 133, 155);
 }

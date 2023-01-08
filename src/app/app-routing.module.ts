@@ -1,7 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
-import { SubteamInfoComponent } from './subteam-info/subteam-info.component';
+import { SubteamInfoComponent } from './welcome/subteam-info.component';
 import { UnderwaterComponent } from './underwater/underwater.component';
 import { RoverComponent } from './rover/rover.component';
 import { DroneRacingComponent } from './drone-racing/drone-racing.component';

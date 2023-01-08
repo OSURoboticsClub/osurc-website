@@ -9,7 +9,7 @@
       <mat-card-subtitle>{{officer.title}}</mat-card-subtitle>
     </mat-card-header>
     <img mat-card-image src="{{officer.photo_path}}" alt="Picture of person">
-  <mat-card-footer>{{officer.contact}}</mat-card-footer>
+  <mat-card-footer><a href="{{officer.contact}}">{{officer.contact}}</a></mat-card-footer>
   </mat-card>
 </div>
 
@@ -22,6 +22,6 @@
       <mat-card-subtitle>{{advisor.title}}</mat-card-subtitle>
     </mat-card-header>
     <img mat-card-image src="{{advisor.photo_path}}" alt="Picture of person">
-  <mat-card-footer>{{advisor.contact}}</mat-card-footer>
+  <mat-card-footer><a href="{{advisor.contact}}">{{advisor.contact}}</a></mat-card-footer>
   </mat-card>
 </div>
