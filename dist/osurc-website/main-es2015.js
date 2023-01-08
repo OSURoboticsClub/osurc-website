@@ -30,15 +30,39 @@ class RoverComponent {
     }
 }
 RoverComponent.ɵfac = function RoverComponent_Factory(t) { return new (t || RoverComponent)(); };
-RoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RoverComponent, selectors: [["app-rover"]], decls: 5, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/gP94_0F8iwI", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function RoverComponent_Template(rf, ctx) { if (rf & 1) {
+RoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RoverComponent, selectors: [["app-rover"]], decls: 21, vars: 0, consts: [["id", "intro"], ["src", "../assets/Cropp-Rover-2020-1024x553.jpg", "alt", "", "loading", "lazy", "width", "741", "height", "256", 1, "attachment-large", "size-large"], [1, "widget-image-caption", "wp-caption-text"], ["href", "mailto: kopchok@oregonstate.edu"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/gP94_0F8iwI", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function RoverComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Mars Rover");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "iframe", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " OSURC Mars Rover is a multidisciplinary team of dedicated engineers, scientists and robotics enthusiasts committed to designing, building and operating a small-scale Mars Rover. The group is split into four subteams: Electrical, Mechanical, Science, and Software. Each subteam is responsible for designing, developing and implementing every component on the rover; from custom PCBs by Electrical, a six-axis arm by Mechanical, in-situ life detection by Science, to autonomous navigation by Software. All skill levels and majors are welcome, so whether you are a first-year engineering student looking for practice applying concepts learned in class, or a business student looking for experience managing the finances of one of the largest clubs on campus, you can be a contributing member of our team! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "2022-2023 Meetings: Saturdays at 10am in Covell 221");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["iframe[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 16px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3JvdmVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7QUFDSjs7QUFFQTtFQUNJLG1CQUFBO0VBQ0Esb0JBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQUNKIiwiZmlsZSI6InJvdmVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaWZyYW1lIHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XG59XG5cbnAge1xuICAgIHBhZGRpbmctbGVmdDogMjMwcHg7XG4gICAgcGFkZGluZy1yaWdodDogMjMwcHg7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbn0iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "img", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "figcaption", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "CIRC 2021 Competition Team");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " OSURC Mars Rover is a multidisciplinary team of dedicated engineers, scientists and robotics enthusiasts committed to designing, building and operating a small-scale Mars Rover. The group is split into four subteams: Electrical, Mechanical, Science, and Software. Each subteam is responsible for designing, developing and implementing every component on the rover; from custom PCBs by Electrical, a six-axis arm by Mechanical, in-situ life detection by Science, to autonomous navigation by Software. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " All skill levels and majors are welcome, so whether you are a first-year engineering student looking for practice applying concepts learned in class, or a business student looking for experience managing the finances of one of the largest clubs on campus, you can be a contributing member of our team! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " For more information, contact the Team Lead Kira Kopcho at ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "kopchok@oregonstate.edu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, ".\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "iframe", 4);
+    } }, styles: ["iframe[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n#intro[_ngcontent-%COMP%] {\n  display: inline-flex;\n  width: 100%;\n  justify-content: center;\n  gap: 20px;\n}\n\n#intro[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  padding-left: 0px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\n#intro[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  -o-object-fit: cover;\n     object-fit: cover;\n  height: 49vh;\n  padding-left: 230px;\n}\n\n#intro[_ngcontent-%COMP%]   figcaption[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  text-align: center;\n  color: white;\n  font-size: 18px;\n  opacity: 0.75;\n}\n\nh2[_ngcontent-%COMP%] {\n  text-align: center;\n  padding: 0%;\n}\n\np[_ngcontent-%COMP%] {\n  padding-top: 25px;\n  padding-bottom: 25px;\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n  text-align: center;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3JvdmVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7QUFDSjs7QUFFQTtFQUNJLG9CQUFBO0VBQ0EsV0FBQTtFQUNBLHVCQUFBO0VBQ0EsU0FBQTtBQUNKOztBQUNJO0VBQ0ksaUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ1I7O0FBRUk7RUFDSSxvQkFBQTtLQUFBLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0FBQVI7O0FBR0k7RUFDSSxtQkFBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSxhQUFBO0FBRFI7O0FBS0E7RUFDSSxrQkFBQTtFQUNBLFdBQUE7QUFGSjs7QUFLQTtFQUNJLGlCQUFBO0VBQ0Esb0JBQUE7RUFDQSxtQkFBQTtFQUNBLG9CQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtBQUZKOztBQUtBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGlCQUFBO0FBRko7O0FBS0E7RUFDSSxjQUFBO0FBRkoiLCJmaWxlIjoicm92ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpZnJhbWUge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbn1cblxuI2ludHJvIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBnYXA6IDIwcHg7XG5cbiAgICBwIHtcbiAgICAgICAgcGFkZGluZy1sZWZ0OiAwcHg7XG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDIzMHB4O1xuICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICB9XG5cbiAgICBpbWcge1xuICAgICAgICBvYmplY3QtZml0OiBjb3ZlcjtcbiAgICAgICAgaGVpZ2h0OiA0OXZoO1xuICAgICAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIH1cbiAgICBcbiAgICBmaWdjYXB0aW9uIHtcbiAgICAgICAgcGFkZGluZy1sZWZ0OiAyMzBweDtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICAgICAgb3BhY2l0eTogMC43NTtcbiAgICB9XG59XG5cbmgyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgcGFkZGluZzogMCU7XG59XG5cbnAge1xuICAgIHBhZGRpbmctdG9wOiAyNXB4O1xuICAgIHBhZGRpbmctYm90dG9tOiAyNXB4O1xuICAgIHBhZGRpbmctbGVmdDogMjMwcHg7XG4gICAgcGFkZGluZy1yaWdodDogMjMwcHg7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmgxIHtcbiAgICBmb250LXNpemU6IDQwcHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGNvbG9yOiAjZDczZjA5O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5hIHtcbiAgICBjb2xvcjogcmdiKDAsIDEzMywgMTU1KTtcbn0iXX0= */"] });
 
 
 /***/ }),
@@ -70,7 +94,7 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "The Robotics Club was formed on September 24th, 2007 as a team focused solely on making a Mars Rover for the University Rover Challenge, a competition we still enter today. With nearly 200 registered members to date, the club is one of the largest student-run organizations at Oregon State University. As the years progressed, members branched off and created other teams like Aerial, Underwater, and more recently, the Drone Racing team. The club is made up of members from many backgrounds including engineering, business and liberal arts. Being an engineer is not a requirement to be part of the club. In fact, OSURC encourages anyone with an interest in robotics to join! Due in part to the experience members get working as a team on real projects with real problems, many leave well-equipped to handle the stresses of difficult but rewarding jobs. Our alumni have gone on to work at great companies such as SpaceX, Honeybee Robotics, Tektronix, NVIDIA, Intel, and NASA JPL. Some founding members even went on to become a part of OSU\u2019s faculty, and still teach classes to the next generations of robotics students to this day.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["p[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 16px;\n}\n\nimg[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2Fib3V0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNKIiwiZmlsZSI6ImFib3V0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsicCB7XG4gICAgcGFkZGluZy1sZWZ0OiAyMzBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAyMzBweDtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiAxNnB4O1xufVxuXG5pbWcge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbn0iXX0= */"] });
+    } }, styles: ["p[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\nimg[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2Fib3V0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGlCQUFBO0FBQ0oiLCJmaWxlIjoiYWJvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIHBhZGRpbmctcmlnaHQ6IDIzMHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE4cHg7XG59XG5cbmltZyB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xufVxuXG5oMSB7XG4gICAgZm9udC1zaXplOiA0MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogI2Q3M2YwOTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */"] });
 
 
 /***/ }),
@@ -121,7 +145,7 @@ class VexuComponent {
     }
 }
 VexuComponent.ɵfac = function VexuComponent_Factory(t) { return new (t || VexuComponent)(); };
-VexuComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VexuComponent, selectors: [["app-vexu"]], decls: 7, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/wIZgvVDZc2Y", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "center-vid"]], template: function VexuComponent_Template(rf, ctx) { if (rf & 1) {
+VexuComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VexuComponent, selectors: [["app-vexu"]], decls: 14, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/wIZgvVDZc2Y", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "center-vid"], ["href", "mailto: smithp8@oregonstate.edu"]], template: function VexuComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "VexU");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -130,9 +154,19 @@ VexuComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "iframe", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " OSURC VEX U is a brand new team focused on designing multiple robots and competing in the VEX Robotics competition at the university level. Each year, our team will build two robots to compete in tournaments against teams from around the world with the possibility of competing at the VEX World Championship in the spring. Because the competition is different every year, our largest focus is on designing and testing specific mechanisms and game strategies quickly and efficiently as each season progresses. Our robots will be built from scratch, and they will have constraints on size and electronic parts along with limitations from specific game rules for the year\u2019s competition. This season, we will try to work our way up the Skills Challenge rankings, where we exhibit the performance level of our robots, drivers, and programmers in a timed match against the clock for a high score. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " OSURC VEX U is a brand new team focused on designing multiple robots and competing in the VEX Robotics competition at the university level. Each year, our team will build two robots to compete in tournaments against teams from around the world with the possibility of competing at the VEX World Championship in the spring. Because the competition is different every year, our largest focus is on designing and testing specific mechanisms and game strategies quickly and efficiently as each season progresses. Our robots will be built from scratch, and they will have constraints on size and electronic parts along with limitations from specific game rules for the year\u2019s competition. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".center-vid[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 25px;\n}\n\n.vid-container[_ngcontent-%COMP%] {\n  padding-top: 25px;\n  width: 100%;\n  display: inline-flex;\n  justify-content: center;\n  gap: 10px;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 16px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3ZleHUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLG9CQUFBO0FBQ0o7O0FBRUE7RUFDSSxpQkFBQTtFQUNBLFdBQUE7RUFDQSxvQkFBQTtFQUNBLHVCQUFBO0VBQ0EsU0FBQTtBQUNKOztBQUVBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0oiLCJmaWxlIjoidmV4dS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jZW50ZXItdmlkIHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gICAgcGFkZGluZy1ib3R0b206IDI1cHg7XG59XG5cbi52aWQtY29udGFpbmVyIHtcbiAgICBwYWRkaW5nLXRvcDogMjVweDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBnYXA6IDEwcHg7XG59XG5cbnAge1xuICAgIHBhZGRpbmctbGVmdDogMjMwcHg7XG4gICAgcGFkZGluZy1yaWdodDogMjMwcHg7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbn0iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "\nThis season, we will try to work our way up the Skills Challenge rankings, where we exhibit the performance level of our robots, drivers, and programmers in a timed match against the clock for a high score.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " For more information, contact the VEX U Team Lead Paul Smith at ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "smithp8@oregonstate.edu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, ".\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: [".center-vid[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 25px;\n}\n\n.vid-container[_ngcontent-%COMP%] {\n  padding-top: 25px;\n  width: 100%;\n  display: inline-flex;\n  justify-content: center;\n  gap: 10px;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n\nh2[_ngcontent-%COMP%] {\n  text-align: center;\n  padding: 0%;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3ZleHUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLG9CQUFBO0FBQ0o7O0FBRUE7RUFDSSxpQkFBQTtFQUNBLFdBQUE7RUFDQSxvQkFBQTtFQUNBLHVCQUFBO0VBQ0EsU0FBQTtBQUNKOztBQUVBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0EsaUJBQUE7QUFDSjs7QUFFQTtFQUNJLGtCQUFBO0VBQ0EsV0FBQTtBQUNKOztBQUVBO0VBQ0ksY0FBQTtBQUNKIiwiZmlsZSI6InZleHUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2VudGVyLXZpZCB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgIHBhZGRpbmctYm90dG9tOiAyNXB4O1xufVxuXG4udmlkLWNvbnRhaW5lciB7XG4gICAgcGFkZGluZy10b3A6IDI1cHg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgZ2FwOiAxMHB4O1xufVxuXG5wIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIHBhZGRpbmctcmlnaHQ6IDIzMHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE4cHg7XG59XG5cbmgxIHtcbiAgICBmb250LXNpemU6IDQwcHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGNvbG9yOiAjZDczZjA5O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5oMiB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHBhZGRpbmc6IDAlO1xufVxuXG5hIHtcbiAgICBjb2xvcjogcmdiKDAsIDEzMywgMTU1KTtcbn0iXX0= */"] });
 
 
 /***/ }),
@@ -155,7 +189,7 @@ class UnderwaterComponent {
     }
 }
 UnderwaterComponent.ɵfac = function UnderwaterComponent_Factory(t) { return new (t || UnderwaterComponent)(); };
-UnderwaterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UnderwaterComponent, selectors: [["app-underwater"]], decls: 23, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/dwKBtHlCI48", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [1, "subteam"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/KWNBOUqVIPQ", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function UnderwaterComponent_Template(rf, ctx) { if (rf & 1) {
+UnderwaterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UnderwaterComponent, selectors: [["app-underwater"]], decls: 28, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/dwKBtHlCI48", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [1, "subteam"], ["href", "mailto: jesudasn@oregonstate.edu"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/KWNBOUqVIPQ", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function UnderwaterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Underwater");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -190,8 +224,15 @@ UnderwaterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "The software subteam of the Underwater ROV uses ROS (Robot Operating System) along with C++ to write code in order for the robot to run. Each year, this subteam deals with the challenges of connecting the driver to the robot as well as using sensors to allow the robot to complete some of the competition tasks autonomously.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "iframe", 2);
-    } }, styles: ["iframe[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 16px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3VuZGVyd2F0ZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0oiLCJmaWxlIjoidW5kZXJ3YXRlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImlmcmFtZSB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xufVxuXG5wIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIHBhZGRpbmctcmlnaHQ6IDIzMHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE2cHg7XG59Il19 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " For more information, contact the Team Lead Nathan Jesudason at ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "jesudasn@oregonstate.edu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, ".\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "iframe", 3);
+    } }, styles: ["iframe[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n\nh2[_ngcontent-%COMP%] {\n  text-align: center;\n  padding: 0%;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3VuZGVyd2F0ZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0EsaUJBQUE7QUFDSjs7QUFFQTtFQUNJLGtCQUFBO0VBQ0EsV0FBQTtBQUNKOztBQUVBO0VBQ0ksY0FBQTtBQUNKIiwiZmlsZSI6InVuZGVyd2F0ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpZnJhbWUge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbn1cblxucCB7XG4gICAgcGFkZGluZy1sZWZ0OiAyMzBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAyMzBweDtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiAxOHB4O1xufVxuXG5oMSB7XG4gICAgZm9udC1zaXplOiA0MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogI2Q3M2YwOTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuaDIge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBwYWRkaW5nOiAwJTtcbn1cblxuYSB7XG4gICAgY29sb3I6IHJnYigwLCAxMzMsIDE1NSk7XG59Il19 */"] });
 
 
 /***/ }),
@@ -225,7 +266,9 @@ function LeadershipComponent_mat_card_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "mat-card-footer");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -237,6 +280,8 @@ function LeadershipComponent_mat_card_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", officer_r2.photo_path, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", officer_r2.contact, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](officer_r2.contact);
 } }
 function LeadershipComponent_mat_card_9_Template(rf, ctx) { if (rf & 1) {
@@ -252,7 +297,9 @@ function LeadershipComponent_mat_card_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "mat-card-footer");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -264,6 +311,8 @@ function LeadershipComponent_mat_card_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", advisor_r3.photo_path, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", advisor_r3.contact, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](advisor_r3.contact);
 } }
 class LeadershipComponent {
@@ -286,7 +335,7 @@ class LeadershipComponent {
     }
 }
 LeadershipComponent.ɵfac = function LeadershipComponent_Factory(t) { return new (t || LeadershipComponent)(); };
-LeadershipComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LeadershipComponent, selectors: [["app-leadership"]], decls: 10, vars: 2, consts: [["id", "officer-list", 1, "people-list"], ["class", "person-card", 4, "ngFor", "ngForOf"], ["id", "dr-list", 1, "people-list"], [1, "person-card"], ["mat-card-avatar", "", 1, "example-header-image"], ["mat-card-image", "", "alt", "Picture of person", 3, "src"]], template: function LeadershipComponent_Template(rf, ctx) { if (rf & 1) {
+LeadershipComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LeadershipComponent, selectors: [["app-leadership"]], decls: 10, vars: 2, consts: [["id", "officer-list", 1, "people-list"], ["class", "person-card", 4, "ngFor", "ngForOf"], ["id", "dr-list", 1, "people-list"], [1, "person-card"], ["mat-card-avatar", "", 1, "example-header-image"], ["mat-card-image", "", "alt", "Picture of person", 3, "src"], [3, "href"]], template: function LeadershipComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Leadership");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -294,20 +343,20 @@ LeadershipComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Elected Officers");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, LeadershipComponent_mat_card_5_Template, 10, 4, "mat-card", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, LeadershipComponent_mat_card_5_Template, 11, 5, "mat-card", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h2");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Advisors");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, LeadershipComponent_mat_card_9_Template, 10, 4, "mat-card", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, LeadershipComponent_mat_card_9_Template, 11, 5, "mat-card", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.officers);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.advisors);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardHeader"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardAvatar"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardSubtitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardImage"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardFooter"]], styles: [".people-list[_ngcontent-%COMP%] {\n  display: inline-flex;\n  justify-content: center;\n  gap: 30px;\n  width: 100%;\n}\n\n.person-card[_ngcontent-%COMP%] {\n  flex: 1;\n  padding: 20px;\n  max-width: 200px;\n  background-color: #343434;\n  color: white;\n}\n\n.person-card[_ngcontent-%COMP%]   .mat-card-subtitle[_ngcontent-%COMP%] {\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2xlYWRlcnNoaXAuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxvQkFBQTtFQUNBLHVCQUFBO0VBQ0EsU0FBQTtFQUNBLFdBQUE7QUFDSjs7QUFFQTtFQUNJLE9BQUE7RUFDQSxhQUFBO0VBQ0EsZ0JBQUE7RUFDQSx5QkFBQTtFQUNBLFlBQUE7QUFDSjs7QUFDSTtFQUNJLFlBQUE7QUFDUiIsImZpbGUiOiJsZWFkZXJzaGlwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBlb3BsZS1saXN0e1xuICAgIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGdhcDogMzBweDtcbiAgICB3aWR0aDogMTAwJTtcbn1cblxuLnBlcnNvbi1jYXJke1xuICAgIGZsZXg6IDE7XG4gICAgcGFkZGluZzogMjBweDtcbiAgICBtYXgtd2lkdGg6IDIwMHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMzNDM0MzQ7XG4gICAgY29sb3I6IHdoaXRlO1xuXG4gICAgLm1hdC1jYXJkLXN1YnRpdGxlIHtcbiAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgIH1cbn0iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardHeader"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardAvatar"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardSubtitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardImage"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardFooter"]], styles: [".people-list[_ngcontent-%COMP%] {\n  display: inline-flex;\n  justify-content: center;\n  gap: 30px;\n  width: 100%;\n}\n\n.person-card[_ngcontent-%COMP%] {\n  flex: 1;\n  padding: 20px;\n  max-width: 200px;\n  background-color: #343434;\n  color: white;\n}\n\n.person-card[_ngcontent-%COMP%]   .mat-card-subtitle[_ngcontent-%COMP%] {\n  color: white;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2xlYWRlcnNoaXAuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxvQkFBQTtFQUNBLHVCQUFBO0VBQ0EsU0FBQTtFQUNBLFdBQUE7QUFDSjs7QUFFQTtFQUNJLE9BQUE7RUFDQSxhQUFBO0VBQ0EsZ0JBQUE7RUFDQSx5QkFBQTtFQUNBLFlBQUE7QUFDSjs7QUFDSTtFQUNJLFlBQUE7QUFDUjs7QUFHQTtFQUNJLGNBQUE7QUFBSiIsImZpbGUiOiJsZWFkZXJzaGlwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBlb3BsZS1saXN0e1xuICAgIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGdhcDogMzBweDtcbiAgICB3aWR0aDogMTAwJTtcbn1cblxuLnBlcnNvbi1jYXJke1xuICAgIGZsZXg6IDE7XG4gICAgcGFkZGluZzogMjBweDtcbiAgICBtYXgtd2lkdGg6IDIwMHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMzNDM0MzQ7XG4gICAgY29sb3I6IHdoaXRlO1xuXG4gICAgLm1hdC1jYXJkLXN1YnRpdGxlIHtcbiAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgIH1cbn1cblxuYSB7XG4gICAgY29sb3I6IHJnYigwLCAxMzMsIDE1NSk7XG59Il19 */"] });
 
 
 /***/ }),
@@ -390,27 +439,28 @@ JoinComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Drone racing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Drone racing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Underwater");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Underwater");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Rover");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Rover");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "VexU");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "VexU");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "h2");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Registration");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -422,108 +472,7 @@ JoinComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " in addition to filling out the form below. Search for OSURC!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".content[_ngcontent-%COMP%] {\n  margin-left: auto;\n  margin-right: auto;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  color: white;\n  font-size: 16px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2pvaW4uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxpQkFBQTtFQUNBLGtCQUFBO0FBQ0o7O0FBRUE7RUFDSSxtQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0oiLCJmaWxlIjoiam9pbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XG59XG5cbnAge1xuICAgIHBhZGRpbmctbGVmdDogMjMwcHg7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbn0iXX0= */"] });
-
-
-/***/ }),
-
-/***/ "WOXl":
-/*!********************************************************!*\
-  !*** ./src/app/subteam-info/subteam-info.component.ts ***!
-  \********************************************************/
-/*! exports provided: SubteamInfoComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SubteamInfoComponent", function() { return SubteamInfoComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "ofXK");
-
-
-function SubteamInfoComponent_div_7_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, ")");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "span", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const team_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](team_r1.team_name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Lead: ", team_r1.lead, " (");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("href", "mailto: ", team_r1.lead_email, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](team_r1.lead_email);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("meetings: ", team_r1.meeting_logistics, "");
-} }
-class SubteamInfoComponent {
-    constructor() {
-        this.subteams = [
-            { team_name: "Drone Racing", lead: "Adam Krivoshein", lead_email: "krivosad@oregonstate.edu", meeting_logistics: "Saturdays from 10am-2pm in Kelley 1001" },
-            { team_name: "Underwater", lead: "Nathan Jesudason", lead_email: "jesudasn@oregonstate.edu", meeting_logistics: "Sundays at 12pm in Covell 216" },
-            { team_name: "Rover", lead: "Kira Kopcho", lead_email: "kopchok@oregonstate.edu", meeting_logistics: "Saturday 10am-4pm in Covell 221" },
-            { team_name: "VexU", lead: "Paul Smith", lead_email: "smithp8@oregonstate.edu", meeting_logistics: "Sundays at 10am in Merryfield" }
-        ];
-    }
-    ngOnInit() {
-    }
-}
-SubteamInfoComponent.ɵfac = function SubteamInfoComponent_Factory(t) { return new (t || SubteamInfoComponent)(); };
-SubteamInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SubteamInfoComponent, selectors: [["app-subteam-info"]], decls: 23, vars: 1, consts: [["id", "intro"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/Rjs8uyijDf8", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [4, "ngFor", "ngForOf"], ["id", "description"], ["id", "jobs"], ["src", "../assets/Future-Companies-1-768x200.png"], [1, "sponsors"], ["id", "sponsor-images"], ["src", "../assets/Sponsors/Altium-1024x231px.png"], ["src", "../assets/Sponsors/Micron-Technology-1024x283px.png"], ["src", "../assets/Sponsors/Reliable-Robotics-e1638404478745.png"], ["src", "../assets/Sponsors/Second-Order-Effects.png"], [3, "href"], [1, "meetings"]], template: function SubteamInfoComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Welcome");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "iframe", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Quick Info");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, SubteamInfoComponent_div_7_Template, 12, 5, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "The OSU Robotics Club (OSURC) is one of the largest student-run clubs at Oregon State University, comprising of nearly 200 members! Each year, the club runs multiple project teams such as Aerial, Drone Racing, Mars Rover, Underwater, and VEX U to help our members become better engineers through practical real-world experiences. Additionally, OSURC provides a stocked workspace in Merryfield Hall (Room 103), complete with computer workstations, soldering stations, electrical components, 3D printers, and many other tools that are available for use by any of our members. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Robotics Club graduates have gone on to work at a range of leading tech companies such as SpaceX, Honeybee Robotics, Tektronix, NVIDIA, Intel, and NASA JPL.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Sponsors");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "img", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "img", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "img", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.subteams);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], styles: ["img[_ngcontent-%COMP%] {\n  width: 15%;\n}\n\n#intro[_ngcontent-%COMP%] {\n  display: inline-flex;\n  width: 100%;\n  justify-content: center;\n  gap: 50px;\n}\n\n#description[_ngcontent-%COMP%] {\n  display: inline-flex;\n  width: 100%;\n  justify-content: center;\n  padding-left: 50px;\n  padding-right: 50px;\n  padding-top: 50px;\n}\n\n#description[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  width: 60%;\n  height: 90px;\n  color: white;\n  font-size: 16px;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 16px;\n}\n\nspan[_ngcontent-%COMP%] {\n  display: inline-block;\n  color: white;\n  font-size: 16px;\n}\n\n.meetings[_ngcontent-%COMP%] {\n  padding-bottom: 25px;\n}\n\n#jobs[_ngcontent-%COMP%] {\n  display: inline-flex;\n  padding-left: 50px;\n  padding-right: 50px;\n  padding-top: 50px;\n  width: 100%;\n  justify-content: center;\n  align-items: center;\n  gap: 50px;\n}\n\n#jobs[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  width: 510px;\n  height: 90px;\n  color: white;\n  font-size: 16px;\n}\n\n#jobs[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 35%;\n}\n\n#sponsor-images[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  display: block;\n  max-width: 235px;\n  width: 50%;\n  height: auto;\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n#sponsor-images[_ngcontent-%COMP%] {\n  width: 100%;\n  display: inline-flex;\n  justify-content: center;\n  gap: 10px;\n  height: 205px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N1YnRlYW0taW5mby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFVBQUE7QUFDSjs7QUFFQTtFQUNJLG9CQUFBO0VBQ0EsV0FBQTtFQUNBLHVCQUFBO0VBQ0EsU0FBQTtBQUNKOztBQUVBO0VBQ0ksb0JBQUE7RUFDQSxXQUFBO0VBQ0EsdUJBQUE7RUFDQSxrQkFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7QUFDSjs7QUFFQTtFQUNJLFVBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7QUFDSjs7QUFFQTtFQUNJLG1CQUFBO0VBQ0Esb0JBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQUNKOztBQUVBO0VBQ0kscUJBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQUNKOztBQUVBO0VBQ0ksb0JBQUE7QUFDSjs7QUFFQTtFQUNJLG9CQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0VBQ0EsV0FBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxTQUFBO0FBQ0o7O0FBRUE7RUFDSSxZQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxVQUFBO0FBQ0o7O0FBRUE7RUFDSSxjQUFBO0VBQ0EsZ0JBQUE7RUFDQSxVQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7QUFDSjs7QUFFQTtFQUNJLFdBQUE7RUFDQSxvQkFBQTtFQUNBLHVCQUFBO0VBQ0EsU0FBQTtFQUNBLGFBQUE7QUFDSiIsImZpbGUiOiJzdWJ0ZWFtLWluZm8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWcge1xuICAgIHdpZHRoOiAxNSU7XG59XG5cbiNpbnRybyB7XG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgZ2FwOiA1MHB4O1xufVxuXG4jZGVzY3JpcHRpb24ge1xuICAgIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIHBhZGRpbmctbGVmdDogNTBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiA1MHB4O1xuICAgIHBhZGRpbmctdG9wOiA1MHB4O1xufVxuXG4jZGVzY3JpcHRpb24gcCB7XG4gICAgd2lkdGg6IDYwJTtcbiAgICBoZWlnaHQ6IDkwcHg7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbn1cblxucCB7XG4gICAgcGFkZGluZy1sZWZ0OiAyMzBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAyMzBweDtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiAxNnB4O1xufVxuXG5zcGFuIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbn1cblxuLm1lZXRpbmdzIHtcbiAgICBwYWRkaW5nLWJvdHRvbTogMjVweDtcbn1cblxuI2pvYnMge1xuICAgIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICAgIHBhZGRpbmctbGVmdDogNTBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiA1MHB4O1xuICAgIHBhZGRpbmctdG9wOiA1MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgZ2FwOiA1MHB4O1xufVxuXG4jam9icyBwIHtcbiAgICB3aWR0aDogNTEwcHg7XG4gICAgaGVpZ2h0OiA5MHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE2cHg7XG59XG5cbiNqb2JzIGltZyB7XG4gICAgd2lkdGg6IDM1JTtcbn1cblxuI3Nwb25zb3ItaW1hZ2VzIGltZyB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWF4LXdpZHRoOiAyMzVweDtcbiAgICB3aWR0aDogNTAlO1xuICAgIGhlaWdodDogYXV0bztcbiAgICBtYXJnaW4tdG9wOiBhdXRvO1xuICAgIG1hcmdpbi1ib3R0b206IGF1dG87XG59XG5cbiNzcG9uc29yLWltYWdlcyB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgZ2FwOiAxMHB4O1xuICAgIGhlaWdodDogMjA1cHg7XG59Il19 */"] });
+    } }, styles: [".content[_ngcontent-%COMP%] {\n  margin-left: auto;\n  margin-right: auto;\n}\n\np[_ngcontent-%COMP%], ul[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2pvaW4uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxpQkFBQTtFQUNBLGtCQUFBO0FBQ0o7O0FBRUE7RUFDSSxtQkFBQTtFQUNBLG9CQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7QUFDSjs7QUFFQTtFQUNJLGNBQUE7QUFDSjs7QUFFQTtFQUNJLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxpQkFBQTtBQUNKIiwiZmlsZSI6ImpvaW4uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGVudCB7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xufVxuXG5wLCB1bCB7XG4gICAgcGFkZGluZy1sZWZ0OiAyMzBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAyMzBweDtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiAxOHB4O1xufVxuXG5hIHtcbiAgICBjb2xvcjogcmdiKDAsIDEzMywgMTU1KTtcbn1cblxuaDEge1xuICAgIGZvbnQtc2l6ZTogNDBweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgY29sb3I6ICNkNzNmMDk7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */"] });
 
 
 /***/ }),
@@ -542,7 +491,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "Sy1n");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser/animations */ "R1ws");
-/* harmony import */ var _subteam_info_subteam_info_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./subteam-info/subteam-info.component */ "WOXl");
+/* harmony import */ var _welcome_subteam_info_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./welcome/subteam-info.component */ "txs2");
 /* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./header/header.component */ "fECr");
 /* harmony import */ var _underwater_underwater_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./underwater/underwater.component */ "OPEp");
 /* harmony import */ var _rover_rover_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./rover/rover.component */ "3FOA");
@@ -586,7 +535,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵdefineInjecto
             _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_16__["MatGridListModule"]
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
-        _subteam_info_subteam_info_component__WEBPACK_IMPORTED_MODULE_4__["SubteamInfoComponent"],
+        _welcome_subteam_info_component__WEBPACK_IMPORTED_MODULE_4__["SubteamInfoComponent"],
         _header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"],
         _underwater_underwater_component__WEBPACK_IMPORTED_MODULE_6__["UnderwaterComponent"],
         _rover_rover_component__WEBPACK_IMPORTED_MODULE_7__["RoverComponent"],
@@ -636,7 +585,7 @@ BoardOfBusinessComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Looking to build your resume by working with hundreds of engineers to solve complex problems? Join the Board of Business! You do not have to be a business major to apply. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["p[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 16px;\n}\n\nimg[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2JvYXJkLW9mLWJ1c2luZXNzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNKIiwiZmlsZSI6ImJvYXJkLW9mLWJ1c2luZXNzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsicCB7XG4gICAgcGFkZGluZy1sZWZ0OiAyMzBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAyMzBweDtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiAxNnB4O1xufVxuXG5pbWcge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbn0iXX0= */"] });
+    } }, styles: ["p[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\nimg[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2JvYXJkLW9mLWJ1c2luZXNzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGlCQUFBO0FBQ0o7O0FBRUE7RUFDSSxjQUFBO0FBQ0oiLCJmaWxlIjoiYm9hcmQtb2YtYnVzaW5lc3MuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIHBhZGRpbmctcmlnaHQ6IDIzMHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE4cHg7XG59XG5cbmltZyB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xufVxuXG5oMSB7XG4gICAgZm9udC1zaXplOiA0MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogI2Q3M2YwOTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuYSB7XG4gICAgY29sb3I6IHJnYigwLCAxMzMsIDE1NSk7XG59Il19 */"] });
 
 
 /***/ }),
@@ -659,55 +608,62 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 29, vars: 0, consts: [["src", "../assets/OSURC-350x.png"], ["href", "index.html", 1, "active"], ["href", "/about"], [1, "dropdown"], ["href", "/leadership", 1, "dropbtn"], [1, "dropdown-content"], ["href", "/underwater"], ["href", "/rover"], ["href", "/drone_racing"], ["href", "/vexu"], ["href", "/board-of-business"], ["href", "/resources"], ["href", "/join"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 33, vars: 0, consts: [["href", "/"], ["src", "../assets/OSURC-350x.png"], ["href", "index.html", 1, "active"], [1, "dropdown"], ["href", "/about"], [1, "dropdown-content"], ["href", "/leadership"], ["href", "/leadership", 1, "dropbtn"], ["href", "/underwater"], ["href", "/rover"], ["href", "/drone_racing"], ["href", "/vexu"], ["href", "/board-of-business"], ["href", "/resources"], ["href", "/join"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Home");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Home");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "About");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "About");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Leadership");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Teams");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Underwater");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Teams");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Rover");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Drone Racing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Underwater");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "VexU");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Rover");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Board of Business");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Drone Racing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "VexU");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Board of Business");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Resources");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Resources");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Join");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Join");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["ul[_ngcontent-%COMP%] {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  position: relative;\n  background-color: inherit;\n  display: inline-block;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 3;\n}\n\nli[_ngcontent-%COMP%] {\n  float: inline-start;\n}\n\nli[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover:not(.active) {\n  color: #d73f09;\n}\n\nli[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  display: block;\n  color: white;\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n  height: 22px;\n}\n\nli[_ngcontent-%COMP%]   .active[_ngcontent-%COMP%] {\n  color: #d73f09;\n}\n\n.dropdown[_ngcontent-%COMP%] {\n  position: relative;\n  display: inline-block;\n}\n\n\n\n.dropdown-content[_ngcontent-%COMP%] {\n  display: none;\n  position: absolute;\n  background-color: #f1f1f1;\n  min-width: 190px;\n  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);\n  z-index: 3;\n  padding-top: 0px;\n  padding-bottom: 0px;\n}\n\n\n\n.dropdown-content[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: white;\n  background-color: #343434;\n  padding: 12px 16px;\n  text-decoration: none;\n  display: block;\n  z-index: 3;\n}\n\n\n\n.dropdown[_ngcontent-%COMP%]:hover   .dropdown-content[_ngcontent-%COMP%] {\n  display: block;\n}\n\ndiv[_ngcontent-%COMP%] {\n  background-color: #343434;\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  padding-top: 10px;\n  padding-bottom: 10px;\n}\n\nimg[_ngcontent-%COMP%] {\n  float: left;\n  padding-left: 10%;\n  padding-right: 50%;\n  width: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2hlYWRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNJLHFCQUFBO0VBQ0EsU0FBQTtFQUNBLFVBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQUFBO0VBQ0EscUJBQUE7RUFDQSxNQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSxVQUFBO0FBRko7O0FBS0E7RUFDSSxtQkFBQTtBQUZKOztBQUtBO0VBQ0ksY0FwQlc7QUFrQmY7O0FBS0E7RUFDSSxjQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtFQUNBLFlBQUE7QUFGSjs7QUFPQTtFQUNJLGNBbkNXO0FBK0JmOztBQU9BO0VBQ0ksa0JBQUE7RUFDQSxxQkFBQTtBQUpKOztBQVFFLHlDQUFBOztBQUNBO0VBQ0UsYUFBQTtFQUNBLGtCQUFBO0VBQ0EseUJBQUE7RUFDQSxnQkFBQTtFQUNBLCtDQUFBO0VBQ0EsVUFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7QUFMSjs7QUFRRSw4QkFBQTs7QUFDQTtFQUNFLFlBQUE7RUFDQSx5QkE1RFM7RUE2RFQsa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGNBQUE7RUFDQSxVQUFBO0FBTEo7O0FBUUUsb0NBQUE7O0FBQ0E7RUFBbUMsY0FBQTtBQUpyQzs7QUFNRTtFQUNFLHlCQXZFUztFQXdFVCxxQkFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsaUJBQUE7RUFDQSxvQkFBQTtBQUhKOztBQU1FO0VBQ0UsV0FBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0FBSEoiLCJmaWxlIjoiaGVhZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGJhc2UtY29sb3I6ICMzNDM0MzQ7XG4kYWNjZW50LWNvbG9yOiAjZDczZjA5O1xuXG51bCB7XG4gICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBpbmhlcml0O1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICB0b3A6IDA7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIHotaW5kZXg6IDM7XG59XG5cbmxpIHtcbiAgICBmbG9hdDppbmxpbmUtc3RhcnQ7XG59XG5cbmxpIGE6aG92ZXI6bm90KC5hY3RpdmUpIHtcbiAgICBjb2xvcjogJGFjY2VudC1jb2xvcjtcbn1cblxubGkgYSB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBwYWRkaW5nOiAxNHB4IDE2cHg7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBcbiAgICBoZWlnaHQ6IDIycHg7XG59XG5cblxuXG5saSAuYWN0aXZlIHtcbiAgICBjb2xvcjogJGFjY2VudC1jb2xvcjtcbn1cblxuLmRyb3Bkb3duIHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuXG4gIH1cbiAgXG4gIC8qIERyb3Bkb3duIENvbnRlbnQgKEhpZGRlbiBieSBEZWZhdWx0KSAqL1xuICAuZHJvcGRvd24tY29udGVudCB7XG4gICAgZGlzcGxheTogbm9uZTtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2YxZjFmMTtcbiAgICBtaW4td2lkdGg6IDE5MHB4O1xuICAgIGJveC1zaGFkb3c6IDBweCA4cHggMTZweCAwcHggcmdiYSgwLDAsMCwwLjIpO1xuICAgIHotaW5kZXg6IDM7XG4gICAgcGFkZGluZy10b3A6IDBweDtcbiAgICBwYWRkaW5nLWJvdHRvbTogMHB4O1xuICB9XG4gIFxuICAvKiBMaW5rcyBpbnNpZGUgdGhlIGRyb3Bkb3duICovXG4gIC5kcm9wZG93bi1jb250ZW50IGEge1xuICAgIGNvbG9yOiByZ2IoMjU1LCAyNTUsIDI1NSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGJhc2UtY29sb3I7XG4gICAgcGFkZGluZzogMTJweCAxNnB4O1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICB6LWluZGV4OiAzO1xuICB9XG4gIFxuICAvKiBTaG93IHRoZSBkcm9wZG93biBtZW51IG9uIGhvdmVyICovXG4gIC5kcm9wZG93bjpob3ZlciAuZHJvcGRvd24tY29udGVudCB7ZGlzcGxheTpibG9jazsgfVxuXG4gIGRpdiB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGJhc2UtY29sb3I7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBwYWRkaW5nLXRvcDogMTBweDtcbiAgICBwYWRkaW5nLWJvdHRvbTogMTBweDtcbiAgfVxuXG4gIGltZyB7XG4gICAgZmxvYXQ6IGxlZnQ7XG4gICAgcGFkZGluZy1sZWZ0OiAxMCU7XG4gICAgcGFkZGluZy1yaWdodDogNTAlO1xuICAgIHdpZHRoOiAyMDBweDtcbiAgfSJdfQ== */"] });
+    } }, styles: ["ul[_ngcontent-%COMP%] {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  position: relative;\n  background-color: inherit;\n  display: inline-block;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 3;\n  font-size: 18px;\n}\n\nli[_ngcontent-%COMP%] {\n  float: inline-start;\n}\n\nli[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover:not(.active) {\n  color: #d73f09;\n}\n\nli[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  display: block;\n  color: white;\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n  height: 22px;\n}\n\nli[_ngcontent-%COMP%]   .active[_ngcontent-%COMP%] {\n  color: #d73f09;\n}\n\n.dropdown[_ngcontent-%COMP%] {\n  position: relative;\n  display: inline-block;\n}\n\n\n\n.dropdown-content[_ngcontent-%COMP%] {\n  display: none;\n  position: absolute;\n  background-color: #343434;\n  min-width: 190px;\n  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);\n  z-index: 3;\n  padding-top: 0px;\n  padding-bottom: 0px;\n}\n\n\n\n.dropdown-content[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: white;\n  background-color: #343434;\n  padding: 12px 16px;\n  text-decoration: none;\n  display: block;\n  z-index: 3;\n  font-size: 18px;\n}\n\n\n\n.dropdown[_ngcontent-%COMP%]:hover   .dropdown-content[_ngcontent-%COMP%] {\n  display: block;\n}\n\ndiv[_ngcontent-%COMP%] {\n  background-color: #343434;\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  padding-top: 10px;\n  padding-bottom: 10px;\n}\n\nimg[_ngcontent-%COMP%] {\n  float: left;\n  padding-left: 10%;\n  padding-right: 50%;\n  width: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2hlYWRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNJLHFCQUFBO0VBQ0EsU0FBQTtFQUNBLFVBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQUFBO0VBQ0EscUJBQUE7RUFDQSxNQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSxVQUFBO0VBQ0EsZUFBQTtBQUZKOztBQUtBO0VBQ0ksbUJBQUE7QUFGSjs7QUFLQTtFQUNJLGNBckJXO0FBbUJmOztBQUtBO0VBQ0ksY0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EscUJBQUE7RUFDQSxZQUFBO0FBRko7O0FBT0E7RUFDSSxjQXBDVztBQWdDZjs7QUFPQTtFQUNJLGtCQUFBO0VBQ0EscUJBQUE7QUFKSjs7QUFRRSx5Q0FBQTs7QUFDQTtFQUNFLGFBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQWxEUztFQW1EVCxnQkFBQTtFQUNBLCtDQUFBO0VBQ0EsVUFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7QUFMSjs7QUFRRSw4QkFBQTs7QUFDQTtFQUNFLFlBQUE7RUFDQSx5QkE3RFM7RUE4RFQsa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGNBQUE7RUFDQSxVQUFBO0VBQ0EsZUFBQTtBQUxKOztBQVFFLG9DQUFBOztBQUNBO0VBQW1DLGNBQUE7QUFKckM7O0FBTUU7RUFDRSx5QkF6RVM7RUEwRVQscUJBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0VBQ0Esb0JBQUE7QUFISjs7QUFNRTtFQUNFLFdBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtBQUhKIiwiZmlsZSI6ImhlYWRlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRiYXNlLWNvbG9yOiAjMzQzNDM0O1xuJGFjY2VudC1jb2xvcjogI2Q3M2YwOTtcblxudWwge1xuICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogaW5oZXJpdDtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgdG9wOiAwO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwJTtcbiAgICB6LWluZGV4OiAzO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbn1cblxubGkge1xuICAgIGZsb2F0OmlubGluZS1zdGFydDtcbn1cblxubGkgYTpob3Zlcjpub3QoLmFjdGl2ZSkge1xuICAgIGNvbG9yOiAkYWNjZW50LWNvbG9yO1xufVxuXG5saSBhIHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHBhZGRpbmc6IDE0cHggMTZweDtcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7IFxuICAgIGhlaWdodDogMjJweDtcbn1cblxuXG5cbmxpIC5hY3RpdmUge1xuICAgIGNvbG9yOiAkYWNjZW50LWNvbG9yO1xufVxuXG4uZHJvcGRvd24ge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5cbiAgfVxuICBcbiAgLyogRHJvcGRvd24gQ29udGVudCAoSGlkZGVuIGJ5IERlZmF1bHQpICovXG4gIC5kcm9wZG93bi1jb250ZW50IHtcbiAgICBkaXNwbGF5OiBub25lO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkYmFzZS1jb2xvcjtcbiAgICBtaW4td2lkdGg6IDE5MHB4O1xuICAgIGJveC1zaGFkb3c6IDBweCA4cHggMTZweCAwcHggcmdiYSgwLDAsMCwwLjIpO1xuICAgIHotaW5kZXg6IDM7XG4gICAgcGFkZGluZy10b3A6IDBweDtcbiAgICBwYWRkaW5nLWJvdHRvbTogMHB4O1xuICB9XG4gIFxuICAvKiBMaW5rcyBpbnNpZGUgdGhlIGRyb3Bkb3duICovXG4gIC5kcm9wZG93bi1jb250ZW50IGEge1xuICAgIGNvbG9yOiByZ2IoMjU1LCAyNTUsIDI1NSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGJhc2UtY29sb3I7XG4gICAgcGFkZGluZzogMTJweCAxNnB4O1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICB6LWluZGV4OiAzO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgfVxuICBcbiAgLyogU2hvdyB0aGUgZHJvcGRvd24gbWVudSBvbiBob3ZlciAqL1xuICAuZHJvcGRvd246aG92ZXIgLmRyb3Bkb3duLWNvbnRlbnQge2Rpc3BsYXk6YmxvY2s7IH1cblxuICBkaXYge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICRiYXNlLWNvbG9yO1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgcGFkZGluZy10b3A6IDEwcHg7XG4gICAgcGFkZGluZy1ib3R0b206IDEwcHg7XG4gIH1cblxuICBpbWcge1xuICAgIGZsb2F0OiBsZWZ0O1xuICAgIHBhZGRpbmctbGVmdDogMTAlO1xuICAgIHBhZGRpbmctcmlnaHQ6IDUwJTtcbiAgICB3aWR0aDogMjAwcHg7XG4gIH0iXX0= */"] });
 
 
 /***/ }),
@@ -730,7 +686,7 @@ class DroneRacingComponent {
     }
 }
 DroneRacingComponent.ɵfac = function DroneRacingComponent_Factory(t) { return new (t || DroneRacingComponent)(); };
-DroneRacingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DroneRacingComponent, selectors: [["app-drone-racing"]], decls: 11, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/5NGPUG7o-qg", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "center-vid"], [1, "vid-container"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/E4qJWyBHqg0", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/YhJpdCZNSDc", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/88bLztuEIsE", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function DroneRacingComponent_Template(rf, ctx) { if (rf & 1) {
+DroneRacingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DroneRacingComponent, selectors: [["app-drone-racing"]], decls: 16, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/5NGPUG7o-qg", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "center-vid"], ["href", "mailto: krivosad@oregonstate.edu"], [1, "vid-container"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/E4qJWyBHqg0", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/YhJpdCZNSDc", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/88bLztuEIsE", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function DroneRacingComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Drone Racing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -739,14 +695,21 @@ DroneRacingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "iframe", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " OSURC Drone Racing is a newer team centered on building and competing with high-speed racing quads. The drones fly at speeds of more than 120 mph and the propellers spin at speeds up to Mach 1. We hold workshops to help members design and construct their own drones and also organize practice racing events so we can effectively compete throughout the country. Members usually come from majors such as mechanical, electrical and computer science engineers. However, it is open to anyone interested in building and racing drones, no prior experience necessary. A full set of racing drone gear costs between $350 and $1000. If this team interests you, be prepared for an investment or start saving! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " OSURC Drone Racing is a newer team centered on building and competing with high-speed racing quads. The drones fly at speeds of more than 120 mph and the propellers spin at speeds up to Mach 1. We hold workshops to help members design and construct their own drones and also organize practice racing events so we can effectively compete throughout the country. Members usually come from majors such as mechanical, electrical and computer science engineers. However, it is open to anyone interested in building and racing drones, no prior experience necessary. A full set of racing drone gear costs between $350 and $1000. If this team interests you, be prepared for an investment or start saving!\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "iframe", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "iframe", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "iframe", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " For more information, contact the Team Lead Adam Krivoshein at ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "krivosad@oregonstate.edu");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".center-vid[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 25px;\n}\n\n.vid-container[_ngcontent-%COMP%] {\n  padding-top: 25px;\n  width: 100%;\n  display: inline-flex;\n  justify-content: center;\n  gap: 10px;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 16px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2Ryb25lLXJhY2luZy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0Esb0JBQUE7QUFDSjs7QUFFQTtFQUNJLGlCQUFBO0VBQ0EsV0FBQTtFQUNBLG9CQUFBO0VBQ0EsdUJBQUE7RUFDQSxTQUFBO0FBQ0o7O0FBRUE7RUFDSSxtQkFBQTtFQUNBLG9CQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7QUFDSiIsImZpbGUiOiJkcm9uZS1yYWNpbmcuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2VudGVyLXZpZCB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgIHBhZGRpbmctYm90dG9tOiAyNXB4O1xufVxuXG4udmlkLWNvbnRhaW5lciB7XG4gICAgcGFkZGluZy10b3A6IDI1cHg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgZ2FwOiAxMHB4O1xufVxuXG5wIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIHBhZGRpbmctcmlnaHQ6IDIzMHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE2cHg7XG59Il19 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, ".\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "iframe", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "iframe", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "iframe", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: [".center-vid[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 25px;\n}\n\n.vid-container[_ngcontent-%COMP%] {\n  padding-top: 25px;\n  width: 100%;\n  display: inline-flex;\n  justify-content: center;\n  gap: 10px;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n}\n\nh2[_ngcontent-%COMP%] {\n  text-align: center;\n  padding: 0%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2Ryb25lLXJhY2luZy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0Esb0JBQUE7QUFDSjs7QUFFQTtFQUNJLGlCQUFBO0VBQ0EsV0FBQTtFQUNBLG9CQUFBO0VBQ0EsdUJBQUE7RUFDQSxTQUFBO0FBQ0o7O0FBRUE7RUFDSSxtQkFBQTtFQUNBLG9CQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7QUFDSjs7QUFFQTtFQUNJLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxpQkFBQTtBQUNKOztBQUVBO0VBQ0ksY0FBQTtBQUNKOztBQUVBO0VBQ0ksa0JBQUE7RUFDQSxXQUFBO0FBQ0oiLCJmaWxlIjoiZHJvbmUtcmFjaW5nLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNlbnRlci12aWQge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICBwYWRkaW5nLWJvdHRvbTogMjVweDtcbn1cblxuLnZpZC1jb250YWluZXIge1xuICAgIHBhZGRpbmctdG9wOiAyNXB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGdhcDogMTBweDtcbn1cblxucCB7XG4gICAgcGFkZGluZy1sZWZ0OiAyMzBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAyMzBweDtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiAxOHB4O1xufVxuXG5oMSB7XG4gICAgZm9udC1zaXplOiA0MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogI2Q3M2YwOTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuYSB7XG4gICAgY29sb3I6IHJnYigwLCAxMzMsIDE1NSk7XG59XG5cbmgyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgcGFkZGluZzogMCU7XG59Il19 */"] });
 
 
 /***/ }),
@@ -800,7 +763,130 @@ ResourcesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["#smd-soldering-videos[_ngcontent-%COMP%] {\n  display: inline-flex;\n  gap: 20px;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  color: white;\n  font-size: 16px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Jlc291cmNlcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG9CQUFBO0VBQ0EsU0FBQTtBQUNKOztBQUVBO0VBQ0ksbUJBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQUNKIiwiZmlsZSI6InJlc291cmNlcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiNzbWQtc29sZGVyaW5nLXZpZGVvcyB7XG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAgZ2FwOiAyMHB4O1xufVxuXG5wIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE2cHg7XG59Il19 */"] });
+    } }, styles: ["#smd-soldering-videos[_ngcontent-%COMP%] {\n  display: flex;\n  gap: 20px;\n  justify-content: center;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Jlc291cmNlcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGFBQUE7RUFDQSxTQUFBO0VBQ0EsdUJBQUE7QUFDSjs7QUFFQTtFQUNJLG1CQUFBO0VBQ0Esb0JBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQUNKOztBQUVBO0VBQ0ksY0FBQTtBQUNKOztBQUVBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGlCQUFBO0FBQ0oiLCJmaWxlIjoicmVzb3VyY2VzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI3NtZC1zb2xkZXJpbmctdmlkZW9zIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGdhcDogMjBweDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxucCB7XG4gICAgcGFkZGluZy1sZWZ0OiAyMzBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAyMzBweDtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiAxOHB4O1xufVxuXG5hIHtcbiAgICBjb2xvcjogcmdiKDAsIDEzMywgMTU1KTtcbn1cblxuaDEge1xuICAgIGZvbnQtc2l6ZTogNDBweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgY29sb3I6ICNkNzNmMDk7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59Il19 */"] });
+
+
+/***/ }),
+
+/***/ "txs2":
+/*!***************************************************!*\
+  !*** ./src/app/welcome/subteam-info.component.ts ***!
+  \***************************************************/
+/*! exports provided: SubteamInfoComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SubteamInfoComponent", function() { return SubteamInfoComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "ofXK");
+
+
+function SubteamInfoComponent_div_7_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, ")");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "span", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const team_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](team_r1.team_name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Lead: ", team_r1.lead, " (");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("href", "mailto: ", team_r1.lead_email, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](team_r1.lead_email);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Meetings: ", team_r1.meeting_time, " in ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", team_r1.meeting_location_link, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](team_r1.meeting_location);
+} }
+class SubteamInfoComponent {
+    constructor() {
+        this.subteams = [
+            { team_name: "Drone Racing", lead: "Adam Krivoshein", lead_email: "krivosad@oregonstate.edu", meeting_time: "Saturdays from 10am-2pm", meeting_location: "Kelley 1001", meeting_location_link: "https://goo.gl/maps/jpUwQDSZqW4uZLyX6" },
+            { team_name: "Underwater", lead: "Nathan Jesudason", lead_email: "jesudasn@oregonstate.edu", meeting_time: "Sundays at 12pm", meeting_location: "Covell 216", meeting_location_link: "https://goo.gl/maps/kw45P8dYkQ4d7Xah6" },
+            { team_name: "Rover", lead: "Kira Kopcho", lead_email: "kopchok@oregonstate.edu", meeting_time: "Saturday 10am-4pm", meeting_location: "Covell 221", meeting_location_link: "https://goo.gl/maps/kw45P8dYkQ4d7Xah6" },
+            { team_name: "VexU", lead: "Paul Smith", lead_email: "smithp8@oregonstate.edu", meeting_time: "Sundays at 10am", meeting_location: "Merryfield", meeting_location_link: "https://goo.gl/maps/RemhRU9Fbwb6avLn8" }
+        ];
+    }
+    ngOnInit() {
+    }
+}
+SubteamInfoComponent.ɵfac = function SubteamInfoComponent_Factory(t) { return new (t || SubteamInfoComponent)(); };
+SubteamInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SubteamInfoComponent, selectors: [["app-subteam-info"]], decls: 34, vars: 1, consts: [["id", "intro"], ["width", "690", "height", "415", "src", "https://www.youtube.com/embed/Rjs8uyijDf8", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [4, "ngFor", "ngForOf"], ["id", "description"], ["href", "https://goo.gl/maps/3uHuUj4Bk2MoBArx9"], ["href", "/join"], ["href", "https://it.engineering.oregonstate.edu/mailman/listinfo/osurcmembers"], ["id", "jobs"], ["src", "../assets/Future-Companies-1-768x200.png"], [1, "sponsors"], ["id", "sponsor-images"], ["src", "../assets/Sponsors/Altium-1024x231px.png"], ["src", "../assets/Sponsors/Micron-Technology-1024x283px.png"], ["src", "../assets/Sponsors/Reliable-Robotics-e1638404478745.png"], ["src", "../assets/Sponsors/Second-Order-Effects.png"], [3, "href"], [1, "meetings"]], template: function SubteamInfoComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Welcome");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "iframe", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Quick Info");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, SubteamInfoComponent_div_7_Template, 14, 7, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "The OSU Robotics Club (OSURC) is one of the largest student-run clubs at Oregon State University, comprising of nearly 200 members! Each year, the club runs multiple project teams such as Aerial, Drone Racing, Mars Rover, Underwater, and VEX U to help our members become better engineers through practical real-world experiences. Additionally, OSURC provides a stocked workspace in ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Merryfield Hall");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " (Room 103), complete with computer workstations, soldering stations, electrical components, 3D printers, and many other tools that are available for use by any of our members. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "If you are interested in becoming a member, click ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "here");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " to find out how to join and subscribe to ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "our mailing list");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " for more information.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Robotics Club graduates have gone on to work at a range of leading tech companies such as SpaceX, Honeybee Robotics, Tektronix, NVIDIA, Intel, and NASA JPL.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Sponsors");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "img", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "img", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.subteams);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], styles: ["img[_ngcontent-%COMP%] {\n  width: 15%;\n}\n\n#intro[_ngcontent-%COMP%] {\n  display: inline-flex;\n  width: 100%;\n  justify-content: center;\n  gap: 50px;\n}\n\n#description[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n  justify-content: center;\n  padding-left: 50px;\n  padding-right: 50px;\n  padding-top: 50px;\n}\n\n#description[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  padding-left: 320px;\n  padding-right: 320px;\n  height: 90px;\n  color: white;\n  font-size: 18px;\n  margin-bottom: 30px;\n  line-height: 26px;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n  -webkit-text-decoration-color: white;\n          text-decoration-color: white;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n\nh2[_ngcontent-%COMP%] {\n  font-size: 32px;\n}\n\nh3[_ngcontent-%COMP%] {\n  font-size: 24px;\n}\n\nh4[_ngcontent-%COMP%] {\n  font-size: 18px;\n  font-weight: 400;\n}\n\nspan[_ngcontent-%COMP%] {\n  display: inline-block;\n  color: white;\n  font-size: 18px;\n}\n\n.meetings[_ngcontent-%COMP%] {\n  padding-bottom: 25px;\n}\n\n#jobs[_ngcontent-%COMP%] {\n  display: inline-flex;\n  padding-left: 50px;\n  padding-right: 50px;\n  width: 100%;\n  justify-content: center;\n  align-items: center;\n  gap: 50px;\n}\n\n#jobs[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  padding-right: 0px;\n  width: 510px;\n  height: 90px;\n  color: white;\n  font-size: 18px;\n}\n\n#jobs[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 35%;\n  padding-right: 230px;\n}\n\n#sponsor-images[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  display: block;\n  max-width: 235px;\n  width: 50%;\n  height: auto;\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n#sponsor-images[_ngcontent-%COMP%] {\n  width: 100%;\n  display: inline-flex;\n  justify-content: center;\n  gap: 10px;\n  height: 205px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N1YnRlYW0taW5mby5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFVBQUE7QUFDSjs7QUFFQTtFQUNJLG9CQUFBO0VBQ0EsV0FBQTtFQUNBLHVCQUFBO0VBQ0EsU0FBQTtBQUNKOztBQUVBO0VBQ0kscUJBQUE7RUFDQSxXQUFBO0VBQ0EsdUJBQUE7RUFDQSxrQkFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7QUFDSjs7QUFFQTtFQUNJLG1CQUFBO0VBQ0Esb0JBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0FBQ0o7O0FBRUE7RUFDSSxtQkFBQTtFQUNBLG9CQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7QUFDSjs7QUFFQTtFQUNJLGNBQUE7RUFDQSxvQ0FBQTtVQUFBLDRCQUFBO0FBQ0o7O0FBRUE7RUFDSSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0EsaUJBQUE7QUFDSjs7QUFFQTtFQUNJLGVBQUE7QUFDSjs7QUFFQTtFQUNJLGVBQUE7QUFDSjs7QUFFQTtFQUNJLGVBQUE7RUFDQSxnQkFBQTtBQUNKOztBQUVBO0VBQ0kscUJBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQUNKOztBQUVBO0VBQ0ksb0JBQUE7QUFDSjs7QUFFQTtFQUNJLG9CQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtFQUNBLFdBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VBQ0EsU0FBQTtBQUNKOztBQUNJO0VBQ0ksa0JBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ1I7O0FBRUk7RUFDSSxVQUFBO0VBQ0Esb0JBQUE7QUFBUjs7QUFJQTtFQUNJLGNBQUE7RUFDQSxnQkFBQTtFQUNBLFVBQUE7RUFDQSxZQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtBQURKOztBQUlBO0VBQ0ksV0FBQTtFQUNBLG9CQUFBO0VBQ0EsdUJBQUE7RUFDQSxTQUFBO0VBQ0EsYUFBQTtBQURKIiwiZmlsZSI6InN1YnRlYW0taW5mby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XG4gICAgd2lkdGg6IDE1JTtcbn1cblxuI2ludHJvIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBnYXA6IDUwcHg7XG59XG5cbiNkZXNjcmlwdGlvbiB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIHBhZGRpbmctbGVmdDogNTBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiA1MHB4O1xuICAgIHBhZGRpbmctdG9wOiA1MHB4O1xufVxuXG4jZGVzY3JpcHRpb24gcCB7XG4gICAgcGFkZGluZy1sZWZ0OiAzMjBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAzMjBweDtcbiAgICBoZWlnaHQ6IDkwcHg7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICBtYXJnaW4tYm90dG9tOiAzMHB4O1xuICAgIGxpbmUtaGVpZ2h0OiAyNnB4O1xufVxuXG5wIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIHBhZGRpbmctcmlnaHQ6IDIzMHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE4cHg7XG59XG5cbmEge1xuICAgIGNvbG9yOiByZ2IoMCwgMTMzLCAxNTUpO1xuICAgIHRleHQtZGVjb3JhdGlvbi1jb2xvcjogd2hpdGU7XG59XG5cbmgxIHtcbiAgICBmb250LXNpemU6IDQwcHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGNvbG9yOiAjZDczZjA5O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5oMiB7XG4gICAgZm9udC1zaXplOiAzMnB4O1xufVxuXG5oMyB7XG4gICAgZm9udC1zaXplOiAyNHB4O1xufVxuXG5oNCB7XG4gICAgZm9udC1zaXplOiAxOHB4O1xuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG59XG5cbnNwYW4ge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiAxOHB4O1xufVxuXG4ubWVldGluZ3Mge1xuICAgIHBhZGRpbmctYm90dG9tOiAyNXB4O1xufVxuXG4jam9icyB7XG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAgcGFkZGluZy1sZWZ0OiA1MHB4O1xuICAgIHBhZGRpbmctcmlnaHQ6IDUwcHg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBnYXA6IDUwcHg7XG5cbiAgICBwIHtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMHB4O1xuICAgICAgICB3aWR0aDogNTEwcHg7XG4gICAgICAgIGhlaWdodDogOTBweDtcbiAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICBmb250LXNpemU6IDE4cHg7XG4gICAgfVxuXG4gICAgaW1nIHtcbiAgICAgICAgd2lkdGg6IDM1JTtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMjMwcHg7XG4gICAgfVxufVxuXG4jc3BvbnNvci1pbWFnZXMgaW1nIHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBtYXgtd2lkdGg6IDIzNXB4O1xuICAgIHdpZHRoOiA1MCU7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIG1hcmdpbi10b3A6IGF1dG87XG4gICAgbWFyZ2luLWJvdHRvbTogYXV0bztcbn1cblxuI3Nwb25zb3ItaW1hZ2VzIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBnYXA6IDEwcHg7XG4gICAgaGVpZ2h0OiAyMDVweDtcbn0iXX0= */"] });
 
 
 /***/ }),
@@ -817,7 +903,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "tyNb");
-/* harmony import */ var _subteam_info_subteam_info_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./subteam-info/subteam-info.component */ "WOXl");
+/* harmony import */ var _welcome_subteam_info_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./welcome/subteam-info.component */ "txs2");
 /* harmony import */ var _underwater_underwater_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./underwater/underwater.component */ "OPEp");
 /* harmony import */ var _rover_rover_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./rover/rover.component */ "3FOA");
 /* harmony import */ var _drone_racing_drone_racing_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./drone-racing/drone-racing.component */ "k1vD");
@@ -850,7 +936,7 @@ AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefine
 AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineInjector"]({ imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
             _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot([
-                { path: '', component: _subteam_info_subteam_info_component__WEBPACK_IMPORTED_MODULE_2__["SubteamInfoComponent"] },
+                { path: '', component: _welcome_subteam_info_component__WEBPACK_IMPORTED_MODULE_2__["SubteamInfoComponent"] },
                 { path: 'underwater', component: _underwater_underwater_component__WEBPACK_IMPORTED_MODULE_3__["UnderwaterComponent"] },
                 { path: 'rover', component: _rover_rover_component__WEBPACK_IMPORTED_MODULE_4__["RoverComponent"] },
                 { path: 'drone_racing', component: _drone_racing_drone_racing_component__WEBPACK_IMPORTED_MODULE_5__["DroneRacingComponent"] },
