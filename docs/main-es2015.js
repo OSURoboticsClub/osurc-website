@@ -30,7 +30,7 @@ class RoverComponent {
     }
 }
 RoverComponent.ɵfac = function RoverComponent_Factory(t) { return new (t || RoverComponent)(); };
-RoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RoverComponent, selectors: [["app-rover"]], decls: 20, vars: 0, consts: [["id", "intro"], ["src", "../assets/Cropp-Rover-2020-1024x553.jpg", "alt", "", "loading", "lazy", "width", "741", "height", "256", 1, "attachment-large", "size-large"], [1, "widget-image-caption", "wp-caption-text"], ["href", "mailto: kopchok@oregonstate.edu"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/gP94_0F8iwI", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function RoverComponent_Template(rf, ctx) { if (rf & 1) {
+RoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RoverComponent, selectors: [["app-rover"]], decls: 20, vars: 0, consts: [["id", "intro"], ["src", "./assets/Cropp-Rover-2020-1024x553.jpg", "alt", "", "loading", "lazy", "width", "741", "height", "256", 1, "attachment-large", "size-large"], [1, "widget-image-caption", "wp-caption-text"], ["href", "mailto: kopchok@oregonstate.edu"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/gP94_0F8iwI", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function RoverComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Mars Rover");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -84,7 +84,7 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 6, vars: 0, consts: [["src", "../assets/osu_60_e-768x512.jpg"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 6, vars: 0, consts: [["src", "./assets/osu_60_e-768x512.jpg"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "About and Club History");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -317,17 +317,17 @@ function LeadershipComponent_mat_card_9_Template(rf, ctx) { if (rf & 1) {
 class LeadershipComponent {
     constructor() {
         this.officers = [
-            { name: "Angel Huang", photo_path: "../assets/People/Members/Angel.jpg", title: "President", contact: "huangang@oregonstate.edu" },
-            { name: "JJ Colton", photo_path: "../assets/People/Unassigned.png", title: "Vice President", contact: "coltonj@oregonstate.edu" },
-            { name: "Krista Saurez", photo_path: "../assets/People/Members/Krista-261ibv.jpg", title: "Treasurer", contact: "suarezk@oregonstate.edu" },
-            { name: "Nathan Jesudason", photo_path: "../assets/People/Unassigned.png", title: "Secretary", contact: "jesudasn@oregonstate.edu" }
+            { name: "Angel Huang", photo_path: "./assets/People/Members/Angel.jpg", title: "President", contact: "huangang@oregonstate.edu" },
+            { name: "JJ Colton", photo_path: "./assets/People/Unassigned.png", title: "Vice President", contact: "coltonj@oregonstate.edu" },
+            { name: "Krista Saurez", photo_path: "./assets/People/Members/Krista-261ibv.jpg", title: "Treasurer", contact: "suarezk@oregonstate.edu" },
+            { name: "Nathan Jesudason", photo_path: "./assets/People/Unassigned.png", title: "Secretary", contact: "jesudasn@oregonstate.edu" }
         ];
         this.advisors = [
-            { name: "Matt Shuman", photo_path: "../assets/People/Advisors/Matt-schuman.jpg", title: "EECS Advisor", contact: " https://eecs.oregonstate.edu/people/shuman-matt" },
-            { name: "Dale McCauley", photo_path: "../assets/People/Advisors/Dale-McCauley.jpg", title: "COB Advisor", contact: " https://business.oregonstate.edu/users/dale-mccauley" },
-            { name: "Heather Knight", photo_path: "../assets/People/Advisors/heather.jpg", title: "EECS Advisor", contact: " https://eecs.oregonstate.edu/people/knight-heather" },
-            { name: "Joe Davidson", photo_path: "../assets/People/Advisors/joe_davidson_resized.jpg", title: "MIME Advisor", contact: " https://mime.oregonstate.edu/people/joe-davidson" },
-            { name: "Kiri Wagstaff", photo_path: "../assets/People/Advisors/Kiri-2.png", title: "EECS Advisor", contact: "https://eecs.oregonstate.edu/people/wagstaff-kiri" }
+            { name: "Matt Shuman", photo_path: "./assets/People/Advisors/Matt-schuman.jpg", title: "EECS Advisor", contact: " https://eecs.oregonstate.edu/people/shuman-matt" },
+            { name: "Dale McCauley", photo_path: "./assets/People/Advisors/Dale-McCauley.jpg", title: "COB Advisor", contact: " https://business.oregonstate.edu/users/dale-mccauley" },
+            { name: "Heather Knight", photo_path: "./assets/People/Advisors/heather.jpg", title: "EECS Advisor", contact: " https://eecs.oregonstate.edu/people/knight-heather" },
+            { name: "Joe Davidson", photo_path: "./assets/People/Advisors/joe_davidson_resized.jpg", title: "MIME Advisor", contact: " https://mime.oregonstate.edu/people/joe-davidson" },
+            { name: "Kiri Wagstaff", photo_path: "./assets/People/Advisors/Kiri-2.png", title: "EECS Advisor", contact: "https://eecs.oregonstate.edu/people/wagstaff-kiri" }
         ];
     }
     ngOnInit() {
@@ -571,7 +571,7 @@ class BoardOfBusinessComponent {
     }
 }
 BoardOfBusinessComponent.ɵfac = function BoardOfBusinessComponent_Factory(t) { return new (t || BoardOfBusinessComponent)(); };
-BoardOfBusinessComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BoardOfBusinessComponent, selectors: [["app-board-of-business"]], decls: 9, vars: 0, consts: [["src", "../assets/COB2-1024x689.jpg"]], template: function BoardOfBusinessComponent_Template(rf, ctx) { if (rf & 1) {
+BoardOfBusinessComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BoardOfBusinessComponent, selectors: [["app-board-of-business"]], decls: 9, vars: 0, consts: [["src", "./assets/COB2-1024x689.jpg"]], template: function BoardOfBusinessComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Board of Business");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -832,7 +832,7 @@ class SubteamInfoComponent {
     }
 }
 SubteamInfoComponent.ɵfac = function SubteamInfoComponent_Factory(t) { return new (t || SubteamInfoComponent)(); };
-SubteamInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SubteamInfoComponent, selectors: [["app-subteam-info"]], decls: 34, vars: 1, consts: [["id", "intro"], ["width", "690", "height", "415", "src", "https://www.youtube.com/embed/Rjs8uyijDf8", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [4, "ngFor", "ngForOf"], ["id", "description"], ["href", "https://goo.gl/maps/3uHuUj4Bk2MoBArx9"], ["href", "/join"], ["href", "https://it.engineering.oregonstate.edu/mailman/listinfo/osurcmembers"], ["id", "jobs"], ["src", "../assets/Future-Companies-1-768x200.png"], [1, "sponsors"], ["id", "sponsor-images"], ["src", "../assets/Sponsors/Altium-1024x231px.png"], ["src", "../assets/Sponsors/Micron-Technology-1024x283px.png"], ["src", "../assets/Sponsors/Reliable-Robotics-e1638404478745.png"], ["src", "../assets/Sponsors/Second-Order-Effects.png"], [3, "href"], [1, "meetings"]], template: function SubteamInfoComponent_Template(rf, ctx) { if (rf & 1) {
+SubteamInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SubteamInfoComponent, selectors: [["app-subteam-info"]], decls: 34, vars: 1, consts: [["id", "intro"], ["width", "690", "height", "415", "src", "https://www.youtube.com/embed/Rjs8uyijDf8", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [4, "ngFor", "ngForOf"], ["id", "description"], ["href", "https://goo.gl/maps/3uHuUj4Bk2MoBArx9"], ["href", "/join"], ["href", "https://it.engineering.oregonstate.edu/mailman/listinfo/osurcmembers"], ["id", "jobs"], ["src", "./assets/Future-Companies-1-768x200.png"], [1, "sponsors"], ["id", "sponsor-images"], ["src", "./assets/Sponsors/Altium-1024x231px.png"], ["src", "./assets/Sponsors/Micron-Technology-1024x283px.png"], ["src", "./assets/Sponsors/Reliable-Robotics-e1638404478745.png"], ["src", "./assets/Sponsors/Second-Order-Effects.png"], [3, "href"], [1, "meetings"]], template: function SubteamInfoComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Welcome");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
