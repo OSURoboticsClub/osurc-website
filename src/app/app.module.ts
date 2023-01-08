@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { SubteamInfoComponent } from './subteam-info/subteam-info.component';
+import { SubteamInfoComponent } from './welcome/subteam-info.component';
 import { HeaderComponent } from './header/header.component';
 import { UnderwaterComponent } from './underwater/underwater.component';
 import { RoverComponent } from './rover/rover.component';

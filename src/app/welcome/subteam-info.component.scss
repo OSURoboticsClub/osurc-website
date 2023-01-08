@@ -10,7 +10,7 @@ img {
 }
 
 #description {
-    display: inline-flex;
+    display: inline-block;
     width: 100%;
     justify-content: center;
     padding-left: 50px;
@@ -19,10 +19,13 @@ img {
 }
 
 #description p {
-    width: 60%;
+    padding-left: 320px;
+    padding-right: 320px;
     height: 90px;
     color: white;
     font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 26px;
 }
 
 p {
@@ -34,6 +37,7 @@ p {
 
 a {
     color: rgb(0, 133, 155);
+    text-decoration-color: white;
 }
 
 h1 {
@@ -70,7 +74,6 @@ span {
     display: inline-flex;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 50px;
     width: 100%;
     justify-content: center;
     align-items: center;
