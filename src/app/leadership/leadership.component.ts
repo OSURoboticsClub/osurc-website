@@ -16,10 +16,10 @@ export class LeadershipComponent implements OnInit {
   ]
 
   advisors: person[] = [
-    {name: "Matt Shuman", photo_path: "./assets/People/Advisors/Matt-schuman.jpg", title: "EECS Advisor", contact: " https://eecs.oregonstate.edu/people/shuman-matt"},
-    {name: "Dale McCauley", photo_path: "./assets/People/Advisors/Dale-McCauley.jpg", title: "COB Advisor", contact: " https://business.oregonstate.edu/users/dale-mccauley"},
-    {name: "Heather Knight", photo_path: "./assets/People/Advisors/heather.jpg", title: "EECS Advisor", contact: " https://eecs.oregonstate.edu/people/knight-heather"},
-    {name: "Joe Davidson", photo_path: "./assets/People/Advisors/joe_davidson_resized.jpg", title: "MIME Advisor", contact: " https://mime.oregonstate.edu/people/joe-davidson"},
+    {name: "Matt Shuman", photo_path: "./assets/People/Advisors/Matt-schuman.jpg", title: "EECS Advisor", contact: "https://eecs.oregonstate.edu/people/shuman-matt"},
+    {name: "Dale McCauley", photo_path: "./assets/People/Advisors/Dale-McCauley.jpg", title: "COB Advisor", contact: "https://business.oregonstate.edu/users/dale-mccauley"},
+    {name: "Heather Knight", photo_path: "./assets/People/Advisors/heather.jpg", title: "EECS Advisor", contact: "https://eecs.oregonstate.edu/people/knight-heather"},
+    {name: "Joe Davidson", photo_path: "./assets/People/Advisors/joe_davidson_resized.jpg", title: "MIME Advisor", contact: "https://mime.oregonstate.edu/people/joe-davidson"},
     {name: "Kiri Wagstaff", photo_path: "./assets/People/Advisors/Kiri-2.png", title: "EECS Advisor", contact: "https://eecs.oregonstate.edu/people/wagstaff-kiri"}
   ]
 

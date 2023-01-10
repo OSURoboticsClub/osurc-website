@@ -580,7 +580,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", officer_r2.contact, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("href", "mailto: ", officer_r2.contact, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
@@ -679,22 +679,22 @@
             name: "Matt Shuman",
             photo_path: "./assets/People/Advisors/Matt-schuman.jpg",
             title: "EECS Advisor",
-            contact: " https://eecs.oregonstate.edu/people/shuman-matt"
+            contact: "https://eecs.oregonstate.edu/people/shuman-matt"
           }, {
             name: "Dale McCauley",
             photo_path: "./assets/People/Advisors/Dale-McCauley.jpg",
             title: "COB Advisor",
-            contact: " https://business.oregonstate.edu/users/dale-mccauley"
+            contact: "https://business.oregonstate.edu/users/dale-mccauley"
           }, {
             name: "Heather Knight",
             photo_path: "./assets/People/Advisors/heather.jpg",
             title: "EECS Advisor",
-            contact: " https://eecs.oregonstate.edu/people/knight-heather"
+            contact: "https://eecs.oregonstate.edu/people/knight-heather"
           }, {
             name: "Joe Davidson",
             photo_path: "./assets/People/Advisors/joe_davidson_resized.jpg",
             title: "MIME Advisor",
-            contact: " https://mime.oregonstate.edu/people/joe-davidson"
+            contact: "https://mime.oregonstate.edu/people/joe-davidson"
           }, {
             name: "Kiri Wagstaff",
             photo_path: "./assets/People/Advisors/Kiri-2.png",
@@ -1478,7 +1478,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "2022-2023 Meetings: Saturdays at 10am in Kelley 1001");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "2022-2023 Meetings: Sundays at 10am in Kelley 1001");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1753,7 +1753,7 @@
             team_name: "Drone Racing",
             lead: "Adam Krivoshein",
             lead_email: "krivosad@oregonstate.edu",
-            meeting_time: "Saturdays from 10am-2pm",
+            meeting_time: "Sundays from 10am-2pm",
             meeting_location: "Kelley 1001",
             meeting_location_link: "https://goo.gl/maps/jpUwQDSZqW4uZLyX6"
           }, {
