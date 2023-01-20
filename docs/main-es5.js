@@ -185,29 +185,37 @@
       AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: AboutComponent,
         selectors: [["app-about"]],
-        decls: 6,
+        decls: 9,
         vars: 0,
-        consts: [["src", "./assets/osu_60_e-768x512.jpg"]],
+        consts: [["src", "https://docs.google.com/presentation/d/e/2PACX-1vQdSdHCR_fwNh92Pz5wtkOB5_bj1fDDYN3ehB_j8lUZVk6P0cTYDoSqEtl9Ye5PlxHW31eGxdAgaOo5/embed?start=false&loop=false&delayms=60000", "frameborder", "0", "width", "960", "height", "569", "allowfullscreen", "true", "mozallowfullscreen", "true", "webkitallowfullscreen", "true"], ["src", "./assets/osu_60_e-768x512.jpg"]],
         template: function AboutComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "About and Club History");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "About");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 0);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "iframe", 0);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Club History");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "The Robotics Club was formed on September 24th, 2007 as a team focused solely on making a Mars Rover for the University Rover Challenge, a competition we still enter today. With nearly 200 registered members to date, the club is one of the largest student-run organizations at Oregon State University. As the years progressed, members branched off and created other teams like Aerial, Underwater, and more recently, the Drone Racing team. The club is made up of members from many backgrounds including engineering, business and liberal arts. Being an engineer is not a requirement to be part of the club. In fact, OSURC encourages anyone with an interest in robotics to join! Due in part to the experience members get working as a team on real projects with real problems, many leave well-equipped to handle the stresses of difficult but rewarding jobs. Our alumni have gone on to work at great companies such as SpaceX, Honeybee Robotics, Tektronix, NVIDIA, Intel, and NASA JPL. Some founding members even went on to become a part of OSU\u2019s faculty, and still teach classes to the next generations of robotics students to this day.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "The Robotics Club was formed on September 24th, 2007 as a team focused solely on making a Mars Rover for the University Rover Challenge, a competition we still enter today. With nearly 200 registered members to date, the club is one of the largest student-run organizations at Oregon State University. As the years progressed, members branched off and created other teams like Aerial, Underwater, and more recently, the Drone Racing team. The club is made up of members from many backgrounds including engineering, business and liberal arts. Being an engineer is not a requirement to be part of the club. In fact, OSURC encourages anyone with an interest in robotics to join! Due in part to the experience members get working as a team on real projects with real problems, many leave well-equipped to handle the stresses of difficult but rewarding jobs. Our alumni have gone on to work at great companies such as SpaceX, Honeybee Robotics, Tektronix, NVIDIA, Intel, and NASA JPL. Some founding members even went on to become a part of OSU\u2019s faculty, and still teach classes to the next generations of robotics students to this day.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }
         },
-        styles: ["p[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\nimg[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2Fib3V0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGlCQUFBO0FBQ0oiLCJmaWxlIjoiYWJvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIHBhZGRpbmctcmlnaHQ6IDIzMHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE4cHg7XG59XG5cbmltZyB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xufVxuXG5oMSB7XG4gICAgZm9udC1zaXplOiA0MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogI2Q3M2YwOTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */"]
+        styles: ["p[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\nimg[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\niframe[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 50px;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2Fib3V0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksbUJBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksY0FBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtBQUNKOztBQUVBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGlCQUFBO0FBQ0oiLCJmaWxlIjoiYWJvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcbiAgICBwYWRkaW5nLWxlZnQ6IDIzMHB4O1xuICAgIHBhZGRpbmctcmlnaHQ6IDIzMHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDE4cHg7XG59XG5cbmltZyB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xufVxuXG5pZnJhbWUge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICBtYXJnaW4tYm90dG9tOiA1MHB4O1xufVxuXG5oMSB7XG4gICAgZm9udC1zaXplOiA0MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogI2Q3M2YwOTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn0iXX0= */"]
       });
       /***/
     },

@@ -1,5 +1,9 @@
 # OsurcWebsite
 
+## How to update website
+
+First, make changes in src. Then, use the command "ng build --output-path docs --base-href /" to rebuild what Github Pages reads. You also must copy index.html and duplicate it with the name 404.html. This can be done with the command "cp ./docs/index.html ./docs/404.html". Finally, the build command will auto-delete a cname file we need, so type "git restore ./docs/CNAME".
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.19 with Node v10.13.X.
 
 ## Development server
