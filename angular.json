@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "osurc-website"
+  "defaultProject": "osurc-website",
+  "cli": {
+    "analytics": false
+  }
 }

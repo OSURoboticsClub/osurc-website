@@ -1,3 +1,6 @@
+$small: 500px;
+$medium: 900px;
+
 img {
     width: 15%;
 }
@@ -7,6 +10,10 @@ img {
     width: 100%;
     justify-content: center;
     gap: 50px;
+
+    @media screen and (max-width: $small) {
+        display: inline-block;
+    }
 }
 
 #description {
@@ -19,18 +26,22 @@ img {
 }
 
 #description p {
-    padding-left: 320px;
-    padding-right: 320px;
-    height: 90px;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: auto;
     color: white;
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 26px;
+
+   // @media screen and (max-width: $small) {
+   //     margin-bottom: 315px;
+   // }
 }
 
 p {
-    padding-left: 230px;
-    padding-right: 230px;
+    padding-left: 15%;
+    padding-right: 15%;
     color: white;
     font-size: 18px;
 }
@@ -79,6 +90,10 @@ span {
     align-items: center;
     gap: 50px;
 
+    @media screen and (max-width: $small) {
+        display: inline-block;
+    }
+
     p {
         padding-right: 0px;
         width: 510px;
@@ -90,6 +105,12 @@ span {
     img {
         width: 35%;
         padding-right: 230px;
+
+        @media screen and (max-width: $small) {
+            width: 75%;
+            padding-right: 15%;
+            padding-left: 15%;
+        }
     }
 }
 
