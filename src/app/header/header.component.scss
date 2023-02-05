@@ -68,7 +68,7 @@ li .active {
   }
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display:block; }
+  .dropdown:hover .dropdown-content, .dropdown:active .dropdown-content {display:block; }
 
   div {
     background-color: $base-color;
