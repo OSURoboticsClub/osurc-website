@@ -30,7 +30,7 @@ class RoverComponent {
     }
 }
 RoverComponent.ɵfac = function RoverComponent_Factory(t) { return new (t || RoverComponent)(); };
-RoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RoverComponent, selectors: [["app-rover"]], decls: 20, vars: 0, consts: [["id", "intro"], ["src", "./assets/Cropp-Rover-2020-1024x553.jpg", "alt", "", "loading", "lazy", "width", "741", "height", "256", 1, "attachment-large", "size-large"], [1, "widget-image-caption", "wp-caption-text"], ["href", "mailto: kopchok@oregonstate.edu"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/gP94_0F8iwI", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function RoverComponent_Template(rf, ctx) { if (rf & 1) {
+RoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RoverComponent, selectors: [["app-rover"]], decls: 20, vars: 0, consts: [["id", "intro"], ["src", "./assets/Cropp-Rover-2020-1024x553.jpg", "alt", "", "loading", "lazy", "width", "741", "height", "256", 1, "attachment-large", "size-large"], [1, "widget-image-caption", "wp-caption-text"], ["href", "mailto: hakkilab@oregonstate.edu"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/gP94_0F8iwI", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function RoverComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Mars Rover");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -54,9 +54,9 @@ RoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " For more information, contact the Team Lead Kira Kopcho at ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " For more information, contact the Team Lead Blake Hakkila at ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "kopchok@oregonstate.edu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "hakkilab@oregonstate.edu");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, ".\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -192,7 +192,7 @@ class UnderwaterComponent {
     }
 }
 UnderwaterComponent.ɵfac = function UnderwaterComponent_Factory(t) { return new (t || UnderwaterComponent)(); };
-UnderwaterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UnderwaterComponent, selectors: [["app-underwater"]], decls: 28, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/dwKBtHlCI48", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [1, "subteam"], ["href", "mailto: jesudasn@oregonstate.edu"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/KWNBOUqVIPQ", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function UnderwaterComponent_Template(rf, ctx) { if (rf & 1) {
+UnderwaterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UnderwaterComponent, selectors: [["app-underwater"]], decls: 28, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/dwKBtHlCI48", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [1, "subteam"], ["href", "mailto: gallinam@oregonstate.edu"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/KWNBOUqVIPQ", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function UnderwaterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Underwater");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -228,9 +228,9 @@ UnderwaterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " For more information, contact the Team Lead Nathan Jesudason at ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " For more information, contact the Team Lead Micheal Gallina at ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "jesudasn@oregonstate.edu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "gallinam@oregonstate.edu");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, ".\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -689,7 +689,7 @@ class DroneRacingComponent {
     }
 }
 DroneRacingComponent.ɵfac = function DroneRacingComponent_Factory(t) { return new (t || DroneRacingComponent)(); };
-DroneRacingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DroneRacingComponent, selectors: [["app-drone-racing"]], decls: 16, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/5NGPUG7o-qg", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "center-vid"], ["href", "mailto: krivosad@oregonstate.edu"], [1, "vid-container"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/E4qJWyBHqg0", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/YhJpdCZNSDc", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/88bLztuEIsE", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function DroneRacingComponent_Template(rf, ctx) { if (rf & 1) {
+DroneRacingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DroneRacingComponent, selectors: [["app-drone-racing"]], decls: 16, vars: 0, consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/5NGPUG7o-qg", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "center-vid"], ["href", "mailto: kleinf@oregonstate.edu "], [1, "vid-container"], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/E4qJWyBHqg0", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/YhJpdCZNSDc", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], ["width", "560", "height", "315", "src", "https://www.youtube.com/embed/88bLztuEIsE", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""]], template: function DroneRacingComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Drone Racing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -701,9 +701,9 @@ DroneRacingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Drone Racing is a newer team centered on building and competing with high-speed racing quads. The drones fly at speeds of more than 120 mph and the propellers spin at speeds up to Mach 1. We hold workshops to help members design and construct their own drones and also organize practice racing events so we can effectively compete throughout the country. Members usually come from majors such as mechanical, electrical and computer science engineers. However, it is open to anyone interested in building and racing drones, no prior experience necessary. A full set of racing drone gear costs between $350 and $1000. If this team interests you, be prepared for an investment or start saving!\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " For more information, contact the Team Lead Adam Krivoshein at ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " For more information, contact the Team Lead Felix Klein at ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "krivosad@oregonstate.edu");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "kleinf@oregonstate.edu");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, ".\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -826,9 +826,9 @@ function SubteamInfoComponent_div_7_Template(rf, ctx) { if (rf & 1) {
 class SubteamInfoComponent {
     constructor() {
         this.subteams = [
-            { team_name: "Drone Racing", lead: "Adam Krivoshein", lead_email: "krivosad@oregonstate.edu", meeting_time: "Sundays from 10am-2pm", meeting_location: "Kelley 1001", meeting_location_link: "https://goo.gl/maps/jpUwQDSZqW4uZLyX6" },
-            { team_name: "Underwater", lead: "Nathan Jesudason", lead_email: "jesudasn@oregonstate.edu", meeting_time: "Sundays at 12pm", meeting_location: "Covell 216", meeting_location_link: "https://goo.gl/maps/kw45P8dYkQ4d7Xah6" },
-            { team_name: "Rover", lead: "Kira Kopcho", lead_email: "kopchok@oregonstate.edu", meeting_time: "Saturday 10am-4pm", meeting_location: "Covell 221", meeting_location_link: "https://goo.gl/maps/kw45P8dYkQ4d7Xah6" },
+            { team_name: "Drone Racing", lead: "Felix Klein", lead_email: "kleinf@oregonstate.edu ", meeting_time: "Sundays from 10am-2pm", meeting_location: "Kelley 1001", meeting_location_link: "https://goo.gl/maps/jpUwQDSZqW4uZLyX6" },
+            { team_name: "Underwater", lead: "Micheal Gallina", lead_email: "gallinam@oregonstate.edu", meeting_time: "Sundays at 12pm", meeting_location: "Covell 216", meeting_location_link: "https://goo.gl/maps/kw45P8dYkQ4d7Xah6" },
+            { team_name: "Rover", lead: "Blake Hakkila", lead_email: "hakkilab@oregonstate.edu", meeting_time: "Saturday 10am-4pm", meeting_location: "Covell 221", meeting_location_link: "https://goo.gl/maps/kw45P8dYkQ4d7Xah6" },
             { team_name: "VexU", lead: "Paul Smith", lead_email: "smithp8@oregonstate.edu", meeting_time: "Sundays at 10am", meeting_location: "Merryfield", meeting_location_link: "https://goo.gl/maps/RemhRU9Fbwb6avLn8" }
         ];
     }
