@@ -11,6 +11,7 @@ import { LeadershipComponent } from './leadership/leadership.component';
 import { JoinComponent } from './join/join.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { BoardOfBusinessComponent } from './board-of-business/board-of-business.component';
+import { CombatRoboticsComponent } from './combat-robotics/combat-robotics.component';
 
 const routes: Routes = [];
 
@@ -27,7 +28,8 @@ const routes: Routes = [];
       {path: 'leadership', component: LeadershipComponent},
       {path: 'join', component: JoinComponent},
       {path: 'resources', component: ResourcesComponent},
-      {path: 'board-of-business', component: BoardOfBusinessComponent}
+      {path: 'board-of-business', component: BoardOfBusinessComponent},
+      {path: 'combat-robotics', component: CombatRoboticsComponent}
     ]),
   ],
   exports: [RouterModule]

@@ -1102,55 +1102,61 @@
       /* harmony import */
 
 
-      var _vexu_vexu_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+      var _combat_robotics_combat_robotics_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+      /*! ./combat-robotics/combat-robotics.component */
+      "uNVy");
+      /* harmony import */
+
+
+      var _vexu_vexu_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! ./vexu/vexu.component */
       "Kn2Q");
       /* harmony import */
 
 
-      var _about_about_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+      var _about_about_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
       /*! ./about/about.component */
       "84zG");
       /* harmony import */
 
 
-      var _leadership_leadership_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+      var _leadership_leadership_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
       /*! ./leadership/leadership.component */
       "S1Ss");
       /* harmony import */
 
 
-      var _join_join_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+      var _join_join_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! ./join/join.component */
       "UOyo");
       /* harmony import */
 
 
-      var _board_of_business_board_of_business_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+      var _board_of_business_board_of_business_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
       /*! ./board-of-business/board-of-business.component */
       "dHAc");
       /* harmony import */
 
 
-      var _resources_resources_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+      var _resources_resources_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
       /*! ./resources/resources.component */
       "pvbL");
       /* harmony import */
 
 
-      var _angular_material_card__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+      var _angular_material_card__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
       /*! @angular/material/card */
       "Wp6s");
       /* harmony import */
 
 
-      var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+      var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
       /*! @angular/material/grid-list */
       "zkoq");
       /* harmony import */
 
 
-      var _angular_core__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+      var _angular_core__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
       /*! @angular/core */
       "fXoL");
 
@@ -1162,19 +1168,19 @@
         return new (t || AppModule)();
       };
 
-      AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵdefineNgModule"]({
+      AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_18__["ɵɵdefineNgModule"]({
         type: AppModule,
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
       });
-      AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵdefineInjector"]({
+      AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_18__["ɵɵdefineInjector"]({
         providers: [],
-        imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["NoopAnimationsModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_15__["MatCardModule"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_16__["MatGridListModule"]]]
+        imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["NoopAnimationsModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_16__["MatCardModule"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_17__["MatGridListModule"]]]
       });
 
       (function () {
-        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵsetNgModuleScope"](AppModule, {
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"], _welcome_subteam_info_component__WEBPACK_IMPORTED_MODULE_4__["SubteamInfoComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"], _underwater_underwater_component__WEBPACK_IMPORTED_MODULE_6__["UnderwaterComponent"], _rover_rover_component__WEBPACK_IMPORTED_MODULE_7__["RoverComponent"], _drone_racing_drone_racing_component__WEBPACK_IMPORTED_MODULE_8__["DroneRacingComponent"], _vexu_vexu_component__WEBPACK_IMPORTED_MODULE_9__["VexuComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"], _leadership_leadership_component__WEBPACK_IMPORTED_MODULE_11__["LeadershipComponent"], _join_join_component__WEBPACK_IMPORTED_MODULE_12__["JoinComponent"], _board_of_business_board_of_business_component__WEBPACK_IMPORTED_MODULE_13__["BoardOfBusinessComponent"], _resources_resources_component__WEBPACK_IMPORTED_MODULE_14__["ResourcesComponent"]],
-          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["NoopAnimationsModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_15__["MatCardModule"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_16__["MatGridListModule"]]
+        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_18__["ɵɵsetNgModuleScope"](AppModule, {
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"], _welcome_subteam_info_component__WEBPACK_IMPORTED_MODULE_4__["SubteamInfoComponent"], _header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"], _underwater_underwater_component__WEBPACK_IMPORTED_MODULE_6__["UnderwaterComponent"], _rover_rover_component__WEBPACK_IMPORTED_MODULE_7__["RoverComponent"], _drone_racing_drone_racing_component__WEBPACK_IMPORTED_MODULE_8__["DroneRacingComponent"], _vexu_vexu_component__WEBPACK_IMPORTED_MODULE_10__["VexuComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_11__["AboutComponent"], _leadership_leadership_component__WEBPACK_IMPORTED_MODULE_12__["LeadershipComponent"], _join_join_component__WEBPACK_IMPORTED_MODULE_13__["JoinComponent"], _board_of_business_board_of_business_component__WEBPACK_IMPORTED_MODULE_14__["BoardOfBusinessComponent"], _resources_resources_component__WEBPACK_IMPORTED_MODULE_15__["ResourcesComponent"], _combat_robotics_combat_robotics_component__WEBPACK_IMPORTED_MODULE_9__["CombatRoboticsComponent"]],
+          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["NoopAnimationsModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_16__["MatCardModule"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_17__["MatGridListModule"]]
         });
       })();
       /***/
@@ -1308,9 +1314,9 @@
       HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: HeaderComponent,
         selectors: [["app-header"]],
-        decls: 33,
+        decls: 35,
         vars: 0,
-        consts: [["href", "/"], ["src", "./assets/OSURC-350x.png"], ["href", "index.html", 1, "active"], [1, "dropdown"], ["href", "./about"], [1, "dropdown-content"], ["href", "./leadership"], ["href", "./leadership", 1, "dropbtn"], ["href", "./underwater"], ["href", "./rover"], ["href", "./drone_racing"], ["href", "./vexu"], ["href", "./board-of-business"], ["href", "./resources"], ["href", "./join"]],
+        consts: [["href", "/"], ["src", "./assets/OSURC-350x.png"], ["href", "index.html", 1, "active"], [1, "dropdown"], ["href", "./about"], [1, "dropdown-content"], ["href", "./leadership"], ["href", "./leadership", 1, "dropbtn"], ["href", "./underwater"], ["href", "./rover"], ["href", "./drone_racing"], ["href", "./vexu"], ["href", "./combat-robotics"], ["href", "./board-of-business"], ["href", "./resources"], ["href", "./join"]],
         template: function HeaderComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
@@ -1389,7 +1395,13 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 12);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Board of Business");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Combat Robotics");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Board of Business");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1397,21 +1409,21 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "a", 14);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Resources");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Resources");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 14);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Join");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Join");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1785,6 +1797,13 @@
             meeting_time: "Sundays at 10am",
             meeting_location: "Merryfield",
             meeting_location_link: "https://goo.gl/maps/RemhRU9Fbwb6avLn8"
+          }, {
+            team_name: "Combat Robotics",
+            lead: "Osian Leahy",
+            lead_email: "leahyo@oregonstate.edu",
+            meeting_time: "Fridays from 1pm to 5pm",
+            meeting_location: "Merryfield",
+            meeting_location_link: "https://goo.gl/maps/RemhRU9Fbwb6avLn8"
           }];
         }
 
@@ -1920,6 +1939,105 @@
     },
 
     /***/
+    "uNVy":
+    /*!**************************************************************!*\
+      !*** ./src/app/combat-robotics/combat-robotics.component.ts ***!
+      \**************************************************************/
+
+    /*! exports provided: CombatRoboticsComponent */
+
+    /***/
+    function uNVy(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "CombatRoboticsComponent", function () {
+        return CombatRoboticsComponent;
+      });
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+
+      var CombatRoboticsComponent = /*#__PURE__*/function () {
+        function CombatRoboticsComponent() {
+          _classCallCheck(this, CombatRoboticsComponent);
+        }
+
+        _createClass(CombatRoboticsComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return CombatRoboticsComponent;
+      }();
+
+      CombatRoboticsComponent.ɵfac = function CombatRoboticsComponent_Factory(t) {
+        return new (t || CombatRoboticsComponent)();
+      };
+
+      CombatRoboticsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+        type: CombatRoboticsComponent,
+        selectors: [["app-combat-robotics"]],
+        decls: 15,
+        vars: 0,
+        consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/embed/5NGPUG7o-qg", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "center-vid"], ["href", "mailto: leahyo@oregonstate.edu"], ["href", "https://clubs.oregonstate.edu/combat-robotics"]],
+        template: function CombatRoboticsComponent_Template(rf, ctx) {
+          if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Combat Robotics");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "2023-2024 Meetings: Fridays 1pm-5pm in Merryfield");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "iframe", 0);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Combat Robotics is a newer team from the Combat Robotics Club centered on building and competing with lightweight robots. Members of Combat Robotics focuses on the one-pound Plastic Antweight division, and with a larger team the twelve-pound Hobbyweight class.\n");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " For more information, contact the Team Osian Leahy at ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "leahyo@oregonstate.edu");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " or the main Combat Robotics website at ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 2);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "https://clubs.oregonstate.edu/combat-robotics");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, ".\n");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          }
+        },
+        styles: [".center-vid[_ngcontent-%COMP%] {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding-bottom: 25px;\n}\n\n.vid-container[_ngcontent-%COMP%] {\n  padding-top: 25px;\n  width: 100%;\n  display: inline-flex;\n  justify-content: center;\n  gap: 10px;\n}\n\np[_ngcontent-%COMP%] {\n  padding-left: 230px;\n  padding-right: 230px;\n  color: white;\n  font-size: 18px;\n}\n\nh1[_ngcontent-%COMP%] {\n  font-size: 40px;\n  text-align: center;\n  color: #d73f09;\n  font-weight: bold;\n}\n\na[_ngcontent-%COMP%] {\n  color: #00859b;\n}\n\nh2[_ngcontent-%COMP%] {\n  text-align: center;\n  padding: 0%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2NvbWJhdC1yb2JvdGljcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0Esb0JBQUE7QUFDSjs7QUFFQTtFQUNJLGlCQUFBO0VBQ0EsV0FBQTtFQUNBLG9CQUFBO0VBQ0EsdUJBQUE7RUFDQSxTQUFBO0FBQ0o7O0FBRUE7RUFDSSxtQkFBQTtFQUNBLG9CQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7QUFDSjs7QUFFQTtFQUNJLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxpQkFBQTtBQUNKOztBQUVBO0VBQ0ksY0FBQTtBQUNKOztBQUVBO0VBQ0ksa0JBQUE7RUFDQSxXQUFBO0FBQ0oiLCJmaWxlIjoiY29tYmF0LXJvYm90aWNzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNlbnRlci12aWQge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICBwYWRkaW5nLWJvdHRvbTogMjVweDtcbn1cblxuLnZpZC1jb250YWluZXIge1xuICAgIHBhZGRpbmctdG9wOiAyNXB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGdhcDogMTBweDtcbn1cblxucCB7XG4gICAgcGFkZGluZy1sZWZ0OiAyMzBweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiAyMzBweDtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZm9udC1zaXplOiAxOHB4O1xufVxuXG5oMSB7XG4gICAgZm9udC1zaXplOiA0MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogI2Q3M2YwOTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuYSB7XG4gICAgY29sb3I6IHJnYigwLCAxMzMsIDE1NSk7XG59XG5cbmgyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgcGFkZGluZzogMCU7XG59Il19 */"]
+      });
+      /***/
+    },
+
+    /***/
     "vY5A":
     /*!***************************************!*\
       !*** ./src/app/app-routing.module.ts ***!
@@ -2013,7 +2131,13 @@
       /* harmony import */
 
 
-      var _angular_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+      var _combat_robotics_combat_robotics_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+      /*! ./combat-robotics/combat-robotics.component */
+      "uNVy");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
       /*! @angular/core */
       "fXoL");
 
@@ -2027,10 +2151,10 @@
         return new (t || AppRoutingModule)();
       };
 
-      AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineNgModule"]({
+      AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdefineNgModule"]({
         type: AppRoutingModule
       });
-      AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineInjector"]({
+      AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdefineInjector"]({
         imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot([{
           path: '',
           component: _welcome_subteam_info_component__WEBPACK_IMPORTED_MODULE_2__["SubteamInfoComponent"]
@@ -2061,11 +2185,14 @@
         }, {
           path: 'board-of-business',
           component: _board_of_business_board_of_business_component__WEBPACK_IMPORTED_MODULE_11__["BoardOfBusinessComponent"]
+        }, {
+          path: 'combat-robotics',
+          component: _combat_robotics_combat_robotics_component__WEBPACK_IMPORTED_MODULE_12__["CombatRoboticsComponent"]
         }])], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
       });
 
       (function () {
-        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵsetNgModuleScope"](AppRoutingModule, {
+        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵsetNgModuleScope"](AppRoutingModule, {
           imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]],
           exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
         });
