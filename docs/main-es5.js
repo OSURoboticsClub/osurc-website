@@ -1986,7 +1986,7 @@
         selectors: [["app-combat-robotics"]],
         decls: 15,
         vars: 0,
-        consts: [["width", "560", "height", "315", "src", "https://youtu.be/fUXhsN5RsyA?si=gI1W0Ya9RyCywwbZ", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "center-vid"], ["href", "mailto: leahyo@oregonstate.edu"], ["href", "https://clubs.oregonstate.edu/combat-robotics"]],
+        consts: [["width", "560", "height", "315", "src", "https://www.youtube.com/watch?v=fUXhsN5RsyA", "title", "YouTube video player", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", "", 1, "center-vid"], ["href", "mailto: leahyo@oregonstate.edu"], ["href", "https://clubs.oregonstate.edu/combat-robotics"]],
         template: function CombatRoboticsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
