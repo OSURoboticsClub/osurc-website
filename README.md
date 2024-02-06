@@ -1,16 +1,27 @@
-# Hugo Basic Starter for TailwindCSS v3.x and Sass
+# OsurcWebsite
 
-A very simple starter set up with [TailwindCSS](https://tailwindcss.com/) and its [typography plugin](https://tailwindcss.com/docs/typography-plugin), [Sass](https://sass-lang.com/) and a build setup using [Laravel Mix](https://laravel-mix.com/).
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.19 with Node v10.13.X.
 
-A modified version of [bep/hugo-starter-tailwind-basic](https://github.com/bep/hugo-starter-tailwind-basic), just with Sass.
+## Development server
 
-This setup has only been tested with projects; it might work as a theme but idk.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## As a Project
+## Code scaffolding
 
-Create a repo from this template, install the dependencies, and run.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-```bash
-npm install
-npm run dev
-```
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
