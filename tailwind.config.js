@@ -6,4 +6,11 @@ module.exports = {
 		'./layouts/**/*.html',
 	],
 	plugins: [typography],
+	theme: {
+		fontFamily: {
+			sans: ['IBM Plex Sans', 'sans-serif'],
+			display: ['Inter', 'sans-serif'],
+			mono: ['monospace'],
+		},
+	}
 };

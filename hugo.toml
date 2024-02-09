@@ -2,6 +2,8 @@ baseURL = "https://example.org"
 
 disableKinds = ["page", "section", "taxonomy", "term"]
 
+sectionPagesMenu = 'main'
+
 [module]
   [module.hugoVersion]
     extended = false
