@@ -1,0 +1,48 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "article",
+      "body",
+      "div",
+      "h1",
+      "head",
+      "html",
+      "img",
+      "li",
+      "link",
+      "meta",
+      "nav",
+      "script",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "bg-neutral-900",
+      "container",
+      "flex",
+      "flex-1",
+      "flex-none",
+      "font-display",
+      "gap-6",
+      "h-16",
+      "h-[28px]",
+      "items-center",
+      "max-w-4xl",
+      "mx-auto",
+      "px-4",
+      "px-8",
+      "py-12",
+      "py-4",
+      "rc-menu-item",
+      "rc-menu-item-pill",
+      "relative",
+      "text-4xl",
+      "text-white",
+      "z-20"
+    ],
+    "ids": [
+      "nav-menu"
+    ]
+  }
+}
