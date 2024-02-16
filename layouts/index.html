@@ -1,0 +1,83 @@
+{{ define "main" }}
+<article class="pb-12">
+
+  <!-- This is the big banner section -->
+  <div class="relative">
+    <div class="relative scale-125">
+      <!-- Background Image -->
+      <img src="/images/big/rover_hero.jpg" style="" class="w-full" alt="">
+      <!-- Radial Gradient -->
+      <div class="absolute w-full h-full top-0" style="background: rgb(23,23,23);
+        background: radial-gradient(circle, rgba(23,23,23,0.2) 30%, rgba(23,23,23,1) 82%);"></div>
+      <!-- Linear Gradient Top -->
+      <div class="absolute w-full top-0 h-24 bg-gradient-to-b from-neutral-900 to-neutral-900/0">
+      </div>
+      <!-- Linear Gradient Bottom -->
+      <div class="absolute w-full bottom-0 h-24 bg-gradient-to-t from-neutral-900 to-neutral-900/0">
+      </div>
+    </div>
+
+    <div class="absolute top-0 h-full w-full flex items-center">
+      <div>
+        <span class="block text-[20px] mb-2 font-medium shadow">Oregon State University</span>
+        <span class="block text-h1 font-bold font-display tracking-tight shadow leading-none">Robotics Club</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- This is the where the content starts -->
+
+
+  <section class="relative grid grid-cols-3 gap-8">
+    <div>
+      <img class="rounded-lg shadow-md" src="/images/big/home_team.JPG" alt="">
+    </div>
+    <div class="col-span-2">
+      <h3 class="text-h3 font-display font-semibold mb-3">Welcome to the OSU Robotics Club!</h3>
+      <p class="text-white/80">
+        Amet eu commodo aliqua ullamco dolore pariatur. Lorem consectetur consequat exercitation sint in fugiat pariatur
+        anim labore enim. Labore exercitation tempor sit proident enim dolore esse adipisicing ullamco dolor aute
+        ullamco velit ullamco. Ut reprehenderit anim duis minim minim ut proident pariatur ullamco. Magna voluptate qui
+        aliquip laborum nulla laborum amet anim.
+      </p>
+    </div>
+
+  </section>
+
+  <section class="mt-14">
+    <div class="flex w-full gap-4 items-center mb-6">
+      <span class="flex-none text-white/50 font-display font-medium">Quick Links</span>
+      <span class="flex-1 w-full border-b h-1 border-white/50"></span>
+    </div>
+
+    <!-- <div class="relative overflow-hidden rounded-lg">
+      <div class="absolute w-full left-0 right-0 h-40 bg-gradient-to-r from-orange-900 from-[49%] to-[51%] to-orange-500"></div>
+      <div class="flex w-full overflow-hidden h-40 justify-center text-white">
+        <div class="bg-orange-900 nascar-menu-item">
+          <span class="font-display">Rover</span>
+        </div>
+        <div class="bg-orange-800 nascar-menu-item">
+          <span>This is the text</span>
+        </div>
+        <div class="bg-orange-700 nascar-menu-item"></div>
+        <div class="bg-orange-600 nascar-menu-item"></div>
+        <div class="bg-orange-500 nascar-menu-item"></div>
+      </div>
+    </div> -->
+
+  </section>
+
+
+
+  <!-- <h2 class="text-4xl">Testing Tailwind 3 Features</h2>
+    <div>
+      <button class="bg-[green] p-4">Share on Twitter</button>
+    </div> -->
+
+  <!-- <h2 class="text-4xl">Markdowns: {{ .Title }}</h2> -->
+  <!-- {{ .Content }}.. -->
+
+
+</article>
+{{ end }}

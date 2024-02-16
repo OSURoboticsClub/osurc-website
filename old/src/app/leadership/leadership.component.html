@@ -1,0 +1,27 @@
+<h1>Leadership</h1>
+
+<h2>Elected Officers</h2>
+<div class="people-list" id="officer-list">
+<mat-card class="person-card" *ngFor="let officer of officers">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{officer.name}}</mat-card-title>
+      <mat-card-subtitle>{{officer.title}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{officer.photo_path}}" alt="Picture of person">
+  <mat-card-footer><a href="{{officer.contact}}">{{officer.contact}}</a></mat-card-footer>
+  </mat-card>
+</div>
+
+<h2>Advisors</h2>
+<div class="people-list" id="dr-list">
+<mat-card class="person-card" *ngFor="let advisor of advisors">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{advisor.name}}</mat-card-title>
+      <mat-card-subtitle>{{advisor.title}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{advisor.photo_path}}" alt="Picture of person">
+  <mat-card-footer><a href="{{advisor.contact}}">{{advisor.contact}}</a></mat-card-footer>
+  </mat-card>
+</div>
