@@ -129,3 +129,5 @@ out
 .pnp.*
 .DS_Store
 .hugo_build.lock
+static/css/styles.css
+static/js/app.js
