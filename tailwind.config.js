@@ -19,6 +19,12 @@ module.exports = {
 			h3: '24px',
 			h2: '48px',
 			h1: '64px',
+		},
+		extend: {
+			colors: {
+				'primary': '#E58847'
+			}
 		}
+		
 	}
 };
