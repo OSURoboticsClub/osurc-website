@@ -151,7 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = globalThis["webpackChunkhugo_starter_tailwind_basic"] = globalThis["webpackChunkhugo_starter_tailwind_basic"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkhugo_starter_tailwind_basic"] = self["webpackChunkhugo_starter_tailwind_basic"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
