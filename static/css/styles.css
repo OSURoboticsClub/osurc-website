@@ -571,6 +571,9 @@ video {
 .mb-3 {
   margin-bottom: 0.75rem;
 }
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -580,8 +583,8 @@ video {
 .ml-\[2px\] {
   margin-left: 2px;
 }
-.mt-12 {
-  margin-top: 3rem;
+.ml-auto {
+  margin-left: auto;
 }
 .mt-14 {
   margin-top: 3.5rem;
@@ -592,26 +595,20 @@ video {
 .mt-2 {
   margin-top: 0.5rem;
 }
+.mt-24 {
+  margin-top: 6rem;
+}
 .mt-3 {
   margin-top: 0.75rem;
 }
 .mt-4 {
   margin-top: 1rem;
 }
-.mt-8 {
-  margin-top: 2rem;
-}
-.mt-24 {
-  margin-top: 6rem;
-}
-.ml-auto {
-  margin-left: auto;
-}
 .mt-5 {
   margin-top: 1.25rem;
 }
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -732,14 +729,14 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
+.rounded {
+  border-radius: 0.25rem;
+}
 .rounded-full {
   border-radius: 9999px;
 }
 .rounded-lg {
   border-radius: 0.5rem;
-}
-.rounded {
-  border-radius: 0.25rem;
 }
 .border-b {
   border-bottom-width: 1px;
@@ -783,31 +780,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(124 45 18 / var(--tw-bg-opacity));
 }
-.bg-orange-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 237 213 / var(--tw-bg-opacity));
-}
-.bg-orange-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 215 170 / var(--tw-bg-opacity));
-}
-.bg-orange-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
-}
-.bg-orange-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
-}
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
-}
-.bg-opacity-100 {
-  --tw-bg-opacity: 1;
-}
-.bg-opacity-30 {
-  --tw-bg-opacity: 0.3;
-}
 .bg-opacity-40 {
   --tw-bg-opacity: 0.4;
 }
@@ -845,9 +817,6 @@ video {
 .p-4 {
   padding: 1rem;
 }
-.p-12 {
-  padding: 3rem;
-}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -867,11 +836,11 @@ video {
 .pb-12 {
   padding-bottom: 3rem;
 }
-.pb-\[1px\] {
-  padding-bottom: 1px;
-}
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+.pb-\[1px\] {
+  padding-bottom: 1px;
 }
 .pt-5 {
   padding-top: 1.25rem;
@@ -897,11 +866,11 @@ video {
 .text-h1 {
   font-size: 64px;
 }
-.text-h3 {
-  font-size: 24px;
-}
 .text-h2 {
   font-size: 48px;
+}
+.text-h3 {
+  font-size: 24px;
 }
 .font-bold {
   font-weight: 700;
