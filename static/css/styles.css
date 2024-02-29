@@ -835,8 +835,14 @@ video {
 .pb-\[1px\] {
   padding-bottom: 1px;
 }
+.pl-14 {
+  padding-left: 3.5rem;
+}
 .pl-3 {
   padding-left: 0.75rem;
+}
+.pr-10 {
+  padding-right: 2.5rem;
 }
 .pr-3 {
   padding-right: 0.75rem;
