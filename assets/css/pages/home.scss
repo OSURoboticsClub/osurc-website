@@ -1,14 +1,27 @@
-.nascar-menu {
+.bruh-card {
+    &-bg {
+        @apply transition-all;
+    }
+    &-logo {
+        @apply transition-all;
+    }
+    &-text {
+        @apply transition-colors;
+    }
 
-    transition: all 0.2s ease;
-
-    &-item {
-        @apply rotate-12 h-56 -mt-8 flex-1 flex items-center px-4 transition-all;
-
-        > * {
-            @apply -rotate-12;
+    &:hover {
+        .bruh-card-bg {
+            transform: scale(1.2);
+            opacity: 0.8;
         }
 
+        .bruh-card-logo {
+            opacity: 0;
+            // filter: blur(20px);
+        }
+
+        .bruh-card-text {
+            @apply bg-black/50;
+        }
     }
 }
-

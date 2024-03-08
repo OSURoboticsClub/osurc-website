@@ -19,8 +19,8 @@
 
     <div class="absolute top-0 h-full w-full flex items-center">
       <div>
-        <span class="block text-[20px] mb-2 font-medium shadow">Oregon State University</span>
-        <span class="block text-h1 font-bold font-display tracking-tight shadow leading-none">Robotics Club</span>
+        <span class="block text-h1 font-bold font-display shadow leading-none mt-6">DAM ROBOTICS</span>
+        <span class="block text-[20px] mt-2 font-medium shadow">at Oregon State University</span>
       </div>
     </div>
 
@@ -46,19 +46,37 @@
   </section>
 
   <section class="mt-14">
-    <div class="flex w-full gap-4 items-center mb-6">
-      <span class="flex-none text-white/50 font-display font-medium">Quick Links</span>
-      <span class="flex-1 w-full border-b h-1 border-white/50"></span>
-    </div>
+    
 
     <div class="grid grid-cols-3 gap-4 justify-between w-full content-around">
-      
+
+      {{- range ( where site.RegularPages "Section" "teams" | first 6 ) }}
+      <a class="bruh-card w-full h-48 flex flex-col rounded-lg relative overflow-hidden bg-neutral-800" href="{{ .Permalink }}">
+
+        <div class="bruh-card-bg absolute inset-0 z-0 opacity-20 scale-105">
+          <img src="{{ .Permalink }}/hero.jpg" class="object-cover h-full w-full" alt="">
+        </div>
+
+        <div class="bruh-card-logo flex-1 flex items-center justify-center pt-4 z-10">
+          <img class="h-[90px] max-w-[140px] object-contain" src="{{ .Permalink }}/logo.png" alt="">
+        </div>
+
+        <div class="bruh-card-text bg-black/0 flex-none px-5 py-4 font-display font-medium flex items-center z-10">
+          <span class="flex-1 text-[20px]">{{ .Title}}</span>
+          <span class="text-white w-5 h-5">
+            {{ partial "icons/chevron_right.svg" . }}
+          </span>
+        </div>
+
+      </a>
+      {{ end }}
+
+      <!-- <div class="w-full h-48 bg-neutral-800"></div>
       <div class="w-full h-48 bg-neutral-800"></div>
       <div class="w-full h-48 bg-neutral-800"></div>
       <div class="w-full h-48 bg-neutral-800"></div>
       <div class="w-full h-48 bg-neutral-800"></div>
-      <div class="w-full h-48 bg-neutral-800"></div>
-      <div class="w-full h-48 bg-neutral-800"></div>
+      <div class="w-full h-48 bg-neutral-800"></div> -->
     </div>
 
 
@@ -111,7 +129,7 @@
 
     </div>
     <div class="h-48 py-8 relative">
-      <div class="font-display font-medium text-white/60 text-[16px]">Thank you to our Sponsors!</div>
+      <div class="font-display font-medium text-white/60 text-h4">Thank you to our Sponsors!</div>
       <div class="flex justify-around">
         <div class="flex-none h-6 w-42 bg-neutral-700"></div>
       </div>
@@ -130,7 +148,7 @@
     <div>
       {{ partial "igfeed.html" }}
     </div>
-    
+
     <!-- <div class="flex items-center">
       <button class="bg-primary mt-8 mx-auto px-3 py-2 rounded-lg text-center">OSURC on Instagram</button>
 

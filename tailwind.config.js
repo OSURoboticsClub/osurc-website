@@ -9,20 +9,25 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			sans: ['IBM Plex Sans', 'sans-serif'],
-			display: ['Inter', 'sans-serif'],
+			display: ['Barlow Condensed','Inter', 'sans-serif'],
 			mono: ['monospace'],
 		},
 		fontSize: {
 			base: '14px',
 			sm: '12px',
 			xs: '10px',
-			h3: '24px',
-			h2: '48px',
-			h1: '64px',
+			h4: '24px',
+			h3: '32px',
+			h2: '52px',
+			'h1.5': '72px',
+			h1: '86px',
 		},
 		extend: {
 			colors: {
 				'primary': '#E58847'
+			},
+			spacing: {
+				navbar: '64px',
 			}
 		}
 		
