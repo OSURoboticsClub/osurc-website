@@ -1,6 +1,7 @@
 ---
-menus: 
-    main:
-        parent: About
+menus:
+  main:
+    parent: About
 title: Leadership
+layout: leadershipPage
 ---
