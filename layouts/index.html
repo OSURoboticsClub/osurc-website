@@ -52,6 +52,7 @@
     </div>
 
     <div class="grid grid-cols-3 gap-4 justify-between w-full content-around">
+      
       <div class="w-full h-48 bg-neutral-800"></div>
       <div class="w-full h-48 bg-neutral-800"></div>
       <div class="w-full h-48 bg-neutral-800"></div>
@@ -81,7 +82,7 @@
 
 
   <section class="relative grid grid-cols-3 gap-8 mt-16 items-center">
-    
+
     <div class="col-span-2">
       <p class="text-white/80">
         Amet eu commodo aliqua ullamco dolore pariatur. Lorem consectetur consequat exercitation sint in fugiat pariatur
@@ -95,12 +96,12 @@
       <div class="absolute w-full h-full flex items-center">
         <div>
           <div class="text-h3 font-semibold font-display text-white/100">200 Students Strong</div>
-        <p class="text-white/80 mt-2">The OSU Robotics Club is the largest student-led club on campus!</p>
+          <p class="text-white/80 mt-2">The OSU Robotics Club is the largest student-led club on campus!</p>
         </div>
-        
+
       </div>
       <div class="rounded-full mx-auto w-48 h-48 bg-neutral-800"></div>
-      
+
     </div>
 
   </section>
@@ -115,6 +116,25 @@
         <div class="flex-none h-6 w-42 bg-neutral-700"></div>
       </div>
     </div>
+  </section>
+
+  <section class="pt-16">
+    <h3 class="text-h3 font-display font-semibold mb-5">Latest Updates</h3>
+    <!-- <div class="grid grid-cols-4 gap-4">
+      <div class="aspect-square bg-neutral-800"></div>
+      <div class="aspect-square bg-neutral-800"></div>
+      <div class="aspect-square bg-neutral-800"></div>
+      <div class="aspect-square bg-neutral-800"></div>
+    </div> -->
+
+    <div>
+      {{ partial "igfeed.html" }}
+    </div>
+    
+    <!-- <div class="flex items-center">
+      <button class="bg-primary mt-8 mx-auto px-3 py-2 rounded-lg text-center">OSURC on Instagram</button>
+
+    </div> -->
   </section>
 
 
