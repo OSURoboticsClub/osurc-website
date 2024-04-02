@@ -15,7 +15,7 @@ gallery:
 
 # About the Team
 
-Tempor culpa aliqua ullamco nulla esse sit officia in anim ea dolor et est amet. Lorem quis irure deserunt ad. Ea minim do aliquip pariatur quis ea ex non. Nostrud velit quis incididunt velit ex aliqua ullamco cupidatat non laborum amet est ut. Ullamco occaecat minim mollit occaecat Lorem enim consequat duis non cillum sit magna. Ut sit dolor ut nostrud dolor quis anim sint amet fugiat consectetur sint nisi. Dolore nostrud et velit non minim.
+In the Vex U robotics competition, we design, build, and program robots to compete in challenges that change every year (think FTC/FRC but cooler). Last year, we reached the division semi-finals at the World Championship, securing an impressive 6th place overall. This season, we've held the prestigious title of number 1 in the world in the skills challenge portion of the competition for several weeks, which gave us an invitation to the world championship for this season.
 
 # Getting Involved
 
