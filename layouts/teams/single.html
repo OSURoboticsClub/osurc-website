@@ -14,7 +14,7 @@
             <div class="flex mt-4">
                 <div
                     class="flex-none px-4 text-sm py-1.5 uppercase tracking-wide font-medium text-white/80 bg-white/10 rounded-full">
-                    12PM SUNDAY – COVL 216
+                    {{ .Params.meeting }}
                 </div>
             </div>
             <p class="mt-3 text-white/80">
@@ -48,7 +48,7 @@
         <div class="flex w-full gap-4 items-center mb-5">
             <span class="flex-none text-white/50 font-medium">Gallery</span>
             <span class="flex-1 w-full border-b h-1 border-white/50"></span>
-          </div>
+        </div>
 
         <div class="overflow-x-scroll overflow-y-hidden h-[160px] whitespace-nowrap">
 
@@ -57,7 +57,7 @@
                 <img class="h-full" src="{{ $.Permalink }}/gallery/{{ . }}" alt="">
             </div>
             {{ end }}
-            
+
         </div>
     </section>
 
@@ -66,33 +66,34 @@
             {{ .Content }}
         </article>
         <div class="flex-none w-72">
-            <div class="flex w-full gap-4 items-center mb-5">
+            <!-- <div class="flex w-full gap-4 items-center mb-5">
                 <span class="flex-none text-white/50 font-medium">Videos</span>
                 <span class="flex-1 w-full border-b h-1 border-white/50"></span>
-              </div>
-              <div class="aspect-video bg-neutral-800"></div>
+            </div> -->
+            <!-- <div class="aspect-video bg-neutral-800"></div> -->
 
-              <div class="flex mt-10 w-full gap-4 items-center mb-3">
+            <div class="flex w-full gap-4 items-center mb-3">
                 <span class="flex-none text-white/50 font-medium">Contact</span>
                 <span class="flex-1 w-full border-b h-1 border-white/50"></span>
-              </div>
-              
-              <div class="flex gap-3 items-center">
+            </div>
+
+            <div class="flex gap-3 items-center">
                 <div class="rounded-full h-10 w-10 flex-none aspect-square bg-neutral-800">
 
                 </div>
                 <div class="flex items-center">
                     <div>
                         <div>
-                            <span class="text-white">Blake Hakkila</span>
+                            <span class="text-white">{{ .Params.teamLeadName }}</span>
                             <span class="text-white/80">– Team Lead</span>
                         </div>
-                        <a href="mailto:hakkilab@oregonstate.edu" class="text-primary underline">hakkilab@oregonstate.edu</a>
+                        <a href="mailto:{{ .Params.teamLeadEmail }}" class="text-primary underline">{{
+                            .Params.teamLeadEmail }}</a>
                     </div>
                 </div>
-              </div>
+            </div>
 
-              
+
         </div>
     </section>
 
