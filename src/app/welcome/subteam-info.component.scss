@@ -1,0 +1,111 @@
+img {
+    width: 15%;
+}
+
+#intro {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+#description {
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+#description p {
+    padding-left: 320px;
+    padding-right: 320px;
+    height: 90px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+p {
+    padding-left: 230px;
+    padding-right: 230px;
+    color: white;
+    font-size: 18px;
+}
+
+a {
+    color: rgb(0, 133, 155);
+    text-decoration-color: white;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #d73f09;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+span {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+
+.meetings {
+    padding-bottom: 25px;
+}
+
+#jobs {
+    display: inline-flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    p {
+        padding-right: 0px;
+        width: 510px;
+        height: 90px;
+        color: white;
+        font-size: 18px;
+    }
+
+    img {
+        width: 35%;
+        padding-right: 230px;
+    }
+}
+
+#sponsor-images img {
+    display: block;
+    max-width: 235px;
+    width: 50%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#sponsor-images {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    height: 205px;
+}
