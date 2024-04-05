@@ -3,23 +3,36 @@
 <article class="pb-24 relative"> 
     <div class="relative flex flex-col justify-between bg-black-200">
       <div class="flex mb-8 mt-24"> 
-        <!-- Contact us section -->
         <div class="max-w-md pr-10 pt-10">
           <span class="block text-h2 font-bold font-display shadow leading-none">{{ .Title }}</span>
           <p class="mt-5 text-lg"> 
             {{ .Content }}
           </p>
         </div>
-        <div class="ml-auto pt-10"> 
-          <img class="rounded-lg shadow-md pl-14" src="/images/big/MU-About.jpg" alt="">
-          
-        </div>
+        <div class="absolute -z-10 h-100 -right-1 top-200 w-[65%] bg-red-50">
+          <div class="relative pt-6 h-full w-full scale-[1.2] overflow-hidden">
+              <img src="/images/big/MU-About.jpg" class="object-cover scale-[0.995] h-full w-full" alt="">
+              <!-- Radial Gradient -->
+              <div class="absolute w-full h-full top-0" style="background: rgb(23,23,23);
+    background: radial-gradient(circle, rgba(23,23,23,0.2) 30%, rgba(23,23,23,1) 75%);"></div>
+              <!-- Linear Gradient Top -->
+              <div class="absolute w-full top-0 h-24 bg-gradient-to-b from-neutral-900 to-neutral-900/0">
+              </div>
+              <!-- Linear Gradient Bottom -->
+              <div class="absolute w-full bottom-0 h-24 bg-gradient-to-t from-neutral-900 to-neutral-900/0">
+              </div>
+          </div>
+
+      </div>
 
 
      </div>
 
+     <hr>
+
+    <h1 style="font-size:25px; padding-top:30px; ">Learn about our teams!</h1>
      <div id="Container"
-      style="padding-bottom:56.25%; position:relative; display:block; width: 100%; padding-top:60px;">
+      style="padding-bottom:56.25%; position:relative; display:block; width: 100%; padding-top:40px;">
       <p><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQdSdHCR_fwNh92Pz5wtkOB5_bj1fDDYN3ehB_j8lUZVk6P0cTYDoSqEtl9Ye5PlxHW31eGxdAgaOo5/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="550" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 
 
