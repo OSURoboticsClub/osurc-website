@@ -1,0 +1,101 @@
+{{ define "main" }}
+<div class="">
+
+    <section class="flex relative w-full">
+
+        <div class="relative z-10 max-w-96 pt-navbar pb-4">
+            <div class="flex min-h-[250px] mt-3 flex-row items-center">
+                <div>
+                    <span class="block text-[20px] text-primary font-medium shadow">OSU Robotics</span>
+                    <span class="block text-h1.5 font-bold font-display shadow leading-none">{{ .Params.full_title
+                        }}</span>
+                </div>
+            </div>
+            <div class="flex mt-4">
+                <div
+                    class="flex-none px-4 text-sm py-1.5 uppercase tracking-wide font-medium text-white/80 bg-white/10 rounded-full">
+                    {{ .Params.meeting }}
+                </div>
+            </div>
+            <p class="mt-3 text-white/80">
+                {{ .Params.tagline }}
+            </p>
+
+        </div>
+
+        <div class="absolute -z-10 h-full -right-1 top-0 w-[65%] bg-red-50">
+            <div class="relative pt-6 h-full w-full scale-[1.2] overflow-hidden">
+                <img src="{{ .Permalink }}/hero.jpg" class="object-cover scale-[0.995] h-full w-full" alt="">
+                <!-- Radial Gradient -->
+                <div class="absolute w-full h-full top-0" style="background: rgb(23,23,23);
+      background: radial-gradient(circle, rgba(23,23,23,0.2) 30%, rgba(23,23,23,1) 75%);"></div>
+                <!-- Linear Gradient Top -->
+                <div class="absolute w-full top-0 h-24 bg-gradient-to-b from-neutral-900 to-neutral-900/0">
+                </div>
+                <!-- Linear Gradient Bottom -->
+                <div class="absolute w-full bottom-0 h-24 bg-gradient-to-t from-neutral-900 to-neutral-900/0">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="w-full mt-8">
+        <div class="flex w-full gap-4 items-center mb-5">
+            <span class="flex-none text-white/50 font-medium">Gallery</span>
+            <span class="flex-1 w-full border-b h-1 border-white/50"></span>
+        </div>
+
+        <div class="overflow-x-scroll overflow-y-hidden h-[160px] whitespace-nowrap no-scrollbar">
+
+            {{ range .Params.gallery }}
+            <div class="bg-neutral-800 h-full inline-block mr-2">
+                <img class="h-full" src="{{ $.Permalink }}/gallery/{{ . }}" alt="">
+            </div>
+            {{ end }}
+
+        </div>
+    </section>
+
+    <section class="flex gap-10 mt-14 mb-24">
+        <article class="flex-1 prose">
+            {{ .Content }}
+        </article>
+        <div class="flex-none w-72">
+            <!-- <div class="flex w-full gap-4 items-center mb-5">
+                <span class="flex-none text-white/50 font-medium">Videos</span>
+                <span class="flex-1 w-full border-b h-1 border-white/50"></span>
+            </div> -->
+            <!-- <div class="aspect-video bg-neutral-800"></div> -->
+
+            <div class="flex w-full gap-4 items-center mb-3">
+                <span class="flex-none text-white/50 font-medium">Contact</span>
+                <span class="flex-1 w-full border-b h-1 border-white/50"></span>
+            </div>
+
+            <div class="flex gap-3 items-center">
+                <div class="rounded-full h-10 w-10 flex-none aspect-square bg-neutral-800">
+
+                </div>
+                <div class="flex items-center">
+                    <div>
+                        <div>
+                            <span class="text-white">{{ .Params.teamLeadName }}</span>
+                            <span class="text-white/80">– Team Lead</span>
+                        </div>
+                        <a href="mailto:{{ .Params.teamLeadEmail }}" class="text-primary underline">{{
+                            .Params.teamLeadEmail }}</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+</div>
+{{ end}}

@@ -1,0 +1,27 @@
+.bruh-card {
+    &-bg {
+        @apply transition-all;
+    }
+    &-logo {
+        @apply transition-all;
+    }
+    &-text {
+        @apply transition-colors;
+    }
+
+    &:hover {
+        .bruh-card-bg {
+            transform: scale(1.2);
+            opacity: 0.8;
+        }
+
+        .bruh-card-logo {
+            opacity: 0;
+            // filter: blur(20px);
+        }
+
+        .bruh-card-text {
+            @apply bg-black/50;
+        }
+    }
+}

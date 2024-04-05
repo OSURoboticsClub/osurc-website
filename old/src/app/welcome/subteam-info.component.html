@@ -1,0 +1,37 @@
+<h1>Welcome</h1>
+
+<div id="intro">
+<iframe width="690" height="415" src="https://www.youtube.com/embed/Rjs8uyijDf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div>
+    <h3>Quick Info</h3>
+        <div *ngFor="let team of subteams">
+            <h4>{{team.team_name}}</h4>
+            <span>Lead: {{team.lead }} (<a href="mailto: {{team.lead_email}}">{{team.lead_email}}</a>)</span>
+            <br>
+            <span class="meetings">Meetings: {{team.meeting_time}} in <a href="{{team.meeting_location_link}}">{{team.meeting_location}}</a></span>
+            <br>
+        </div>
+    </div>
+</div>
+
+<div id="description">
+<p>The Robotics Club at OSU is one of the largest student-run clubs at Oregon State University, comprising of nearly 200 members! Each year, the club runs multiple project teams such as Aerial, Drone Racing, Mars Rover, Underwater, and VEX U to help our members become better engineers through practical real-world experiences. Additionally, the Robotics Club provides a stocked workspace in <a href="https://goo.gl/maps/3uHuUj4Bk2MoBArx9">Merryfield Hall</a> (Room 103), complete with computer workstations, soldering stations, electrical components, 3D printers, and many other tools that are available for use by any of our members. </p>
+
+<p>If you are interested in becoming a member, click <a href="/join">here</a> to find out how to join and subscribe to <a href="https://it.engineering.oregonstate.edu/mailman/listinfo/osurcmembers">our mailing list</a> for more information.</p>
+</div>
+
+<div id="jobs">
+    <p>Robotics Club graduates have gone on to work at a range of leading tech companies such as SpaceX, Honeybee Robotics, Tektronix, NVIDIA, Intel, and NASA JPL.</p>
+    <img src="../assets/Future-Companies-1-768x200.png">
+</div>
+
+<div class="sponsors">
+<h2>Sponsors</h2>
+<div id="sponsor-images">
+<img src="../assets/Sponsors/Altium-1024x231px.png">
+<img src="../assets/Sponsors/Micron-Technology-1024x283px.png">
+<img src="../assets/Sponsors/Reliable-Robotics-e1638404478745.png">
+<img src="../assets/Sponsors/Second-Order-Effects.png">
+</div>
+</div>
+
