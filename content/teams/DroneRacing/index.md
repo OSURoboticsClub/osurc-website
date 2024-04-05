@@ -13,6 +13,7 @@ gallery:
     - PXL_20230331_172326598.jpg
     - PXL_20230401_153306127.jpg
     - PXL_20230401_162941615.jpg
+tagline: DAM Robotics' Drone Racing team centers on building and competing with high-speed racing quads that fly at speeds of more than 120 mph!
 ---
 
 # About the Team

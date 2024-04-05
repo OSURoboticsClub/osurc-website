@@ -14,6 +14,7 @@ gallery:
 teamLeadName: Paul Smith
 teamLeadEmail: smithp8@oregonstate.edu
 meeting: T/Th 5-7:30 PM @ Merryfield 103
+tagline: The DAM Robotics VEX U team focuses on designing multiple robots and competing in the VEX Robotics competition at the university level.
 ---
 
 # About the Team

@@ -23,7 +23,9 @@
 {{- end }}
 {{- end }}
 <li class="rc-menu-item z-20 relative">
-  <a {{- range $k, $v :=$attrs }} {{- with $v }} {{- printf " %s=%q" $k $v | safeHTMLAttr }} {{- end }} {{- end -}}>{{
+  <a  {{ if ne $name "Teams" }}
+  {{- range $k, $v :=$attrs }} {{- with $v }} {{- printf " %s=%q" $k $v | safeHTMLAttr }} {{- end }} {{- end -}}
+  {{ end }}>{{
     $name }}</a>
   {{- with .Children }}
   <span class="inline-block ml-[2px] pb-[1px] z-20 opacity-80">{{ partial "icons/menu_chevron.svg" . }}</span>

@@ -16,11 +16,12 @@ gallery:
     - IMG_1867.JPG
     - IMG_8878.jpeg
     - IMG_9352.jpeg
+tagline: Mars Rover is a multidisciplinary team of dedicated engineers, scientists and robotics enthusiasts committed to designing, building and operating a small-scale Mars Rover.
 ---
 
 # About the Team
 
-Mars Rover is a multidisciplinary team of dedicated engineers, scientists and robotics enthusiasts committed to designing, building and operating a small-scale Mars Rover. The group is split into three subteams: Electrical, Mechanical, and Software. Each subteam is responsible for designing, developing and implementing every component on the rover; from custom PCBs by Electrical, a six-axis arm by Mechanical, to autonomous navigation by Software.
+The group is split into three subteams: Electrical, Mechanical, and Software. Each subteam is responsible for designing, developing and implementing every component on the rover; from custom PCBs by Electrical, a six-axis arm by Mechanical, to autonomous navigation by Software.
 
 OSU's Rover Team competes at the Canadian International Rover Challenge in Drumheller, Alberta, Canada.
 

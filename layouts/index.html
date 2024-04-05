@@ -36,22 +36,24 @@
     <div class="col-span-2">
       <h3 class="text-h3 font-display font-semibold mb-3">Welcome to the OSU Robotics Club!</h3>
       <p class="text-white/80">
-        Amet eu commodo aliqua ullamco dolore pariatur. Lorem consectetur consequat exercitation sint in fugiat pariatur
-        anim labore enim. Labore exercitation tempor sit proident enim dolore esse adipisicing ullamco dolor aute
-        ullamco velit ullamco. Ut reprehenderit anim duis minim minim ut proident pariatur ullamco. Magna voluptate qui
-        aliquip laborum nulla laborum amet anim.
+        The Robotics Club at OSU is one of the largest student-run clubs at Oregon State University! Each year, the club
+        runs multiple project teams such as Combat, Drone Racing, Mars Rover, Underwater, and VEX U to help our members
+        become better engineers through practical real-world experiences. Additionally, the Robotics Club provides a
+        stocked workspace in Merryfield Hall (Room 103), complete with computer workstations, soldering stations,
+        electrical components, 3D printers, and many other tools that are available for use by any of our members.
       </p>
     </div>
 
   </section>
 
   <section class="mt-14">
-    
+
 
     <div class="grid grid-cols-3 gap-4 justify-between w-full content-around">
 
       {{- range ( where site.RegularPages "Section" "teams" | first 6 ) }}
-      <a class="bruh-card w-full h-48 flex flex-col rounded-lg relative overflow-hidden bg-neutral-800" href="{{ .Permalink }}">
+      <a class="bruh-card w-full h-48 flex flex-col rounded-lg relative overflow-hidden bg-neutral-800"
+        href="{{ .Permalink }}">
 
         <div class="bruh-card-bg absolute inset-0 z-0 opacity-20 scale-105">
           <img src="{{ .Permalink }}/hero.jpg" class="object-cover h-full w-full" alt="">
@@ -103,10 +105,12 @@
 
     <div class="col-span-2">
       <p class="text-white/80">
-        Amet eu commodo aliqua ullamco dolore pariatur. Lorem consectetur consequat exercitation sint in fugiat pariatur
-        anim labore enim. Labore exercitation tempor sit proident enim dolore esse adipisicing ullamco dolor aute
-        ullamco velit ullamco. Ut reprehenderit anim duis minim minim ut proident pariatur ullamco. Magna voluptate qui
-        aliquip laborum nulla laborum amet anim.
+        Being an engineer is not a requirement to be part of the club! In fact, the Robotics Club encourages anyone with
+        an interest in robotics to join! Due in part to the experience members get working as a team on real projects
+        with real problems, many leave well-equipped to handle the stresses of difficult but rewarding jobs. Our alumni
+        have gone on to work at great companies such as SpaceX, Honeybee Robotics, Tektronix, NVIDIA, Intel, and NASA
+        JPL. Some founding members even went on to become a part of OSU’s faculty, and still teach classes to the next
+        generations of robotics students to this day.
       </p>
     </div>
     <div class="relative">

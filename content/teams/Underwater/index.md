@@ -11,6 +11,7 @@ meeting: Su 12 PM @ Merryfield 103A
 gallery:
     - 20240211_131532.jpg
     - underwater frame.jpg
+tagline: Underwater is a project team that focuses on building and marketing a Remote Operated Vehicle (ROV), designed according to MATE Competition requirements.
 ---
 
 # About the Team
