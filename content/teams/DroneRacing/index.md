@@ -7,7 +7,7 @@ full_title: Drone Racing Team
 weight: 40
 teamLeadName: Felix Klein
 teamLeadEmail: kleinf@oregonstate.edu
-meeting: Sat 10 AM @ Kelley 1003
+meeting: Sun 10 AM @ Merryfield 103
 gallery:
     - image0.jpg
     - PXL_20230331_172326598.jpg
