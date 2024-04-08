@@ -1612,6 +1612,7 @@ video {
 .bruh-card:hover .bruh-card-text {
   background-color: rgb(0 0 0 / 0.5);
 }
+
 .hover\:opacity-90:hover {
   opacity: 0.9;
 }
