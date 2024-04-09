@@ -7,7 +7,7 @@ full_title: Rover Team
 weight: 20
 teamLeadName: Blake Hakkila
 teamLeadEmail: hakkilab@oregonstate.edu
-meeting: Sa 10 AM @ KEC 1003
+meeting: Sat 10 AM @ KEC 1001
 gallery:
     - 20220812_220626.jpg
     - 20220814_004737.jpg
