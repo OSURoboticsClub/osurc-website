@@ -1,0 +1,42 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+<ul id="nav-menu-mobile" class="bg-neutral-800 p-4 -z-10">
+  {{- partial "inline/menu_mobile/walk.html" (dict "page" $page "menuEntries" .) }}
+</ul>
+{{- end }}
+
+{{- define "partials/inline/menu_mobile/walk.html" }}
+{{- $page := .page }}
+{{- range .menuEntries }}
+{{- $attrs := dict "href" .URL }}
+{{- if $page.IsMenuCurrent .Menu . }}
+{{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
+{{- else if $page.HasMenuCurrent .Menu .}}
+{{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
+{{- end }}
+{{- $name := .Name }}
+{{- with .Identifier }}
+{{- with T . }}
+{{- $name = . }}
+{{- end }}
+{{- end }}
+<li class="rc-menu-item-mobile z-20 relative">
+  <a 
+  class="py-3 border-b border-1 border-neutral-700 block"
+  {{ if ne $name "Teams" }}
+  {{- range $k, $v :=$attrs }} {{- with $v }} {{- printf " %s=%q" $k $v | safeHTMLAttr }} {{- end }} {{- end -}}
+  {{ end }}>{{
+    $name }}</a>
+  {{- with .Children }}
+  <!-- <span class="w-[8px] h-[5px] inline-block text-white" style="background: url('images/icons/menu_chevron.svg')"></span> -->
+  <div class="rc-menu-sublist-wrapper-mobile">
+    <ul class="rc-menu-sublist-mobile pl-4">
+      {{- partial "inline/menu_mobile/walk.html" (dict "page" $page "menuEntries" .) }}
+    </ul>
+  </div>
+  {{- end }}
+</li>
+{{- end }}
+{{- end }}

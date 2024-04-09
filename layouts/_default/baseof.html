@@ -7,13 +7,13 @@
     {{ .Title }}
   </title>
   <meta name="description" content="{{ .Description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   {{/* Styles */}}
   {{ $options := dict "inlineImports" true }}
   <link rel="stylesheet" href="/css/styles.css">
 
-  {{/* Scripts */}}
-  <script src="/js/app.js"></script>
+  
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,11 +32,14 @@
 
   {{ partial "navbar.html" . }}
 
-  <div class="container px-4 max-w-4xl mx-auto">
+  <div class="container px-4 max-w-4xl mx-auto overflow-x-hidden">
     {{ block "main" . }}{{ end }}
   </div>
 
   {{ partial "footer.html" . }}
 </body>
+
+{{/* Scripts */}}
+  <script src="/js/app.js"></script>
 
 </html>

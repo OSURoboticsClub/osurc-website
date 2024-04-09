@@ -2,10 +2,10 @@
 <article class="pb-12">
 
   <!-- This is the big banner section -->
-  <div class="relative">
+  <div class="relative min-h-[500pt]">
     <div class="relative scale-125">
       <!-- Background Image -->
-      <img src="/images/big/rover_hero.jpg" style="" class="w-full" alt="">
+      <img src="/images/big/rover_hero.jpg" style="" class="w-full h-[400pt] md:h-auto object-cover" alt="">
       <!-- Radial Gradient -->
       <div class="absolute w-full h-full top-0" style="background: rgb(23,23,23);
         background: radial-gradient(circle, rgba(23,23,23,0.2) 30%, rgba(23,23,23,1) 82%);"></div>
@@ -17,9 +17,9 @@
       </div>
     </div>
 
-    <div class="absolute top-0 h-full w-full flex items-center">
+    <div class="absolute top-0 h-full w-full flex items-end pb-10 md:items-center md:pb-0">
       <div>
-        <span class="block text-h1 font-bold font-display shadow leading-none mt-6">DAM ROBOTICS</span>
+        <span class="block text-h1.5 md:text-h1 font-bold font-display shadow leading-none mt-6">DAM ROBOTICS</span>
         <span class="block text-[20px] mt-2 font-medium shadow">at Oregon State University</span>
       </div>
     </div>
@@ -30,10 +30,10 @@
 
 
   <section class="relative grid grid-cols-3 gap-8">
-    <div>
+    <div class="col-span-3 md:col-span-1">
       <img class="rounded-lg shadow-md" src="/images/big/home_team.JPG" alt="">
     </div>
-    <div class="col-span-2">
+    <div class="col-span-3 md:col-span-2">
       <h3 class="text-h3 font-display font-semibold mb-3">Welcome to the OSU Robotics Club!</h3>
       <p class="text-white/80">
         The Robotics Club at OSU is one of the largest student-run clubs at Oregon State University! Each year, the club
@@ -49,7 +49,7 @@
   <section class="mt-14">
 
 
-    <div class="grid grid-cols-3 gap-4 justify-between w-full content-around">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-between w-full content-around">
 
       {{- range ( where site.RegularPages "Section" "teams" | first 6 ) }}
       <a class="bruh-card w-full h-48 flex flex-col rounded-lg relative overflow-hidden bg-neutral-800"
@@ -103,7 +103,7 @@
 
   <section class="relative grid grid-cols-3 gap-8 mt-16 items-center">
 
-    <div class="col-span-2">
+    <div class="col-span-3 md:col-span-2">
       <p class="text-white/80">
         Being an engineer is not a requirement to be part of the club! In fact, the Robotics Club encourages anyone with
         an interest in robotics to join! Due in part to the experience members get working as a team on real projects
@@ -113,7 +113,7 @@
         generations of robotics students to this day.
       </p>
     </div>
-    <div class="relative">
+    <div class="relative col-span-3 md:col-span-1">
       <!-- <img class="rounded-lg shadow-md" src="/images/big/home_team.JPG" alt=""> -->
       <div class="absolute w-full h-full flex items-center">
         <div>

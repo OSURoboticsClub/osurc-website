@@ -1,4 +1,4 @@
-<nav id="navbar" class="px-8 py-4 h-16 flex items-center gap-6 fixed w-full z-40 transition-colors duration-300">
+<nav id="navbar" class="px-4 md:px-8 py-4 h-16 flex items-center gap-6 fixed w-full z-40 transition-colors duration-300">
     <!-- Logo -->
     <a class="flex-none" href="/">
         <img class="h-[24px]" src="/images/logos/club_on_dark_wide.png" alt="">
@@ -6,9 +6,20 @@
     <!-- Spacer -->
     <div class="flex-1"></div>
     <!-- Menu Items -->
-    <div>
+    <div class="hidden md:block">
         {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
+    <div class="flex md:hidden">
+        <button id="menuToggle" class="w-5 h-5">
+            <span id="mobileMenuOpenSvg">{{ partial "icons/menu.svg" }}</span>
+            <span id="mobileMenuCloseSvg" class="hidden">{{ partial "icons/close.svg" }}</span>
+        </button>
     </div>
     <!-- The Join Button -->
     <a href="#" class="rc-menu-item-pill">Join</a>
+
+    <!-- The mobile menu -->
+    <div id="mobileMenu" class="hidden fixed top-navbar left-0 right-0">
+        {{ partial "menu_mobile.html" (dict "menuID" "main" "page" .) }}
+    </div>
 </nav>
