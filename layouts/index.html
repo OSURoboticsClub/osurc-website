@@ -3,11 +3,12 @@
 
   <!-- This is the big banner section -->
   <div class="relative min-h-[500pt]">
-    <div class="relative scale-125">
+    <div class="relative scale-110 md:scale-125">
       <!-- Background Image -->
-      <img src="/images/big/rover_hero.jpg" style="" class="w-full h-[400pt] md:pr-0 md:h-auto object-cover" alt="">
+      <img src="/images/big/rover_hero.jpg" style="" class="hidden md:block w-full h-[400pt] md:pr-0 md:h-auto object-cover" alt="">
+      <img src="/images/big/rover_hero_mobile.jpg" style="" class="block md:hidden w-full h-[400pt] md:pr-0 md:h-auto object-cover" alt="">
       <!-- Radial Gradient -->
-      <div class="absolute w-full h-full top-0" style="background: rgb(23,23,23);
+      <div class="hidden md:block absolute w-full h-full top-0" style="background: rgb(23,23,23);
         background: radial-gradient(circle, rgba(23,23,23,0.2) 30%, rgba(23,23,23,1) 82%);"></div>
       <!-- Linear Gradient Top -->
       <div class="absolute w-full top-0 h-24 bg-gradient-to-b from-neutral-900 to-neutral-900/0">
@@ -19,7 +20,7 @@
 
     <div class="absolute top-0 h-full w-full flex items-end pb-10 md:items-center md:pb-0">
       <div>
-        <span class="block text-h1.5 md:text-h1 font-bold font-display shadow leading-none mt-6">DAM ROBOTICS</span>
+        <span class="block text-h2 md:text-h1 font-bold font-display shadow leading-none mt-6">DAM ROBOTICS</span>
         <span class="block text-[20px] mt-2 font-medium shadow">at Oregon State University</span>
       </div>
     </div>
@@ -30,7 +31,7 @@
 
 
   <section class="relative grid grid-cols-3 gap-8">
-    <div class="col-span-3 md:col-span-1">
+    <div class="col-span-3 md:col-span-1 hidden md:block">
       <img class="rounded-lg shadow-md" src="/images/big/home_team.JPG" alt="">
     </div>
     <div class="col-span-3 md:col-span-2">
@@ -113,6 +114,9 @@
         generations of robotics students to this day.
       </p>
     </div>
+    <div class="col-span-3 md:hidden">
+      <img class="rounded-lg shadow-md" src="/images/big/home_team.JPG" alt="">
+    </div>
     <div class="relative col-span-3 md:col-span-1">
       <!-- <img class="rounded-lg shadow-md" src="/images/big/home_team.JPG" alt=""> -->
       <div class="absolute w-full h-full flex items-center">
@@ -134,8 +138,10 @@
     </div>
     <div class="h-48 py-8 relative">
       <div class="font-display font-medium text-white/60 text-h4">Thank you to our Sponsors!</div>
-      <div class="flex justify-around">
-        <div class="flex-none h-6 w-42 bg-neutral-700"></div>
+      <div class="flex flex-col md:flex-row justify-around py-6 gap-6">
+        <img src="/images/logos/altium.png" class="h-8 object-contain" alt="Altium">
+        <!-- <img src="/images/logos/altium.png" class="h-8 object-contain" alt="Altium"> -->
+        <!-- <div class="flex-none h-6 w-42 bg-neutral-700"></div> -->
       </div>
     </div>
   </section>

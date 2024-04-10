@@ -32,9 +32,12 @@
 
   {{ partial "navbar.html" . }}
 
-  <div class="container px-4 max-w-4xl mx-auto overflow-x-hidden md:overflow-visible">
-    {{ block "main" . }}{{ end }}
+  <div class="overflow-x-hidden md:overflow-visible">
+    <div class="container px-4 max-w-4xl mx-auto ">
+      {{ block "main" . }}{{ end }}
+    </div>
   </div>
+  
 
   {{ partial "footer.html" . }}
 </body>
