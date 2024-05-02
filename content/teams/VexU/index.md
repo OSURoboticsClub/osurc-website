@@ -21,7 +21,10 @@ tagline: The DAM Robotics VEX U team focuses on designing multiple robots and co
 
 In the Vex U robotics competition, we design, build, and program robots to compete in challenges that change every year (think FTC/FRC but cooler). Each year in late April, we fly to Dallas, TX, to compete in the World Championship. Vex U is highly competitive, with over 300 teams competing, representing more than 20 countries.
 
-Last year, we reached the division semi-finals at the World Championship, securing an impressive 6th place overall. This season, we’ve held the prestigious title of number 1 in the world in the skills challenge portion of the competition for several weeks, securing an invitation to this year’s world championship.
+In the 2022-23 season, we reached the division semi-finals at the World Championship, being eliminated in the top 8 teams. In the 2023-24 season, we made it to the top 32 teams before being eliminated.
+
+We are always seeking new members to help us become champions and build cool robots. If you are interested in participating, please join our discord and send us a message in the Vex U channel! There is no commitment required. 
+
 
 # Projects
 
