@@ -50,12 +50,12 @@
             <span class="flex-1 w-full border-b h-1 border-white/50"></span>
         </div>
 
-        <div class="overflow-x-scroll overflow-y-hidden h-[160px] whitespace-nowrap no-scrollbar">
+        <div id="lightgallery" class="overflow-x-scroll overflow-y-hidden h-[160px] whitespace-nowrap no-scrollbar">
 
             {{ range .Params.gallery }}
-            <div class="bg-neutral-800 h-full inline-block mr-2">
+            <a href="{{ $.Permalink }}/gallery/{{ . }}" class="bg-neutral-800 h-full inline-block mr-2">
                 <img class="h-full" src="{{ $.Permalink }}/gallery/{{ . }}" alt="">
-            </div>
+            </a>
             {{ end }}
 
         </div>
@@ -100,4 +100,13 @@
 
 
 </div>
+
+<script>
+    lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgZoom],
+        // licenseKey: 'your_license_key',
+        speed: 500,
+        // ... other settings
+    });
+</script>
 {{ end}}
