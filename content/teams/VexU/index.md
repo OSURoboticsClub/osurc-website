@@ -6,10 +6,10 @@ title: VexU
 full_title: VexU Team
 weight: 10
 gallery:
-    - IMG_0531 Large.jpeg
+    - group_cropped.png
     - IMG_6244 Large.jpeg
     - IMG_6636 Large.jpeg
-    - IMG_8082 Large.jpeg
+    - 1715037783912.jpg
     - render.jpg
 teamLeadName: Paul Smith
 teamLeadEmail: smithp8@oregonstate.edu
