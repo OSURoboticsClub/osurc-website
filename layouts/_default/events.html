@@ -8,7 +8,7 @@
         <p>Check out our upcoming events!</p>
     </div>
     <hr>
-    <div style="padding-top: 50px;">
+    <div class = "calendar">
         <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTCALWzutNFb1WWktBxmlvQjkmhTHXycwB2ysGFP8mOjunsBbn7_bjWBeeOpAupIuH3SIGTNsh-xonp/pubhtml?gid=1316858529&amp;single=true&amp;widget=true&amp;headers=false" width="1000" height="600" frameborder="0"></iframe>
     </div>
     
@@ -41,6 +41,22 @@
         background-color: #ababab;
         border-radius: 0 20px 20px 0;
         margin-bottom: 20px;
+    }
+
+    .calendar {
+        padding-top: 50px;
+        position: relative;
+        height: 0;
+        padding-bottom: 70%;
+        overflow: hidden;
+    }
+
+    .calendar iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 </style>
 {{ end}}
