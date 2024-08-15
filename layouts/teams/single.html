@@ -6,7 +6,13 @@
         <div class="relative z-10 md:max-w-96 pt-navbar pb-4">
             <div class="flex min-h-[400px] md:min-h-[250px] mt-3 flex-row items-end md:items-center">
                 <div>
-                    <span class="block text-[20px] text-primary font-medium shadow">OSU Robotics</span>
+                    {{ if .Params.is_rover }}
+                    <div class="absolute right-0 w-[100px] h-[100px] md:w-[120px] md:h-[120px]">
+                        <img src="/images/elements/champ_spinner.png" class="w-full h-full absolute animate-spin" style="animation-duration: 15s;" alt="">
+                        <img src="/images/elements/trophy.png" class="w-full h-full">
+                    </div>
+                    {{ end }}
+                    <span class="block text-[20px] text-primary font-medium shadow">DAM Robotics</span>
                     <span class="block text-h2 md:text-h1.5 font-bold font-display shadow leading-none">{{ .Params.full_title
                         }}</span>
                 </div>

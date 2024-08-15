@@ -1,10 +1,17 @@
-<nav id="navbar" class="px-4 md:px-8 py-4 h-16 flex items-center gap-6 fixed w-full z-40 transition-colors duration-300">
+<nav id="navbar"
+    class="px-4 md:px-8 py-4 h-16 flex items-center gap-6 fixed w-full z-40 transition-colors duration-300">
     <!-- Logo -->
     <a class="flex-none" href="/">
-        <img class="h-[24px]" src="/images/logos/club_on_dark_wide.png" alt="">
+        <img class="h-[24px] hover:scale-105 transition-transform" src="/images/logos/club_on_dark_wide.png" alt="">
     </a>
     <!-- Spacer -->
-    <div class="flex-1"></div>
+    <div class="flex-1 min-w-0 flex justify-end items-center">
+        <!-- Alert -->
+         <div class="min-w-0 hidden md:block">
+            {{ partial "alert.html" }}
+         </div>
+        
+    </div>
     <!-- Menu Items -->
     <div class="hidden md:block">
         {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
@@ -19,7 +26,10 @@
     <a href="https://discord.com/invite/mNe8V9nW" class="rc-menu-item-pill">Join</a>
 
     <!-- The mobile menu -->
-    <div id="mobileMenu" class="hidden fixed top-navbar left-0 right-0">
+    <div id="mobileMenu" class="hidden fixed top-navbar min-w-0 left-0 right-0">
+        <div class="py-4 px-4 text-center bg-neutral-800">
+            {{ partial "alert.html" }}
+         </div>
         {{ partial "menu_mobile.html" (dict "menuID" "main" "page" .) }}
     </div>
 </nav>
