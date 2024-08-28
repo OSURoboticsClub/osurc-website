@@ -9,6 +9,10 @@ teamLeadName: Blake Hakkila
 teamLeadEmail: hakkilab@oregonstate.edu
 meeting: Sat 10 AM @ KEC 1001
 gallery:
+    - IMG_2363.jpeg
+    - 20240812_033303.jpg
+    - PXL_20240812_100036774.jpg
+    - hero-old.jpg
     - 20220812_220626.jpg
     - 20220814_004737.jpg
     - IMG_1806.jpeg
@@ -17,13 +21,14 @@ gallery:
     - IMG_8878.jpeg
     - IMG_9352.jpeg
 tagline: Mars Rover is a multidisciplinary team of dedicated engineers, scientists and robotics enthusiasts committed to designing, building and operating a small-scale Mars Rover.
+is_rover: true
 ---
 
 # About the Team
 
 The group is split into three subteams: Electrical, Mechanical, and Software. Each subteam is responsible for designing, developing and implementing every component on the rover; from custom PCBs by Electrical, a six-axis arm by Mechanical, to autonomous navigation by Software.
 
-OSU's Rover Team competes at the Canadian International Rover Challenge in Drumheller, Alberta, Canada.
+DAM Robotics' Rover Team competes at the Canadian International Rover Challenge in Drumheller, Alberta, Canada.
 
 # Awards
 
@@ -38,6 +43,7 @@ OSU's Rover Team competes at the Canadian International Rover Challenge in Drumh
 - 2021 Canadian International Rover Challenge 3rd place
 - 2022 Canadian International Rover Challenge 7th place
 - 2023 Canadian International Rover Challenge 7th place
+- 2024 Canadian International Rover Challenge 1st place
 
 
 <!-- # Getting Involved
