@@ -5,8 +5,8 @@ menus:
 title: Rover
 full_title: Rover Team
 weight: 20
-teamLeadName: Blake Hakkila
-teamLeadEmail: hakkilab@oregonstate.edu
+teamLeadName: Olivia Gehrke
+teamLeadEmail: gehrkeo@oregonstate.edu
 meeting: Sat 10 AM @ KEC 1001
 gallery:
     - IMG_2363.jpeg
@@ -44,12 +44,3 @@ DAM Robotics' Rover Team competes at the Canadian International Rover Challenge 
 - 2022 Canadian International Rover Challenge 7th place
 - 2023 Canadian International Rover Challenge 7th place
 - 2024 Canadian International Rover Challenge 1st place
-
-
-<!-- # Getting Involved
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-# Something Else
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  -->
