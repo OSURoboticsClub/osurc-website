@@ -38,6 +38,9 @@
 
   {{ partial "navbar.html" . }}
 
+  <!-- Poster overlay -->
+  {{ partial "poster.html" . }}
+
   <div class="overflow-x-hidden md:overflow-visible">
     <div class="container px-4 max-w-4xl mx-auto ">
       {{ block "main" . }}{{ end }}
