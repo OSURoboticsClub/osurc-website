@@ -1,5 +1,3 @@
-// App JavaScript can go here
-const UniversalTilt = require('universal-tilt.js');
 
 
 window.addEventListener('scroll', (_, ev) => {

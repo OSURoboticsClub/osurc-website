@@ -4054,11 +4054,6 @@ pkg-dir@^4.1.0, pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-platform@^1.3.5:
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/platform/-/platform-1.3.6.tgz#48b4ce983164b209c2d45a107adb31f473a6e7a7"
-  integrity sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==
-
 postcss-calc@^8.2.3:
   version "8.2.4"
   resolved "https://registry.npmjs.org/postcss-calc/-/postcss-calc-8.2.4.tgz"
@@ -5223,13 +5218,6 @@ unicode-property-aliases-ecmascript@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.1.0.tgz"
   integrity sha512-6t3foTQI9qne+OZoVQB/8x8rk2k1eVy1gRXhV3oFQ5T6R1dqQ1xtin3XqSlx3+ATBkliTaR/hHyJBm+LVPNM8w==
-
-universal-tilt.js@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/universal-tilt.js/-/universal-tilt.js-2.0.6.tgz#71de01ee5435c190209a9efec43aa33bf01a5b05"
-  integrity sha512-1d0BM4PaaaKgOfnX2rx0v5wk6oF2psxXnOzTLKLZloWVHzKNJnDW+bezZ6VshTKH9dbgiWFZG0yY71On/lxygA==
-  dependencies:
-    platform "^1.3.5"
 
 universalify@^2.0.0:
   version "2.0.0"
