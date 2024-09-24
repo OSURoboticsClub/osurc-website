@@ -31,19 +31,20 @@ document.getElementById("menuToggle").addEventListener("click", () => {
     }
 });
 
-// Universal Tilt
-UniversalTilt.init({
-    elements: document.querySelectorAll('[tilt]'),
-    settings: {
-        // options...
-        shine: true,
-        'shine-opacity': 0.5,
-        'shine-save': true,
-        scale: 1.2,
-        exclude: /(iPod|iPhone|iPad|Android)/
-    },
-    callbacks: {
-        // callbacks...
-    }
-});
+// Universal Tilt (only initialize on devices larger than 'sm' breakpoint)
+if (window.innerWidth > 640)
+    UniversalTilt.init({
+        elements: document.querySelectorAll('[tilt]'),
+        settings: {
+            // options...
+            shine: true,
+            'shine-opacity': 0.5,
+            scale: 1.2,
+            speed: 500,
+            exclude: /(iPod|iPhone|iPad|Android)/
+        },
+        callbacks: {
+            // callbacks...
+        }
+    });
 
