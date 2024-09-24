@@ -904,9 +904,6 @@ video {
   --tw-prose-th-borders: var(--tw-prose-invert-th-borders);
   --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
 }
-.pointer-events-none {
-  pointer-events: none;
-}
 .pointer-events-auto {
   pointer-events: auto;
 }
@@ -957,6 +954,9 @@ video {
 }
 .z-40 {
   z-index: 40;
+}
+.z-50 {
+  z-index: 50;
 }
 .col-span-3 {
   grid-column: span 3 / span 3;
@@ -1788,10 +1788,6 @@ video {
 }
 
 @media (min-width: 768px) {
-
-  .md\:pointer-events-auto {
-    pointer-events: auto;
-  }
 
   .md\:-right-1 {
     right: -0.25rem;

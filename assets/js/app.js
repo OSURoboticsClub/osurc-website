@@ -1,4 +1,6 @@
 // App JavaScript can go here
+const UniversalTilt = require('universal-tilt.js');
+
 
 window.addEventListener('scroll', (_, ev) => {
     // console.log(window.scrollY);
@@ -28,6 +30,22 @@ document.getElementById("menuToggle").addEventListener("click", () => {
         document.getElementById("mobileMenuOpenSvg").classList.add("hidden");
         document.getElementById("navbar").classList.add("bg-neutral-900");
         menuOpen = true;
+    }
+});
+
+// Universal Tilt
+UniversalTilt.init({
+    elements: document.querySelectorAll('[tilt]'),
+    settings: {
+        // options...
+        shine: true,
+        'shine-opacity': 0.5,
+        'shine-save': true,
+        scale: 1.2,
+        exclude: /(iPod|iPhone|iPad|Android)/
+    },
+    callbacks: {
+        // callbacks...
     }
 });
 
