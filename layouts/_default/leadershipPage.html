@@ -1,44 +1,55 @@
 {{define "main"}}
 
-
 <article class="pb-24 relative"> 
     <div class="relative flex flex-col justify-between bg-black-200">
-        <div class="flex mb-8 mt-24"> 
-            <section class="mt-14">
-                <div class="flex w-full gap-4 items-center mb-6">
+        <div class="flex mb-8 mt-24" style="width: 100%; flex-wrap: wrap;">
+            <section class="mt-14 w-full"> 
+                <div class="flex w-full gap-6 items-center mb-6">
                     <span class="block text-h2 font-bold font-display shadow leading-none" style="padding-top:20px;">Leadership</span>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 justify-between w-full content-around" style="padding-top:15px;">
+                <p style="padding-bottom:10px;">Check out our current officers and team leads!</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-between w-full content-around">
                     <div>
-                        <div class="w-full h-48 bg-neutral-800"></div>
-                        <p style="color:#F97316">President: </p>
-                        <p>email@example.com </p>
+                        <img src="/images/leadership/President.png" alt="President" class="w-full h-60 object-cover image-shadow" style="width: 120%;">
+                        <p style="color:#F97316; padding-top:15px;">President: Emiliano Ramierez</p>
+                        <p></p>
                     </div>
                     <div>
-                        <div class="w-full h-48 bg-neutral-800"></div>
-                        <p style="color:#F97316">President: </p>
-                        <p>email@example.com </p>
+                        <img src="/images/leadership/VP.png" alt="Vice President" class="w-full h-60 object-cover image-shadow">
+                        <p style="color:#F97316; padding-top:15px;">Vice President: Maxfield </p>
+                        <p></p>
                     </div>
                     <div>
-                        <div class="w-full h-48 bg-neutral-800"></div>
-                        <p style="color:#F97316">President: </p>
-                        <p>email@example.com </p>
+                        <img src="/images/leadership/Treasurer.png" alt="Treasurer" class="w-full h-60 object-cover image-shadow">
+                        <p style="color:#F97316; padding-top:15px;">Treasurer: Osian </p>
+                        <p></p>
                     </div>
                     <div>
-                        <div class="w-full h-48 bg-neutral-800"></div>
-                        <p style="color:#F97316">President: </p>
-                        <p>email@example.com </p>
+                        <img src="/images/leadership/BOB.png" alt="Board of Business" class="w-full h-60 object-cover image-shadow">
+                        <p style="color:#F97316; padding-top:15px;">Board of Business: Grace Sopko </p>
+                        <p></p>
+                    </div>
+                    <div class="w-full"></div>
+                    <div class="w-full"></div>
+                    <div>
+                        <img src="/images/leadership/Rover.png" alt="Rover lead" class="w-full h-60 object-cover image-shadow">
+                        <p style="color:#F97316; padding-top:15px;">Rover lead: Olivia  </p>
+                        <p></p>
                     </div>
                     <div>
-                        <div class="w-full h-48 bg-neutral-800"></div>
-                        <p style="color:#F97316">President: </p>
-                        <p>email@example.com </p>
+                        <img src="/images/leadership/Combat.png" alt="Combat lead" class="w-full h-60 object-cover image-shadow">
+                        <p style="color:#F97316; padding-top:15px;">Combat lead: Charlie </p>
+                        <p></p>
                     </div>
                     <div>
-                        <div class="w-full h-48 bg-neutral-800"></div>
-                        <p style="color:#F97316">President: </p>
-                        <p>email@example.com </p>
+                        <img src="/images/leadership/Drone.png" alt="Combat lead" class="w-full h-60 object-cover image-shadow">
+                        <p style="color:#F97316; padding-top:15px;">Drone lead: Felix Klein</p>
+                        <p> </p>
+                    </div>
+                    <div>
+                        <img src="/images/leadership/VexU.png" alt="Vex U lead" class="w-full h-60 object-cover image-shadow">
+                        <p style="color:#F97316; padding-top:15px;">VexU lead: Paul Smith</p>
+                        <p></p>
                     </div>
                 </div>
         
@@ -46,5 +57,12 @@
         </div>
     </div>
 </article>
+
+<style>
+    .image-shadow {
+        box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5); 
+        border-radius: 8px; 
+    }
+</style>
 
 {{ end }}
