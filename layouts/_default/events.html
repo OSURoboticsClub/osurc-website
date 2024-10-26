@@ -4,7 +4,7 @@
     <div class="relative flex flex-col justify-between bg-black-200">
         <div class="flex flex-col md:flex-row mb-8 mt-24">
           <!-- Events section -->
-          <div class="max-w-md mx-auto"> <!-- Center the events section -->
+          <div class="max-w-md mx-auto" style="min-width: 650px"><!-- Center the events section -->
             <div class="event-center">
                 <span class="block text-h2 font-bold font-display shadow leading-none" style="padding-top:20px;">Events</span>
                 <p class="mt-4 text-lg">
@@ -12,9 +12,11 @@
                 </p>
             </div>
             
-            <div>
+            <div class="event-flyers">
                 <img class="event-image" src="/images/flyers/kickoff.png" alt="Event Flyer"/>
+                <img class="event-image" src="/images/flyers/fall_fracas.png" alt="Event Flyer"/>
             </div>
+
           </div>
         </div>
       </div>
@@ -22,9 +24,16 @@
 
 <style>
     .event-image {
-        width: 300px; 
-        margin: 30px auto; 
+        width: 250px; 
+        margin-top: 10px; 
         transition: transform 0.3s ease; 
+    }
+    .event-flyers {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px; 
+
     }
 
     .event-center {
