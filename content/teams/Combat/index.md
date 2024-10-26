@@ -12,7 +12,7 @@ gallery:
     - Copy of CR_Post_1_Photo_2.JPG
     - Copy of CR_Post_1_Photo_3.jpg
     - Copy of CR_Post_1_Photo_4.jpg
-meeting: Fri 1 - 5 PM @ Merryfield 103
+meeting: Fri 1-5 PM @ Merryfield 110
 tagline: DAM Robotics' Combat Robotics team centers on building and competing with lightweight robots.
 ---
 
