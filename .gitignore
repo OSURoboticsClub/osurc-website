@@ -131,3 +131,6 @@ out
 .hugo_build.lock
 static/css/styles.css
 static/js/app.js
+
+# Hugo build output
+public
