@@ -1766,6 +1766,14 @@ video {
   margin-top: 0px;
 }
 
+.prose :is(:where(a):not(:where([class~="not-prose"] *))) {
+  color: rgb(255 255 255 / 0.8);
+}
+
+.prose :is(:where(strong):not(:where([class~="not-prose"] *))) {
+  color: rgb(255 255 255 / 0.9);
+}
+
 .prose :is(:where(th):not(:where([class~="not-prose"] *))) {
   font-size: 18px;
 }

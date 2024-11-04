@@ -1,3 +1,13 @@
 .prose {
-    @apply prose-headings:text-white prose-headings:font-semibold prose-headings:font-display prose-headings:leading-snug first:prose-headings:mt-0 prose-headings:mt-8 !prose-invert prose-a:text-white/80 prose-strong:text-white/90 text-white/80 prose-th:text-[18px];
+    @apply prose-headings:text-white 
+    prose-headings:font-semibold 
+    prose-headings:font-display 
+    prose-headings:leading-snug 
+    first:prose-headings:mt-0 
+    prose-headings:mt-8 
+    prose-invert 
+    prose-a:text-white/80 
+    prose-strong:text-white/90
+    text-white/80 
+    prose-th:text-[18px];
 }
