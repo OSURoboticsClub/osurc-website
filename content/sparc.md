@@ -1,6 +1,7 @@
 ---
 title: SPARC Specifications
 layout: article
+url: /teams/combat/sparc
 ---
 
 [← Back to Combat Robotics](/teams/combat)
