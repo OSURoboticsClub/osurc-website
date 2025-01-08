@@ -2,7 +2,7 @@
 <section id="poster_popup" class="fixed flex items-center justify-center inset-0 w-full h-full bg-black/80 z-40">
     <div class="w-80 sm:w-96 aspect-[calc(461/619)] relative ">
         <div tilt class="z-50 relative rounded-lg overflow-hidden bg-neutral-600 shadow-xl">
-            <img src="/images/posters/kickoff2024.png" class="w-full h-auto pointer-events-auto" alt="">
+            <img src="/images/flyers/WinterKickoff2025.gif" class="w-full h-auto pointer-events-auto" alt="">
         </div>
 
         <div class="flex z-0 absolute items-center justify-between -top-9 right-0 left-0 w-full">
@@ -16,17 +16,22 @@
 </section>
 
 <script>
+
+    // Change when poster is changed, will force new poster to show up
+    // even for users who dismissed old ones
+    const storage_key = 'hide_popup_w25'
+
     const close_poster = () => {
         console.log('close_poster')
         document.getElementById('poster_popup').style.display = "none"
-        sessionStorage.setItem('hide_popup', true)
+        sessionStorage.setItem(storage_key, true)
     }
     const open_poster = () => {
         document.getElementById('poster_popup').style.display = "flex"
     }
 
     // Close poster if already dismissed once
-    if (sessionStorage.getItem('hide_popup'))
+    if (sessionStorage.getItem(storage_key))
         close_poster()
 
     // Close poster on click
