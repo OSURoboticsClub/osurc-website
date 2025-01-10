@@ -1803,22 +1803,27 @@ video {
 .bruh-card:hover .bruh-card-text {
   background-color: rgb(0 0 0 / 0.5);
 }
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
 .hover\:opacity-70:hover {
   opacity: 0.7;
 }
+
 .hover\:opacity-90:hover {
   opacity: 0.9;
 }
+
 @media (min-width: 640px) {
 
   .sm\:w-96 {
@@ -1830,6 +1835,7 @@ video {
     padding-right: 2.25rem;
   }
 }
+
 @media (min-width: 768px) {
 
   .md\:-right-1 {
@@ -1931,6 +1937,7 @@ video {
     font-size: 72px;
   }
 }
+
 @media (min-width: 1024px) {
 
   .lg\:grid-cols-3 {
