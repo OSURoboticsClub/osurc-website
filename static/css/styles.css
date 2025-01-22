@@ -940,6 +940,12 @@ video {
 .top-navbar {
   top: 64px;
 }
+.-left-\[999px\] {
+  left: -999px;
+}
+.-right-\[999px\] {
+  right: -999px;
+}
 .-z-10 {
   z-index: -10;
 }
@@ -1021,6 +1027,12 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
+}
+.mt-0 {
+  margin-top: 0px;
+}
+.mb-16 {
+  margin-bottom: 4rem;
 }
 .block {
   display: block;
@@ -1147,6 +1159,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-auto {
+  width: auto;
 }
 .min-w-0 {
   min-width: 0px;
@@ -1454,6 +1469,10 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
