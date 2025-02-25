@@ -1,9 +1,9 @@
 <!-- Poster display -->
 <section id="poster_popup" class="fixed flex items-center justify-center inset-0 w-full h-full bg-black/80 z-40">
     <div class="w-80 sm:w-96 aspect-[calc(461/619)] relative ">
-        <div tilt class="z-50 relative rounded-lg overflow-hidden bg-neutral-600 shadow-xl">
-            <img src="/images/flyers/GameNightWinter2025.png" class="w-full h-auto pointer-events-auto" alt="">
-        </div>
+        <a tilt class="z-50 relative rounded-lg block overflow-hidden bg-neutral-600 shadow-xl" href="https://www.youtube.com/@damroboticsclub">
+            <img src="/images/flyers/robotics_bachelorette.png" class="w-full h-auto pointer-events-auto" alt="">
+        </a>
 
         <div class="flex z-0 absolute items-center justify-between -top-9 right-0 left-0 w-full">
             <div class="uppercase font-display font-semibold text-[19px]">dam robotics</div>
@@ -19,7 +19,7 @@
 
     // Change when poster is changed, will force new poster to show up
     // even for users who dismissed old ones
-    const storage_key = 'hide_popup_gn25'
+    const storage_key = 'hide_popup_rb25'
 
     const close_poster = () => {
         console.log('close_poster')
