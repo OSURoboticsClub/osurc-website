@@ -53,60 +53,73 @@
         <span class="block text-h3 font-semibold font-display shadow leading-none" style="padding-top:30px;">Team
           Specific Questions?</span>
         <ul>
+          {{ with (index (where .Site.Data.officers.leadership "title" "President") 0) }}
+            <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
+                <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
+                <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
+            </div>
+          {{ end }}
+          
+
+          {{ with (index (where .Site.Data.officers.leadership "title" "Vice President") 0) }}
           <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
-
-            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">President</div>
-            <a href="mailto: smithp8@oregonstate.edu" style="padding-left: 15px;">ramiemil@oregonstate.edu</a>
-
+              <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
+              <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
           </div>
+        {{ end }}
+
+
+        {{ with (index (where .Site.Data.officers.leadership "title" "Board of Business") 0) }}
           <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
-
-            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">Vice President</div>
-            <a href="mailto: smithp8@oregonstate.edu" style="padding-left: 15px;">dodgema@oregonstate.edu</a>
-
+            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
+            <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
           </div>
+        {{ end }}
+
+
+        {{ with (index (where .Site.Data.officers.leadership "title" "Treasurer") 0) }}
           <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
-
-            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">Board of Business</div>
-            <a href="mailto: smithp8@oregonstate.edu" style="padding-left: 15px;">sopkog@oregonstate.edu</a>
-
+            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
+            <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
           </div>
+        {{ end }}
+
+        
+        {{ with (index (where .Site.Data.officers.leadership "title" "VexU lead") 0) }}
           <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
-
-            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">Treasurer</div>
-            <a href="mailto: smithp8@oregonstate.edu" style="padding-left: 15px;">leahyo@oregonstate.edu</a>
-
+            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
+            <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
           </div>
+        {{ end }}
+
+        {{ with (index (where .Site.Data.officers.leadership "title" "Underwater") 0) }}
           <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
-
-            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">Vex U</div>
-            <a href="mailto: smithp8@oregonstate.edu" style="padding-left: 15px;">smithp8@oregonstate.edu</a>
-
+            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
+            <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
           </div>
+        {{ end }}
+
+
+        {{ with (index (where .Site.Data.officers.leadership "title" "Rover lead") 0) }}
           <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
-
-            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">Underwater</div>
-            <a href="mailto: gallinam@oregonstate.edu" style="padding-left: 15px">gallinam@oregonstate.edu</a>
-
+            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
+            <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
           </div>
+        {{ end }}
+        
+        {{ with (index (where .Site.Data.officers.leadership "title" "Drone lead") 0) }}
           <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
-
-            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">Rover</div>
-            <a href="mailto: hakkilab@oregonstate.edu" style="padding-left: 15px">gehrkeo@oregonstate.edu</a>
-
+              <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
+              <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
           </div>
+        {{ end }}
+          
+        {{ with (index (where .Site.Data.officers.leadership "title" "Combat lead") 0) }}
           <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
-
-            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">Drone Racing</div>
-            <a href="mailto:  kleinf@oregonstate.edu" style="padding-left: 15px">jewettje@oregonstate.edu</a>
-
+              <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
+              <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
           </div>
-          <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
-
-            <div style="padding-left: 15px; color: #F97316; font-size: 25px;">Combat</div>
-            <a href="mailto: leahyo@oregonstate.edu" style="padding-left: 15px">obriecha@oregonstate.edu</a>
-
-          </div>
+        {{ end }}
         </ul>
       </div>
     </div>

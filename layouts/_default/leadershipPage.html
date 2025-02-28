@@ -8,65 +8,17 @@
                     <span class="block text-h2 font-bold font-display shadow leading-none" style="padding-top:20px;">Leadership</span>
                 </div>
                 <p style="padding-bottom:10px;">Check out our current officers and team leads!</p>
+                
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-between w-full content-around">
+                    {{ range .Site.Data.officers.leadership }}
                     <div>
-                        <img src="/images/leadership/President.png" alt="President" class="w-full h-60 object-cover image-shadow" style="width: 120%;">
-                        <p style="color:#F97316; padding-top:15px;">President: Emiliano Ramierez</p>
-                        <p><a href="mailto:ramiemil@oregonstate.edu">ramiemil@oregonstate.edu</a></p>
-                    </div>                    
-                    <div>
-                        <img src="/images/leadership/VP.png" alt="Vice President" class="w-full h-60 object-cover image-shadow">
-                        <p style="color:#F97316; padding-top:15px;">Vice President: Maxfield Dodge</p>
-                        <p>dodgema@oregonstate.edu</p>
+                        <img loading="lazy" width="800" height="240" src="{{ .image }}" alt="{{ .title }}" class="w-full h-60 object-cover image-shadow">
+                        <p style="color:#F97316; padding-top:15px;">{{ .title }}: {{ .name }}</p>
+                        <p><a href="mailto:{{ .email }}">{{ .email }}</a></p>
                     </div>
-                    <div>
-                        <img src="/images/leadership/Treasurer.png" alt="Treasurer" class="w-full h-60 object-cover image-shadow">
-                        <p style="color:#F97316; padding-top:15px;">Treasurer: Osian Leahy</p>
-                        <p>leahyo@oregonstate.edu</p>
-                    </div>
-                    <div>
-                        <img src="/images/leadership/BOB.png" alt="Board of Business" class="w-full h-60 object-cover image-shadow">
-                        <p style="color:#F97316; padding-top:15px;">Board of Business: Grace Sopko </p>
-                        <p>sopkog@oregonstate.edu</p>
-                    </div>
-                    <div>
-                        <img src="/images/leadership/Website_2.jpeg" alt="Marketing" class="w-full h-60 object-cover image-shadow bg-gray-800">
-                        <p style="color:#F97316; padding-top:15px;">Marketing: Reina Takahara </p>
-                        <p>takaharr@oregonstate.edu</p>
-                    </div>
-                    <div>
-                        <img src="/images/leadership/Website.jpg" alt="Marketing" class="w-full h-60 object-cover image-shadow">
-                        <p style="color:#F97316; padding-top:15px;">Marketing: Escher Wright-Dykhouse </p>
-                        <p>wrighesc@oregonstate.edu</p>
-                    </div>
-                    <div>
-                        <img src="/images/leadership/Rover.png" alt="Rover lead" class="w-full h-60 object-cover image-shadow">
-                        <p style="color:#F97316; padding-top:15px;">Rover lead: Olivia Gerhke </p>
-                        <p>gehrkeo@oregonstate.edu</p>
-                    </div>
-                    <div>
-                        <img src="/images/leadership/Combat.png" alt="Combat lead" class="w-full h-60 object-cover image-shadow">
-                        <p style="color:#F97316; padding-top:15px;">Combat lead: Charlie O' Brian </p>
-                        <p>obriecha@oregonstate.edu</p>
-                    </div>
-                    <div>
-                        <img src="/images/leadership/Drone.jpeg" alt="Drone lead" class="w-full h-60 object-cover image-shadow">
-                        <p style="color:#F97316; padding-top:15px;">Drone lead: Jeff Jewett</p>
-                        <p>jewettje@oregonstate.edu</p>
-                    </div>
-                    <div>
-                        <img src="/images/leadership/VexU.png" alt="Vex U lead" class="w-full h-60 object-cover image-shadow">
-                        <p style="color:#F97316; padding-top:15px;">VexU lead: Paul Smith</p>
-                        <p>smithlp8@oregonstate.edu</p>
-                    </div>
-                    <div>
-                        <img src="/images/leadership/Underwater.jpg" alt="Vex U lead" class="w-full h-60 object-cover image-shadow">
-                        <p style="color:#F97316; padding-top:15px;">Underwater: Michael Gallina </p>
-                        <p>gallinam@oregonstate.edu</p>
-                    </div>
+                    {{ end }}
                 </div>
-        
-              </section>
+            </section>
         </div>
     </div>
 </article>
@@ -77,5 +29,4 @@
         border-radius: 8px; 
     }
 </style>
-
 {{ end }}
