@@ -5,8 +5,8 @@ menus:
 title: Drone Racing
 full_title: Drone Racing Team
 weight: 40
-teamLeadName: Felix Klein
-teamLeadEmail: kleinf@oregonstate.edu
+teamLeadName: Jeff Jewett
+teamLeadEmail: jewettje@oregonstate.edu
 meeting: Sun 10 AM @ Merryfield 110
 gallery:
     - image0.jpg

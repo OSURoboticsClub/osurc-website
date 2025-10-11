@@ -5,8 +5,8 @@ menus:
 title: Underwater
 full_title: Underwater Team
 weight: 30
-teamLeadName: Michael Gallina
-teamLeadEmail: gallinam@oregonstate.edu
+teamLeadName: Gavin Pedersen
+teamLeadEmail: pedersga@oregonstate.edu
 meeting: Su 12 PM @ Merryfield 110
 gallery:
     - 20240211_131532.jpg
