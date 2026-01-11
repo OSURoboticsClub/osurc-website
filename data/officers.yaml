@@ -1,7 +1,7 @@
 leadership:
   - title: President
-    name: Emiliano Ramierez
-    email: ramiemil@oregonstate.edu
+    name: Yusuf Tamimi
+    email: tamimiy@oregonstate.edu
     image: /images/leadership/President.png
 
   - title: Vice President
@@ -10,8 +10,8 @@ leadership:
     image: /images/leadership/VP.png
 
   - title: Treasurer
-    name: Osian Leahy
-    email: leahyo@oregonstate.edu
+    name: Benjamin Wyland
+    email: wylandb@oregonstate.edu
     image: /images/leadership/Treasurer.png
   
   - title: Board of Business
@@ -35,8 +35,8 @@ leadership:
     image: /images/leadership/Rover.png
   
   - title: Combat lead
-    name: Charlie O' Brian
-    email: obriecha@oregonstate.edu
+    name: Alejandro Llerenas
+    email: llerenaa@oregonstate.edu
     image: /images/leadership/Combat.png
 
   - title: Drone lead
@@ -44,14 +44,14 @@ leadership:
     email: jewettje@oregonstate.edu
     image: /images/leadership/Drone.jpeg
 
-  - title: VexU lead
-    name: Anthony Silva
-    email: silvanth@oregonstate.edu
+  - title: ARC lead
+    name: Arabella Nicdao
+    email: nicdaoa@oregonstate.edu
     image: /images/leadership/VexU.png
 
-  - title: Underwater
-    name: Michael Gallina
-    email: gallinam@oregonstate.edu
+  - title: Underwater lead
+    name: Gavin Pedersen 
+    email: pedersga@oregonstate.edu
     image: /images/leadership/Underwater.jpg
   
 
