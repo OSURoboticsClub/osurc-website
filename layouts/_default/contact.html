@@ -85,7 +85,7 @@
         {{ end }}
 
         
-        {{ with (index (where .Site.Data.officers.leadership "title" "VexU lead") 0) }}
+        {{ with (index (where .Site.Data.officers.leadership "title" "ARC lead") 0) }}
           <div class="pb-5 pt-5 pl-5 pr-5 mt-5 mb-5 bg-orange-500 bg-opacity-40 rounded">
             <div style="padding-left: 15px; color: #F97316; font-size: 25px;">{{ .title }}</div>
             <a href="mailto:{{ .email }}" style="padding-left: 15px;">{{ .email }}</a>
