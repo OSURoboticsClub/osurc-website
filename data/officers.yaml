@@ -2,7 +2,7 @@ leadership:
   - title: President
     name: Yusuf Tamimi
     email: tamimiy@oregonstate.edu
-    image: /images/leadership/President.png
+    image: /images/leadership/President_Yusuf.jpg
 
   - title: Vice President
     name: Maxfield Dodge
@@ -12,7 +12,7 @@ leadership:
   - title: Treasurer
     name: Benjamin Wyland
     email: wylandb@oregonstate.edu
-    image: /images/leadership/Treasurer.png
+    image: /images/leadership/Treasurer_Ben.jpg
   
   - title: Board of Business
     name: Grace Sopko
@@ -37,7 +37,7 @@ leadership:
   - title: Combat lead
     name: Alejandro Llerenas
     email: llerenaa@oregonstate.edu
-    image: /images/leadership/Combat.png
+    image: /images/leadership/CR_Alejandro.png
 
   - title: Drone lead
     name: Jeff Jewett
@@ -47,12 +47,12 @@ leadership:
   - title: ARC lead
     name: Arabella Nicdao
     email: nicdaoa@oregonstate.edu
-    image: /images/leadership/VexU.png
+    image: /images/leadership/ARC_Arabella.png
 
   - title: Underwater lead
     name: Gavin Pedersen 
     email: pedersga@oregonstate.edu
-    image: /images/leadership/Underwater.jpg
+    image: /images/leadership/Underwater_Gavin.jpg
   
 
   
