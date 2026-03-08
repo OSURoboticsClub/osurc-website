@@ -11,6 +11,6 @@ In past years, we have hosted other teams. Due to changing interests and other f
 
 
 # Teams
-* [VexU](./teams/archivedteams/vexu)
+* [VexU](/teams/archivedteams/vexu)
 
 
