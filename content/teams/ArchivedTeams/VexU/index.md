@@ -1,7 +1,7 @@
 ---
 menus: 
     main:
-        parent: Teams
+        parent: Archived
 title: VexU
 full_title: VexU Team
 weight: 80
