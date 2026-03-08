@@ -15,6 +15,7 @@ teamLeadName: Anthony Silva
 teamLeadEmail: silvanth@oregonstate.edu
 meeting: T/Th 4-9 PM @ Merryfield 110
 tagline: The DAM Robotics VEX U team focuses on designing multiple robots and competing in the VEX Robotics competition at the university level.
+url: /teams/archivedteams/vexu
 ---
 
 # About the Team
