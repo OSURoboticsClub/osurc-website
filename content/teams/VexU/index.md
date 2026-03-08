@@ -4,7 +4,7 @@ menus:
         parent: Teams
 title: VexU
 full_title: VexU Team
-weight: 10
+weight: 70
 gallery:
     - group_cropped.png
     - IMG_6244 Large.jpeg
