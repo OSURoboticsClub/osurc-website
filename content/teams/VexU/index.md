@@ -1,16 +1,18 @@
 ---
+menus:
+    main:
+        parent: Archived
 title: VexU
+full_title: VexU
 gallery:
     - group_cropped.png
     - IMG_6244 Large.jpeg
     - IMG_6636 Large.jpeg
     - 1715037783912.jpg
     - render.jpg
-teamLeadName: Anthony Silva
-teamLeadEmail: silvanth@oregonstate.edu
-meeting: T/Th 4-9 PM @ Merryfield 110
+noContactInfo: true
 tagline: The DAM Robotics VEX U team focuses on designing multiple robots and competing in the VEX Robotics competition at the university level.
-layout: article
+layout: single
 url: /teams/archivedteams/vexu
 ---
 

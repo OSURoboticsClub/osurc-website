@@ -5,6 +5,7 @@ menus:
 title: Archived Teams
 full_title: Archived Teams
 weight: 70
+noContactInfo: true
 layout: article
 ---
 
