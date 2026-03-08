@@ -3,6 +3,7 @@ menus:
     main:
         parent: Teams
 title: Archived Teams
+full_title: Archived Teams
 weight: 70
 layout: article
 ---
