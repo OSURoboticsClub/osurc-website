@@ -1,7 +1,7 @@
 ---
 menus:
     main:
-        parent: Archived Teams
+        parent: Archive
 title: VexU
 full_title: VexU
 gallery:
