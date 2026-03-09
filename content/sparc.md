@@ -17,7 +17,7 @@ Visit SPARC [here](http://sparc.tools/).
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [OSCR's SPARC Robot Construction Specifications v1.5](#oscrs-sparc-robot-construction-specifications-v15)
+- [OSCR's SPARC Robot Construction Specifications v1.6](#oscrs-sparc-robot-construction-specifications-v16)
   - [1. Overview and Purpose](#1-overview-and-purpose)
   - [2. Deviations From Robot Construction Specifications](#2-deviations-from-robot-construction-specifications)
   - [3. General](#3-general)
@@ -34,7 +34,7 @@ Visit SPARC [here](http://sparc.tools/).
   - [14. Forbidden Weapons and Materials](#14-forbidden-weapons-and-materials)
   - [15. Special weapon descriptions allowed at this event](#15-special-weapon-descriptions-allowed-at-this-event)
   - [16. Weight Class Variants](#16-weight-class-variants)
-- [OSCR's SPARC Match Rules v1.4](#oscrs-sparc-match-rules-v14)
+- [OSCR's SPARC Match Rules v1.5](#oscrs-sparc-match-rules-v15)
   - [Bot Load In and Activation](#bot-load-in-and-activation)
   - [Post Fight Activities](#post-fight-activities)
   - [Bot Deactivation and Load Out](#bot-deactivation-and-load-out)
@@ -64,7 +64,7 @@ Visit SPARC [here](http://sparc.tools/).
 
 ---
 
-# OSCR's SPARC Robot Construction Specifications v1.5
+# OSCR's SPARC Robot Construction Specifications v1.6
 
 ## 1. Overview and Purpose
 - 1.1. The SPARC Robot Construction Specifications was created to provide both builders and event organizers with an up to date and easy to implement ruleset.
@@ -273,16 +273,35 @@ The following weapons and materials are absolutely forbidden from use:
 - ~~16.2. Open Air Combat Classes. For events where some or all classes compete in an open air environment the following restrictions apply.~~
   - ~~16.2.1. Slow spinners are allowed with an absolute maximum tip speed of 20 feet per second and may spin in any direction. The tip speed in feet per second is calculated by this formula: Tip Speed = RPM x Diameter x .00436.~~
   - ~~16.2.2. Additionally, any weapon systems that may be capable of tearing off pieces of the opponent (flippers, axes, etc…) must be cleared with the event organizer prior to competing.~~
-- 16.3. Plastic Classes. The spirit of these classes is to have an easy entry point for new builders and to encourage creative designs by limiting materials to plastics that are easy to work with, commonly used in 3D printers and don’t have strength characteristics common in the standard classes. Components used for structure, armor, and weapons must be 3D printed.
-  - 16.3.1. PET, PETG, ABS, PLA, PLA+, and ASA are the only materials that can be used for the chassis and weapons. No other types of plastics or materials allowed (ie. metal, carbon fiber, UHMW, etc). At their discretion, event organizers may allow additional plastics that meet the spirit of the rules. Materials that are functionally identical to PLA+ but have a different name for marketing purposes will be considered PLA+ when determining legality.
-  - 16.3.2. Composite and blended materials that use legal materials as a base are not permitted. Examples include but are not limited to: Carbon Fiber PLA, Glass Filled ABS, and Flex PLA.
-  - 16.3.3. Non-plastic parts such as motors, electronics, axles, fasteners and adhesives can be any material, but cannot be used in such a way to enhance the structural integrity, armor the robot, or enhance any weapon. Magnets to enhance traction or downforce are prohibited. Foam and rubber or rubber like materials including silicone, urethane, and TPU are allowed for wheels and padding of electronics provided they meet the requirements of this section. Additionally custom cast wheels are permitted provided they meet the requirements of this section.
-  - 16.3.4. While painting robots is permitted, excessive coatings are subject to event organizer review and approval.
+- 16.3. Plastic Class. The spirit of this class is to create an accessible and affordable class that encourages experimentation and rapid iteration by utilizing 3D printing.
+  - 16.3.1. Allowed materials
+    - 16.3.1.1. Frames, weapons and other custom parts may only be made from PLA, PLA+, PET, PETG, ABS, or ASA and must be FDM/FFF 3D printed.
+    - 16.3.1.2. Materials that are functionally identical to PLA+ but have a different name for marketing purposes will be considered PLA+ when determining legality. (ex. PLA Pro, Super PLA)
+    - 16.3.1.3. No other types of plastics or materials are allowed (ie. metal,carbon fiber, UHMW, etc).
+    - 16.3.1.4. Composite and blended materials that use legal materials as a base are not permitted. Examples include but are not limited to: Carbon Fiber PLA, Glass Filled ABS, and Flex PLA.
+  - 16.3.2. COTS Parts
+    - 16.3.2.1. Commercial Off The Shelf parts can be made from any material. This includes components such as motors, electronics, axles, bushings, bearings, fasteners, and adhesives.
+      - 16.3.2.1.1. COTS parts may not be used outside of their typically accepted function. Examples include:
+        - 16.3.2.1.1.1. Permitted: Using shafts and bearings to allow wheels or a weapon to spin freely, using screws to attach two parts together.
+        - 16.3.2.1.1.2. Not Permitted: Using COTS parts as counterbalances for weapons, as weapon impactors, or as armor
+      - 16.3.2.1.2. COTS parts may be modified if necessary so long as the function of the part is not significantly changed. Examples include shortening motor shafts and adding flats for set screw contact.
+      - 16.3.2.1.3. COTS equivalent parts are allowed.
+        - 16.3.2.1.3.1. Examples of COTS equivalent parts include but are not limited to builder sourced/manufactured gearmotors, custom electronics, prototype components, and axles that are not commercially available.
+      - 16.3.2.1.4. Magnets to enhance traction or downforce are prohibited.
+  - 16.3.3. Tires, Wheels and Other Traction Elements
+    - 16.3.3.1. Non-allowed materials may be used if they meet the following requirements:
+      - 16.3.3.1.1. Tires and other traction elements may be made from COTS rubber material, custom cast rubber, rubber coatings, or foam.
+      - 16.3.3.1.2. Parts between motors/shafts and Tires should either be COTS, Foam,or printed from Allowed Materials.
+      - 16.3.3.1.3. Printed elements including COTS components must be from the allowed materials list
+      - 16.3.3.1.4. Tires, wheels, wheel components, and other traction elements made from materials not on the allowed materials list may not be designed such that they provide more armor or structure than a COTS equivalent part.
+  - 16.3.4. Coatings and Post-Processing
+    - 16.3.4.1. Painting or otherwise marking robots is permitted if done solely for aesthetic purposes. Excessive coatings are subject to event organizer review and approval.
+    - 16.3.4.2. Post-processing of materials using techniques that enhance durability is not permitted. Disallowed processes include but are not limited to annealing, acetone soaking, and boiling of parts.
   - 16.3.5. Robots may be disqualified at the Event Organizer’s discretion if it is deemed to violate the spirit of the class. Contact the event organizer ahead of time if you are not sure your robot meets the above definition.
 
 ---
 
-# OSCR's SPARC Match Rules v1.4
+# OSCR's SPARC Match Rules v1.5
 
 ## Bot Load In and Activation
 **OSCR does not have a combat area large enough to stand in**
@@ -430,7 +449,7 @@ In the event of a simultaneous knock-out both robots will be placed in their sta
 
 **(Option) Should the battery of a robot become exposed the match will be halted and the robot with the exposed battery will lose by TKO.**
 
-## Death Zones/Push-outs
+## Elimination Zones/Push-outs
 **OSCR uses the (Option)**
 
 If the arena is equipped with a Death Zone/Pit/Push-out or similar hazard a robot entering this area in a one on one match will result in the end of the match and a loss for the robot that first entered the area. In a rumble any robots entering the area will be eliminated from the rumble and are to cease the operation of weapon systems immediately.
