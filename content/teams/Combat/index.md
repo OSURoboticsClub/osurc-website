@@ -21,7 +21,7 @@ layout: single
 
 In Combat Robotics, members design, build, and test robots to fight each other in 1 on 1 combat. Members can help work on our latest 12Lb “Hobbyweight” bot, design a new 3Lb “Beetleweight” bot in small groups, or build a 1Lb “Antweight” solo or with a friend! All materials are provided for bots, no prior experience is required, and we also hold competitions for 1lb “Antweight” classes 2-3 times a year!
 
-This year, we will be competing with our 12Lb robot at the Western Allied Robotics Hobby Expo in Seattle On April 14th.
+We will be competing with our 12lb robot at Western Allied Robotics Hobby Expo in Monroe, Washington.
 
 OSU Combat Robotics club is SPARC-Compliant. See the complete specifications and rules [here](./sparc).
 
