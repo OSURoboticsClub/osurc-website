@@ -1,7 +1,7 @@
 ---
 menus:
     main:
-        parent: Archived
+        parent: Archived Teams
 title: VexU
 full_title: VexU
 gallery:
@@ -13,10 +13,8 @@ gallery:
 noContactInfo: true
 tagline: The DAM Robotics VEX U team focuses on designing multiple robots and competing in the VEX Robotics competition at the university level.
 layout: single
-url: /teams/archivedteams/vexu
+url: /archivedteams/vexu
 ---
-
-[← Back to Archive](/teams/archivedteams)
 
 # About the Team
 
