@@ -9,9 +9,9 @@ teamLeadName: Alejandro Llerenas
 teamLeadEmail: llerenaa@oregonstate.edu
 gallery:
     - Copy of CR_Post_1_Photo_1.jpg
-    - Copy of CR_Post_1_Photo_2.JPG
+    - arena_setup.JPG
     - Copy of CR_Post_1_Photo_3.jpg
-    - Copy of CR_Post_1_Photo_4.jpg
+    - Copy of CR_Post_2_Photo_4.jpg
 meeting: Fri 1-5 PM @ Merryfield 110
 tagline: DAM Robotics' Combat Robotics team centers on building and competing with lightweight robots.
 layout: single
