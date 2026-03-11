@@ -23,7 +23,7 @@
 {{- end }}
 {{- end }}
 <li class="rc-menu-item z-20 relative">
-  <a  {{ if ne $name "Teams" }}
+  <a  {{ if ne $name "Teams" "Archive" }}
   {{- range $k, $v :=$attrs }} {{- with $v }} {{- printf " %s=%q" $k $v | safeHTMLAttr }} {{- end }} {{- end -}}
   {{ end }}>{{
     $name }}</a>
