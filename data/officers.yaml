@@ -15,19 +15,19 @@ leadership:
     image: /images/leadership/Treasure_Ben.jpg
   
   - title: Board of Business
-    name: Grace Sopko
-    email: sopkog@oregonstate.edu
+    name: Rufus Mainwaring
+    email: mainwarf@oregonstate.edu
     image: /images/leadership/BOB.png
   
-  - title: Marketing
-    name: Reina Takahara
-    email: takaharr@oregonstate.edu
-    image: /images/leadership/Website_2.jpeg
-
-  - title: Marketing
-    name: Escher Wright-Dykhouse
-    email: wrighesc@oregonstate.edu
-    image: /images/leadership/Website.jpg
+#   - title: Marketing
+#     name: Reina Takahara
+#     email: takaharr@oregonstate.edu
+#     image: /images/leadership/Website_2.jpeg
+# 
+#   - title: Marketing
+#     name: Escher Wright-Dykhouse
+#     email: wrighesc@oregonstate.edu
+#     image: /images/leadership/Website.jpg
   
   - title: Rover lead
     name: Olivia Gerhke
