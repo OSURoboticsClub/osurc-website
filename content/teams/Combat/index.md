@@ -5,8 +5,8 @@ menus:
 title: Combat Robotics
 full_title: Combat Robotics Team
 weight: 50
-teamLeadName: Alejandro Llerenas
-teamLeadEmail: llerenaa@oregonstate.edu
+teamLeadName: Maxfield Dodge
+teamLeadEmail: dodgema@oregonstate.edu
 gallery:
     - Copy of CR_Post_1_Photo_1.jpg
     - arena_setup.JPG
