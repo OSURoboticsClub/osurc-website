@@ -25,7 +25,7 @@ DAM Drone Race is open to all spectators. Come watch some fast racing action and
 We also invite FPV drone pilots to race with us.
 
 - **DAM Robotics members** — participate for free.
-- **OSU students** — [join DAM Robotics for free](https://apps.ideal-logic.com/osusli) to race at no cost.
+- **OSU students** — [join DAM Robotics for free](https://discord.com/invite/N9UP5d4Usa) to race at no cost.
 - **Non-members** — $10 entry fee, paid the day of the race.
 
 Please register in advance at [MultiGP](https://www.multigp.com/races/view/?race=32043).
