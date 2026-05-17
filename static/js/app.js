@@ -1,11 +1,11 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./assets/js/app.js":
+/***/ "./assets/js/app.js"
 /*!**************************!*\
   !*** ./assets/js/app.js ***!
   \**************************/
-/***/ (() => {
+() {
 
 window.addEventListener('scroll', function (_, ev) {
   // console.log(window.scrollY);
@@ -53,20 +53,20 @@ if (window.innerWidth > 640) UniversalTilt.init({
   }
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./assets/css/styles.scss":
+/***/ "./assets/css/styles.scss"
 /*!********************************!*\
   !*** ./assets/css/styles.scss ***!
   \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
 
-/***/ })
+/***/ }
 
 /******/ 	});
 /************************************************************************/
@@ -88,6 +88,12 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
+/******/ 		if (!(moduleId in __webpack_modules__)) {
+/******/ 			delete __webpack_module_cache__[moduleId];
+/******/ 			var e = new Error("Cannot find module '" + moduleId + "'");
+/******/ 			e.code = 'MODULE_NOT_FOUND';
+/******/ 			throw e;
+/******/ 		}
 /******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module

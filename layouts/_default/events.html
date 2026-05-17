@@ -13,8 +13,31 @@
             </div>
             
             <div class="event-flyers">
-                <img class="event-image" src="/images/flyers/kickoff.png" alt="Event Flyer"/>
-                <img class="event-image" src="/images/flyers/fall_fracas.png" alt="Event Flyer"/>
+                {{ range .Params.flyers }}
+                {{ $src := "" }}
+                {{ $url := "" }}
+                {{ $past := false }}
+                {{ if reflect.IsMap . }}
+                {{ $src = printf "/images/flyers/%s" .image }}
+                {{ $url = .url }}
+                {{ with .expires }}
+                {{ if gt (now.Format "2006-01-02") . }}
+                {{ $past = true }}
+                {{ end }}
+                {{ end }}
+                {{ else }}
+                {{ $src = printf "/images/flyers/%s" . }}
+                {{ end }}
+                {{ $imgClass := "event-image" }}
+                {{ if $past }}{{ $imgClass = "event-image event-image--past" }}{{ end }}
+                {{ if $url }}
+                <a href="{{ $url }}"{{ if $past }} class="event-flyer-link--past"{{ end }}>
+                    <img class="{{ $imgClass }}" src="{{ $src }}" alt="Event flyer">
+                </a>
+                {{ else }}
+                <img class="{{ $imgClass }}" src="{{ $src }}" alt="Event flyer">
+                {{ end }}
+                {{ end }}
             </div>
 
           </div>
@@ -24,9 +47,23 @@
 
 <style>
     .event-image {
-        width: 250px; 
-        margin-top: 10px; 
-        transition: transform 0.3s ease; 
+        width: 250px;
+        margin-top: 10px;
+        transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+    }
+
+    .event-image--past {
+        filter: grayscale(100%);
+        opacity: 0.55;
+    }
+
+    .event-image--past:hover {
+        transform: none;
+    }
+
+    .event-flyer-link--past {
+        pointer-events: none;
+        cursor: default;
     }
     .event-flyers {
       display: flex;
