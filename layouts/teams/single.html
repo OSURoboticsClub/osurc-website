@@ -109,6 +109,29 @@
         </div>
     </section>
 
+    {{ if .Params.sponsors }}
+    <section class="w-full mt-8">
+        <div class="flex w-full gap-4 items-center mb-5">
+            {{ if .Params.sponsorMessage }}
+            <span class="flex-none text-white/50 font-medium">{{ .Params.sponsorMessage }}</span>
+            {{ else }}
+            <span class="flex-none text-white/50 font-medium">Thank you to our sponsors!</span>
+            {{ end }}
+            <span class="flex-1 w-full border-b h-1 border-white/50"></span>
+        </div>
+
+        <div class="">
+
+            {{ range .Params.sponsors }}
+            <a href="{{ $.Permalink }}/sponsors/{{ . }}" class="h-[160px] bg-neutral-800 inline-block mr-2">
+                <img class="h-full" src="{{ $.Permalink }}/sponsors/{{ . }}" alt="">
+            </a>
+            {{ end }}
+
+        </div>
+    </section>
+    {{ end }}
+
 
 
 </div>

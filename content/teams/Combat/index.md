@@ -12,6 +12,12 @@ gallery:
     - arena_setup.JPG
     - Copy of CR_Post_1_Photo_3.jpg
     - Copy of CR_Post_2_Photo_4.jpg
+sponsors:
+    - FingerTech_logo_red__white_no_bkg.png
+    - itgresaroboticslogo.png
+    - Repeat_Robotics_logo_FULL_WHITE.png
+    - RoboDome_Logo_Dark_Mode_Transparent1.png
+sponsorMessage: Thanks to all our event sponsors!
 meeting: Fri 1-5 PM @ Merryfield 110
 tagline: DAM Robotics' Combat Robotics team centers on building and competing with lightweight robots.
 layout: single
