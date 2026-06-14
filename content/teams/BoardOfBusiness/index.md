@@ -4,8 +4,8 @@ menus:
         parent: Teams
 title: Board of Business
 full_title: Board of Business
-teamLeadName: Grace Sopko
-teamLeadEmail: sopkog@oregonstate.edu
+teamLeadName: Rufus Mainwaring
+teamLeadEmail: mainwarf@oregonstate.edu
 weight: 60
 draft: false
 meeting: Mon 6 PM @ Merryfield 112
