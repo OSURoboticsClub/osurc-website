@@ -10,10 +10,9 @@ gallery:
     - IMG_6636 Large.jpeg
     - 1715037783912.jpg
     - render.jpg
-noContactInfo: true
 tagline: The DAM Robotics VEX U team focuses on designing multiple robots and competing in the VEX Robotics competition at the university level.
 layout: single
-url: /archivedteams/vexu
+-- url: /archivedteams/vexu
 ---
 
 # About the Team
