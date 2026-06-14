@@ -12,31 +12,25 @@
                 </p>
             </div>
             
-            <div class="event-flyers">
+            <div id="event-flyer-container">
                 {{ range .Params.flyers }}
-                {{ $src := "" }}
-                {{ $url := "" }}
-                {{ $past := false }}
-                {{ if reflect.IsMap . }}
-                {{ $src = printf "/images/flyers/%s" .image }}
-                {{ $url = .url }}
-                {{ with .expires }}
-                {{ if gt (now.Format "2006-01-02") . }}
-                {{ $past = true }}
-                {{ end }}
-                {{ end }}
-                {{ else }}
-                {{ $src = printf "/images/flyers/%s" . }}
-                {{ end }}
-                {{ $imgClass := "event-image" }}
-                {{ if $past }}{{ $imgClass = "event-image event-image--past" }}{{ end }}
-                {{ if $url }}
-                <a href="{{ $url }}"{{ if $past }} class="event-flyer-link--past"{{ end }}>
-                    <img class="{{ $imgClass }}" src="{{ $src }}" alt="Event flyer">
-                </a>
-                {{ else }}
-                <img class="{{ $imgClass }}" src="{{ $src }}" alt="Event flyer">
-                {{ end }}
+                    {{ $src := "" }}
+                    {{ $url := "" }}
+
+                    {{ if reflect.IsMap . }}
+                        {{ $src = printf "/images/flyers/%s" .image }}
+                        {{ $url = .url }}
+                    {{ else }}
+                        {{ $src = printf "/images/flyers/%s" . }}
+                    {{ end }}
+
+                    {{ if $url }}
+                        <a href="{{ $url }}" class="event" data-expires="{{ .expires }}">
+                            <img class="event-image" src="{{ $src }}" alt="Event flyer">
+                        </a>
+                    {{ else }}
+                        <img class="event event-image" src="{{ $src }}" alt="Event flyer" data-expires="{{ .expires }}">
+                    {{ end }}
                 {{ end }}
             </div>
 
@@ -46,31 +40,36 @@
 </article>
 
 <style>
-    .event-image {
-        width: 250px;
-        margin-top: 10px;
+    .event {
         transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
     }
 
-    .event-image--past {
+    .event:hover {
+        transform: scale(1.1); 
+    }
+
+    .event-past {
         filter: grayscale(100%);
         opacity: 0.55;
-    }
-
-    .event-image--past:hover {
-        transform: none;
-    }
-
-    .event-flyer-link--past {
         pointer-events: none;
         cursor: default;
     }
-    .event-flyers {
+
+    .event-past:hover {
+        transform: none;
+    }
+
+    #event-flyer-container {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       gap: 20px; 
 
+    }
+
+    .event-image {
+        width: 250px;
+        margin-top: 10px;
     }
 
     .event-center {
@@ -81,13 +80,31 @@
       text-align: center;
     }
 
-    .event-image:hover {
-        transform: scale(1.1); 
-    }
-
     .max-w-md {
         padding-left: 20px;
         padding-right: 20px;
     }
 </style>
+
+<script>
+    function process_expiration() {
+        events = document.getElementById('event-flyer-container').children;
+        for (const event of events) {
+            expiration = new Date(event.dataset.expires);
+            expiration.setMinutes(expiration.getMinutes() + expiration.getTimezoneOffset());
+            current = (new Date(Date.now()));
+            current.setHours(0,0,0,0);
+
+            if (expiration < current) {
+                event.classList.add('event-past');
+            } else {
+                event.classList.remove('event-past');
+            }
+            
+        }
+    }
+
+    process_expiration();
+</script>
+
 {{ end }}
