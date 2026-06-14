@@ -82,7 +82,7 @@
             </div> -->
             <!-- <div class="aspect-video bg-neutral-800"></div> -->
 
-            {{ if not .Params.noContactInfo }}
+            {{ range where .Site.Data.officers.leadership "title" .Params.teamLeadTitle }}
             <div class="flex w-full gap-4 items-center mb-3">
                 <span class="flex-none text-white/50 font-medium">Contact</span>
                 <span class="flex-1 w-full border-b h-1 border-white/50"></span>
@@ -90,16 +90,20 @@
 
             <div class="flex gap-3 items-center">
                 <div class="rounded-full h-10 w-10 flex-none aspect-square bg-neutral-800">
-
+                    {{ if .image_headshot }}
+                        <img loading="lazy" src="{{ .image_headshot }}" alt="{{ .title }}" class="rounded-full object-cover image-shadow">
+                    {{ else }}
+                        <img loading="lazy" src="{{ .image }}" alt="{{ .title }}" class="rounded-full object-cover image-shadow">
+                    {{ end }}
                 </div>
                 <div class="flex items-center">
                     <div>
                         <div>
-                            <span class="text-white">{{ .Params.teamLeadName }}</span>
+                            <span class="text-white">{{ .name }}</span>
                             <span class="text-white/80">– Team Lead</span>
                         </div>
-                        <a href="mailto:{{ .Params.teamLeadEmail }}" class="text-primary underline">{{
-                            .Params.teamLeadEmail }}</a>
+                        <a href="mailto:{{ .email }}" class="text-primary underline">{{
+                            .email }}</a>
                     </div>
                 </div>
             </div>
@@ -144,4 +148,10 @@
         // ... other settings
     });
 </script>
+
+<style>
+    .image-shadow {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+    }
+</style>
 {{ end}}

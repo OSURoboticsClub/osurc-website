@@ -2,7 +2,7 @@ leadership:
   - title: President
     name: Yusuf Tamimi
     email: tamimiy@oregonstate.edu
-    image: /images/leadership/President_Yusuf.jpg
+    image: /images/leadership/President.jpg
 
   - title: Vice President
     name: Maxfield Dodge
@@ -12,12 +12,13 @@ leadership:
   - title: Treasurer
     name: Benjamin Wyland
     email: wylandb@oregonstate.edu
-    image: /images/leadership/Treasure_Ben.jpg
+    image: /images/leadership/Treasurer.jpg
   
   - title: Board of Business
     name: Rufus Mainwaring
     email: mainwarf@oregonstate.edu
     image: /images/leadership/BOB.png
+    image_headshot: /images/leadership/BOB_headshot.png
   
 #   - title: Marketing
 #     name: Reina Takahara
@@ -33,26 +34,22 @@ leadership:
     name: Olivia Gerhke
     email: gehrkeo@oregonstate.edu
     image: /images/leadership/Rover.png
+    image_headshot: /images/leadership/Rover_headshot.png
   
   - title: Combat lead
     name: Maxfield Dodge
     email: dodgema@oregonstate.edu
-    image: /images/leadership/VP.png
+    image: /images/leadership/Combat.png
+    image_headshot: /images/leadership/Combat_headshot.png
 
   - title: Drone lead
     name: Jeff Jewett
     email: jewettje@oregonstate.edu
     image: /images/leadership/Drone.jpeg
+    image_headshot: /images/leadership/Drone_headshot.jpeg
 
   - title: Underwater lead
     name: Gavin Pedersen 
     email: pedersga@oregonstate.edu
-    image: /images/leadership/Underwater_Gavin.png
-  
-
-  
-
-
-
-
-  
+    image: /images/leadership/Underwater.png
+    image_headshot: /images/leadership/Underwater_headshot.png

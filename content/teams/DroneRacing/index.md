@@ -5,8 +5,7 @@ menus:
 title: Drone Racing
 full_title: Drone Racing Team
 weight: 40
-teamLeadName: Jeff Jewett
-teamLeadEmail: jewettje@oregonstate.edu
+teamLeadTitle: Drone lead
 meeting: Sun 11 AM @ Peavy Field
 gallery:
     - PXL_20230401_153306127.jpg

@@ -5,8 +5,7 @@ menus:
 title: Rover
 full_title: Rover Team
 weight: 20
-teamLeadName: Olivia Gehrke
-teamLeadEmail: gehrkeo@oregonstate.edu
+teamLeadTitle: Rover lead
 meeting: Tue 6pm @ Merryfield 103 & Sat 10 AM @ KEC 1001
 gallery:
     - IMG_2363.jpeg

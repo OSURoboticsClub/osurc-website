@@ -5,8 +5,7 @@ menus:
 title: Combat Robotics
 full_title: Combat Robotics Team
 weight: 50
-teamLeadName: Maxfield Dodge
-teamLeadEmail: dodgema@oregonstate.edu
+teamLeadTitle: Combat lead
 gallery:
     - Copy of CR_Post_1_Photo_1.jpg
     - arena_setup.JPG

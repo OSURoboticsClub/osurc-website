@@ -4,8 +4,7 @@ menus:
         parent: Teams
 title: Board of Business
 full_title: Board of Business
-teamLeadName: Rufus Mainwaring
-teamLeadEmail: mainwarf@oregonstate.edu
+teamLeadTitle: Board of Business
 weight: 60
 draft: false
 meeting: Mon 6 PM @ Merryfield 112
