@@ -3516,12 +3516,12 @@
     "yargs" "^17.2.1"
 
 "launch-editor@^2.6.0":
-  "integrity" "sha512-eB/uXmFVpY4zezmGp5XtU21kwo7GBbKB+EQ+UZeWtGb9yAM5xt/Evk+lYH3eRNAtId+ej4u7TYPFZ07w4s7rRw=="
-  "resolved" "https://registry.npmjs.org/launch-editor/-/launch-editor-2.6.1.tgz"
-  "version" "2.6.1"
+  "integrity" "sha512-QWBrQsMpH7gPr965dsKD/3cKWiNoTjpATQf++Xq63N6sKRGMwlVXz41O1IZTMfZQgBctD/K5Zt06+/I6pP6+HA=="
+  "resolved" "https://registry.npmjs.org/launch-editor/-/launch-editor-2.14.1.tgz"
+  "version" "2.14.1"
   dependencies:
-    "picocolors" "^1.0.0"
-    "shell-quote" "^1.8.1"
+    "picocolors" "^1.1.1"
+    "shell-quote" "^1.8.4"
 
 "lilconfig@^2.0.3", "lilconfig@^2.0.5", "lilconfig@^2.1.0":
   "integrity" "sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ=="
@@ -4931,10 +4931,10 @@
   "resolved" "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
   "version" "3.0.0"
 
-"shell-quote@^1.8.1":
-  "integrity" "sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA=="
-  "resolved" "https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.1.tgz"
-  "version" "1.8.1"
+"shell-quote@^1.8.4":
+  "integrity" "sha512-VsC6n6vz1ihYYyZZwX7YZSF5l5x36ca17OC+a69h94YqB7X6XLwf+5MOgynYir2SLFUbl8gIYvBo8K8RoNQ6bQ=="
+  "resolved" "https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.4.tgz"
+  "version" "1.8.4"
 
 "shellwords@^0.1.1":
   "integrity" "sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww=="
