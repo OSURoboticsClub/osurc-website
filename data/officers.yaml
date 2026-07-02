@@ -1,24 +1,34 @@
 leadership:
-  - title: President
-    name: Yusuf Tamimi
-    email: tamimiy@oregonstate.edu
-    image: /images/leadership/President.jpg
-
-  - title: Vice President
-    name: Maxfield Dodge
-    email: dodgema@oregonstate.edu
-    image: /images/leadership/VP.png
-
-  - title: Treasurer
-    name: Benjamin Wyland
-    email: wylandb@oregonstate.edu
-    image: /images/leadership/Treasurer.jpg
-  
-  - title: Board of Business
+  - title: Co-President
     name: Rufus Mainwaring
     email: mainwarf@oregonstate.edu
-    image: /images/leadership/BOB.png
-    image_headshot: /images/leadership/BOB_headshot.png
+    image: /images/leadership/CoPresident1.png
+
+  - title: Co-President
+    name: Ben Wyland
+    email: wylandb@oregonstate.edu
+    image: /images/leadership/CoPresident2.jpg
+
+  - title: Vice President
+    name: Jess Girolamo
+    email: girolamj@oregonstate.edu
+    image: /images/leadership/VP.jpg
+
+  - title: Treasurer
+    name: Rolando Torres
+    email: torrerol@oregonstate.edu
+    image: /images/leadership/Treasurer.jpg
+
+  - title: Secretary
+    name: Emiliano Ramirez
+    email: torrerol@oregonstate.edu
+    image: /images/leadership/Secretary.png
+  
+  - title: Board of Business
+    name: Contact Rufus
+    email: mainwarf@oregonstate.edu
+    image: /images/leadership/temp.png
+    image_headshot: /images/leadership/temp.png
   
 #   - title: Marketing
 #     name: Reina Takahara
@@ -49,7 +59,7 @@ leadership:
     image_headshot: /images/leadership/Drone_headshot.jpeg
 
   - title: Underwater lead
-    name: Gavin Pedersen 
-    email: pedersga@oregonstate.edu
-    image: /images/leadership/Underwater.png
-    image_headshot: /images/leadership/Underwater_headshot.png
+    name: David Smith 
+    email: smithd22@oregonstate.edu
+    image: /images/leadership/Underwater.jpg
+    image_headshot: /images/leadership/Underwater_headshot.jpg
