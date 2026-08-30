@@ -41,10 +41,10 @@ leadership:
 #     image: /images/leadership/Website.jpg
   
   - title: Rover lead
-    name: Olivia Gerhke
-    email: gehrkeo@oregonstate.edu
-    image: /images/leadership/Rover.png
-    image_headshot: /images/leadership/Rover_headshot.png
+    name: Megan Szudarski
+    email: szudarsm@oregonstate.edu
+    image: /images/leadership/temp.png
+    image_headshot: /images/leadership/temp.png
   
   - title: Combat lead
     name: Maxfield Dodge
