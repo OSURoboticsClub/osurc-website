@@ -6,7 +6,7 @@ title: Underwater
 full_title: Underwater Team
 weight: 30
 teamLeadTitle: Underwater lead
-meeting: Su 12 PM @ Merryfield 110
+meeting: Thu 6 PM @ Merryfield 110 & Sun 12 PM @ Merryfield 110
 gallery:
     - 20240211_131532.jpg
     - underwater frame.jpg

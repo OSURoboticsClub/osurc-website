@@ -17,7 +17,7 @@ sponsors:
     - Repeat_Robotics_logo_FULL_WHITE.png
     - RoboDome_Logo_Dark_Mode_Transparent1.png
 sponsorMessage: Thanks to all our event sponsors!
-meeting: Fri 1-5 PM @ Merryfield 110
+meeting: Mon 6-10 PM @ Merryfield 110 & Sat 10 AM @ Merryfield 103
 tagline: DAM Robotics' Combat Robotics team centers on building and competing with lightweight robots.
 layout: single
 ---

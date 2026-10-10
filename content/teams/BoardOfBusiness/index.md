@@ -7,7 +7,7 @@ full_title: Board of Business
 teamLeadTitle: Board of Business
 weight: 60
 draft: false
-meeting: Mon 6 PM @ Merryfield 112
+meeting: Sat 5 PM @ The Plaza - 425 SW Madison Ave, Corvallis, OR 97333
 tagline: Dam Robotics' Board of Business is a multidisciplinary team managing finances, marketing, event planning, and outreach.
 ---
 
