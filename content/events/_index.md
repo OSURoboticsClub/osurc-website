@@ -4,6 +4,8 @@ menus:
         weight: 40
 title: Events
 flyers:
+    - image: fall_extravaganza.png
+      expires: 2026-10-22
     - image: drone_race_spring26.webp
       url: /events/drone-race-s26
       expires: 2026-05-31
