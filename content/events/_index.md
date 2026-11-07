@@ -4,6 +4,8 @@ menus:
         weight: 40
 title: Events
 flyers:
+    - image: fall_fracas_26.png
+      expires: 2026-11-14
     - image: fall_extravaganza.png
       expires: 2026-10-22
     - image: kim_harr_leadership_fall_2026.png
